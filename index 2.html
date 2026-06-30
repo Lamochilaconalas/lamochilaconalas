@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Mochila con Alas — Guías de viaje para hispanohablantes</title>
+  <meta name="description" content="La guía de viajes más completa en español. Destinos, presupuestos reales e itinerarios para mochileros hispanohablantes."/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    :root{--navy:#0D1B2A;--gold:#F7C948;--sand:#E8E0D4}
+    body{font-family:'Lato',sans-serif;background:var(--navy);color:var(--sand);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 24px;text-align:center}
+    .logo{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);opacity:.8;margin-bottom:24px}
+    h1{font-family:'Playfair Display',serif;font-size:clamp(32px,6vw,60px);font-weight:700;color:var(--sand);line-height:1.1;margin-bottom:12px}
+    h1 em{color:var(--gold);font-style:italic}
+    p{color:rgba(232,224,212,.55);font-size:16px;line-height:1.75;max-width:480px;margin:0 auto 40px}
+    .paises{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:48px}
+    .pais{display:block;text-decoration:none;background:rgba(232,224,212,.06);border:1px solid rgba(232,224,212,.1);border-radius:12px;padding:20px 28px;transition:all .2s}
+    .pais:hover{border-color:rgba(247,201,72,.4);background:rgba(247,201,72,.06);transform:translateY(-2px)}
+    .pais-flag{font-size:32px;display:block;margin-bottom:8px}
+    .pais-nombre{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--sand);display:block;margin-bottom:4px}
+    .pais-tag{font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);opacity:.7}
+    footer{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:rgba(232,224,212,.15);margin-top:auto;padding-top:40px}
+  </style>
+</head>
+<body>
+  <p class="logo">La Mochila con Alas</p>
+  <h1>Guías de viaje<br/><em>para hispanohablantes</em></h1>
+  <p>La guía más completa en español. Presupuestos reales, itinerarios y todo lo que necesitas para viajar con criterio.</p>
+
+  <div class="paises">
+    <a href="/mexico/" class="pais">
+      <span class="pais-flag">🇲🇽</span>
+      <span class="pais-nombre">México</span>
+      <span class="pais-tag">5 zonas · Guía completa</span>
+    </a>
+    <a href="/tailandia/" class="pais">
+      <span class="pais-flag">🇹🇭</span>
+      <span class="pais-nombre">Tailandia</span>
+      <span class="pais-tag">5 zonas · Guía completa</span>
+    </a>
+    <a href="/japon/" class="pais" style="opacity:.5;pointer-events:none">
+      <span class="pais-flag">🇯🇵</span>
+      <span class="pais-nombre">Japón</span>
+      <span class="pais-tag">Próximamente</span>
+    </a>
+    <a href="/india/" class="pais" style="opacity:.5;pointer-events:none">
+      <span class="pais-flag">🇮🇳</span>
+      <span class="pais-nombre">India</span>
+      <span class="pais-tag">Próximamente</span>
+    </a>
+    <a href="/marruecos/" class="pais" style="opacity:.5;pointer-events:none">
+      <span class="pais-flag">🇲🇦</span>
+      <span class="pais-nombre">Marruecos</span>
+      <span class="pais-tag">Próximamente</span>
+    </a>
+  </div>
+
+  <footer>© 2025 lamochilaconalas.com</footer>
+</body>
+</html>
