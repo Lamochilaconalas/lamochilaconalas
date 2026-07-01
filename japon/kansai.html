@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kioto y Kansai — Guía completa 2026 | La Mochila con Alas</title>
+  <meta name="description" content="Guía completa de Kioto y Kansai: Higashiyama, Arashiyama, Gion, Fushimi Inari, Osaka, Nara, Himeji y Kobe. Qué ver, dónde comer y dónde dormir en los tres niveles de presupuesto."/>
+  <meta name="robots" content="noindex, nofollow"/>
+  <link rel="canonical" href="https://lamochilaconalas.com/japon/kansai/"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--indigo:#1A2332;--indigo-l:#2B3A52;--vermillion:#C8442C;--washi:#EDE6D6;--green:#2D6A4F;--jp-blue:#1E5C8A}
+    html{scroll-behavior:smooth}
+    body{font-family:'Lato',sans-serif;background:var(--indigo);color:var(--washi);font-size:16px;line-height:1.75}
+    nav{position:sticky;top:0;z-index:100;background:rgba(26,35,50,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(237,230,214,.07);padding:12px 24px;display:flex;align-items:center;justify-content:space-between}
+    .container{max-width:860px;margin:0 auto;padding:0 24px}
+    section{padding:40px 0}
+    section.dark{background:var(--indigo-l)}
+    .label{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.25em;text-transform:uppercase;color:var(--vermillion);opacity:.8;display:block;margin-bottom:8px}
+    h1{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,64px);font-weight:700;line-height:1.08;color:var(--washi);margin-bottom:14px}
+    h1 em{color:var(--vermillion);font-style:italic}
+    h2{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,40px);font-weight:700;color:var(--washi);margin-bottom:12px;line-height:1.2}
+    h2 em{color:var(--vermillion);font-style:italic}
+    h3{font-family:'Playfair Display',serif;font-size:clamp(18px,3vw,24px);font-weight:700;color:var(--washi);margin:24px 0 10px}
+    h4{font-family:'Lato',sans-serif;font-weight:900;font-size:12px;letter-spacing:.06em;text-transform:uppercase;margin:14px 0 6px}
+    p{color:rgba(237,230,214,.7);margin-bottom:12px;font-size:16px;line-height:1.8}
+    p strong{color:var(--washi)}
+    p:last-child{margin-bottom:0}
+    .hero{min-height:60vh;display:flex;align-items:center;padding:52px 0 40px;position:relative;overflow:hidden;background:linear-gradient(170deg,#0c121c 0%,#1A2332 40%,#070a10 100%)}
+    .hero-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(200,68,44,.06) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+    .hero-content{position:relative;z-index:1}
+    .hero-silhouette{position:absolute;right:-20px;bottom:0;opacity:.07;pointer-events:none}
+    .divider{width:40px;height:2px;background:var(--vermillion);margin:16px 0;opacity:.5}
+    .silhouette{display:block;margin:0 auto 20px}
+    .lugar{padding:18px 0;border-bottom:1px solid rgba(237,230,214,.07)}
+    .lugar:last-child{border-bottom:none}
+    .pres-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(237,230,214,.07);border-radius:12px;overflow:hidden;margin:14px 0}
+    .pres-col{background:var(--indigo);padding:14px 10px}
+    .pres-col.medio{background:var(--indigo-l)}
+    .pres-name{font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:10px;display:block}
+    .pres-moch .pres-name{color:#5ab88a}
+    .pres-med .pres-name{color:#c47a30}
+    .pres-luj .pres-name{color:#9b7fff}
+    .pres-item{margin-bottom:7px}
+    .pres-label{font-family:'Courier Prime',monospace;font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:rgba(237,230,214,.25);display:block;margin-bottom:1px}
+    .pres-valor{font-size:11px;font-weight:700}
+    .pres-total{margin-top:10px;padding-top:8px;border-top:1px solid rgba(237,230,214,.08);font-family:'Playfair Display',serif;font-size:15px;font-weight:700}
+    .pres-moch .pres-total{color:#5ab88a}
+    .pres-med .pres-total{color:#c47a30}
+    .pres-luj .pres-total{color:#9b7fff}
+    .aviso{border-left:3px solid;padding:12px 16px;margin:16px 0;font-size:14px;line-height:1.65;color:rgba(237,230,214,.65)}
+    .aviso strong{color:var(--washi)}
+    .aviso-warn{border-color:#c94b4b;background:rgba(201,75,75,.06)}
+    .aviso-tip{border-color:var(--vermillion);background:rgba(200,68,44,.05)}
+    .cal{display:grid;grid-template-columns:repeat(12,1fr);gap:3px;margin:10px 0}
+    .cal-m{font-family:'Courier Prime',monospace;font-size:9px;text-align:center;padding:6px 2px;border-radius:3px}
+    .cal-g{background:rgba(45,106,79,.4);color:#5ab88a}
+    .cal-y{background:rgba(200,68,44,.15);color:var(--vermillion)}
+    .cal-r{background:rgba(201,75,75,.15);color:#e07070}
+    .resto-list{list-style:none;display:flex;flex-direction:column;margin:8px 0}
+    .resto-item{padding:7px 0;border-bottom:1px solid rgba(237,230,214,.05);font-size:14px;display:block}
+    .resto-item:last-child{border-bottom:none}
+    .resto-nombre{color:var(--washi);font-weight:700}
+    .resto-desc{color:rgba(237,230,214,.45);font-size:13px}
+    .resto-precio{color:var(--vermillion);font-family:'Courier Prime',monospace;font-size:11px}
+    .hotel-block{margin:8px 0}
+    .hotel-nivel{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;margin:12px 0 6px;display:block}
+    .h-m{color:#5ab88a}
+    .h-me{color:#c47a30}
+    .h-l{color:#9b7fff}
+    .hotel-item{font-size:14px;color:rgba(237,230,214,.7);padding:5px 0;border-bottom:1px solid rgba(237,230,214,.05)}
+    .hotel-item:last-child{border-bottom:none}
+    .hotel-item strong{color:var(--washi)}
+    .img-placeholder{background:rgba(237,230,214,.04);border:1px dashed rgba(237,230,214,.1);border-radius:10px;padding:20px;text-align:center;margin:20px 0;font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.2)}
+    .btn-primary{display:inline-block;background:var(--vermillion);color:var(--washi);padding:16px 32px;border-radius:10px;text-decoration:none;font-family:'Lato',sans-serif;font-weight:900;font-size:14px;letter-spacing:.07em;text-transform:uppercase;transition:all .2s;margin:6px}
+    .btn-secondary{display:inline-block;background:transparent;color:var(--vermillion);padding:16px 32px;border-radius:10px;border:2px solid var(--vermillion);text-decoration:none;font-family:'Lato',sans-serif;font-weight:700;font-size:14px;letter-spacing:.07em;text-transform:uppercase;margin:6px;transition:all .2s}
+    footer{background:#080b10;border-top:1px solid rgba(237,230,214,.05);padding:36px 24px;text-align:center}
+    footer p{font-family:'Courier Prime',monospace;color:rgba(237,230,214,.1);font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+    @media(max-width:640px){.nav-links{display:none}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0">
+    <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:28px;height:28px;object-fit:contain"/>
+    <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--vermillion);opacity:.75">La Mochila con Alas</span>
+  </a>
+  <a href="/planificador/" style="display:inline-block;background:var(--vermillion);color:var(--washi);padding:8px 18px;border-radius:8px;text-decoration:none;font-family:'Courier Prime',monospace;font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;flex-shrink:0">Planificador</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid"></div>
+
+  <!-- Silueta: torii + pagoda + montaña -->
+  <svg class="hero-silhouette" width="400" height="360" viewBox="0 0 400 360" fill="none">
+    <polygon points="50,360 50,40 90,40 90,360" fill="white" opacity="0.15"/>
+    <polygon points="35,40 70,15 105,40" fill="white" opacity="0.25"/>
+    <polygon points="40,90 70,70 100,90" fill="white" opacity="0.22"/>
+    <polygon points="45,140 70,122 95,140" fill="white" opacity="0.2"/>
+    <path d="M220,60 L280,60 M230,90 L270,90" stroke="white" stroke-width="6" opacity="0.3"/>
+    <line x1="235" y1="60" x2="228" y2="35" stroke="white" stroke-width="4" opacity="0.25"/>
+    <line x1="265" y1="60" x2="272" y2="35" stroke="white" stroke-width="4" opacity="0.25"/>
+    <line x1="240" y1="90" x2="240" y2="220" stroke="white" stroke-width="5" opacity="0.22"/>
+    <line x1="260" y1="90" x2="260" y2="220" stroke="white" stroke-width="5" opacity="0.22"/>
+    <rect x="0" y="358" width="400" height="2" fill="white" opacity="0.15"/>
+  </svg>
+
+  <div class="container hero-content">
+    <div style="display:flex;gap:8px;margin-bottom:24px;align-items:center">
+      <a href="/japon/" style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.3);text-decoration:none">Japón</a>
+      <span style="color:rgba(237,230,214,.15);font-size:10px">/</span>
+      <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--vermillion)">Kioto y Kansai</span>
+    </div>
+    <span class="label">Zona Kansai · Japón</span>
+    <h1>Kioto —<br/><em>mil templos y ningún apuro</em></h1>
+    <div class="divider"></div>
+    <p style="font-size:clamp(16px,2vw,19px);max-width:580px;color:rgba(237,230,214,.6)">La antigua capital imperial guarda más templos y santuarios que cualquier otra ciudad de Japón — y a media hora, el bullicio gastronómico de Osaka, los ciervos sagrados de Nara y el castillo original mejor conservado del país.</p>
+    <div style="display:flex;gap:28px;flex-wrap:wrap;margin:24px 0">
+      <div style="text-align:center"><span style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--vermillion);display:block">6</span><span style="font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.3)">Áreas de Kioto</span></div>
+      <div style="text-align:center"><span style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--vermillion);display:block">4</span><span style="font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.3)">Ciudades cercanas</span></div>
+      <div style="text-align:center"><span style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--vermillion);display:block">17</span><span style="font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.3)">Patrimonios UNESCO en Kioto</span></div>
+      <div style="text-align:center"><span style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;color:var(--vermillion);display:block">1.000</span><span style="font-family:'Courier Prime',monospace;font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.3)">Torii en Fushimi Inari</span></div>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a href="#kioto" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--vermillion);text-decoration:none;border-bottom:1px solid rgba(200,68,44,.3);padding-bottom:2px">Kioto ↓</a>
+      <span style="color:rgba(237,230,214,.2)">·</span>
+      <a href="#mas-alla" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.4);text-decoration:none;border-bottom:1px solid rgba(237,230,214,.15);padding-bottom:2px">Más allá de Kioto ↓</a>
+      <span style="color:rgba(237,230,214,.2)">·</span>
+      <a href="#joyas" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(237,230,214,.4);text-decoration:none;border-bottom:1px solid rgba(237,230,214,.15);padding-bottom:2px">Joyas escondidas ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO ORGANIZAR EL VIAJE -->
+<section class="dark">
+<div class="container">
+  <span class="label">Por dónde empezar</span>
+  <h2>Una capital imperial, cuatro ciudades satélite</h2>
+  <div class="divider"></div>
+  <p>Kioto fue la capital de Japón durante más de mil años, y se nota: tiene 17 sitios Patrimonio de la Humanidad solo dentro de sus límites, repartidos en distritos con identidad propia, de los templos de montaña de Higashiyama al bosque de bambú de Arashiyama. A media hora en tren está Osaka, la capital gastronómica del país, y a un poco más Nara, Himeji y Kobe — cuatro ciudades que se pueden visitar en el día sin moverse del alojamiento en Kioto.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px">
+    <div style="background:rgba(200,68,44,.08);border:1px solid rgba(200,68,44,.2);border-radius:12px;padding:20px">
+      <h3 style="margin-top:0;font-size:17px">Kioto</h3>
+      <p style="font-size:13px">Higashiyama · Arashiyama · Gion · Centro · Fushimi Inari · Norte (Kinkaku-ji)</p>
+    </div>
+    <div style="background:rgba(30,92,138,.1);border:1px solid rgba(30,92,138,.25);border-radius:12px;padding:20px">
+      <h3 style="margin-top:0;font-size:17px">Más allá — hasta 1h</h3>
+      <p style="font-size:13px">Osaka · Nara · Himeji · Kobe</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- KIOTO -->
+<section id="kioto">
+<div class="container">
+  <span class="label">Kioto</span>
+  <h2>Las seis áreas imprescindibles</h2>
+  <div class="divider"></div>
+
+  <div class="img-placeholder">📷 FOTO: Kiyomizu-dera al atardecer desde su plataforma de madera · loading="lazy" · alt="kiyomizu-dera higashiyama kioto"</div>
+
+  <div class="lugar">
+    <h3>Higashiyama</h3>
+    <p>El distrito de templos por excelencia, con calles empedradas que conectan algunos de los conjuntos religiosos más fotografiados de Japón. Kiyomizu-dera, Patrimonio de la Humanidad, se alza sobre una plataforma de madera construida sin un solo clavo, con vistas a toda la ciudad. Yasaka Shrine marca la entrada norte del barrio, con su pagoda de cinco pisos (Hokan-ji) visible desde varias calles.</p>
+    <p><strong>Kodai-ji</strong> — templo zen con jardines diseñados para cada estación, mucho menos masificado que Kiyomizu-dera.</p>
+    <p><strong>Compras:</strong> Ninenzaka y Sannenzaka, las calles empedradas que conducen al templo, con dulces típicos, té matcha y cerámica Kiyomizu-yaki, originaria del propio barrio. Kimonos de alquiler para pasear por las calles históricas.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos de Ninenzaka</span> — <span class="resto-desc">yatsuhashi (dulce de canela) y té matcha para llevar</span> <span class="resto-precio">· 400-800 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Casas de té tradicionales</span> — <span class="resto-desc">ceremonia de matcha con dulces de temporada</span> <span class="resto-precio">· 1.500-2.500 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Ryotei con vistas al jardín</span> — <span class="resto-desc">kaiseki tradicional de varios tiempos</span> <span class="resto-precio">· 12.000-20.000 ¥</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 22-32€</span>
+      <div class="hotel-item"><strong>Guesthouses en antiguas machiya</strong> — casas tradicionales reconvertidas</div>
+      <span class="hotel-nivel h-me">Viajero Medio · 110-160€</span>
+      <div class="hotel-item"><strong>Ryokan urbano de gama media</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 400€</span>
+      <div class="hotel-item"><strong>Ryokan de lujo con jardín privado</strong></div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> autobús desde la estación de Kioto o 20 minutos a pie desde Gion.</p>
+  </div>
+
+  <div class="img-placeholder">📷 FOTO: Bosque de bambú de Arashiyama con la luz filtrándose entre los tallos · loading="lazy" · alt="bosque bambu arashiyama kioto"</div>
+
+  <div class="lugar">
+    <h3>Arashiyama</h3>
+    <p>El bosque de bambú de Arashiyama es una de las imágenes más reconocibles de Japón — un sendero entre tallos que se elevan más de 10 metros, con la luz filtrándose en haces. El puente Togetsukyo cruza el río con el monte Arashiyama de fondo, especialmente espectacular en otoño con el follaje rojizo.</p>
+    <p><strong>Tenryu-ji</strong> — Patrimonio de la Humanidad, con un jardín de paseo diseñado en el siglo XIV que usa el monte Arashiyama como "paisaje prestado" de fondo. El río Hozugawa se puede recorrer en barca tradicional, y hay rutas de senderismo en la propia montaña.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos de la calle principal</span> — <span class="resto-desc">dulces de castaña y té</span> <span class="resto-precio">· 500-1.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Tofu kaiseki de gama media</span> — <span class="resto-desc">especialidad histórica del barrio</span> <span class="resto-precio">· 3.000-5.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Ryotei centenarios de tofu</span> — <span class="resto-desc">menú completo basado en tofu, varios tiempos</span> <span class="resto-precio">· 10.000-15.000 ¥</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 20-30€</span>
+      <div class="hotel-item"><strong>Guesthouses sencillas</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 350€</span>
+      <div class="hotel-item"><strong>Ryokan de montaña con onsen propio</strong></div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> tren JR Sagano o línea Randen desde el centro de Kioto, 15-20 minutos.</p>
+  </div>
+
+  <div class="lugar">
+    <h3>Gion</h3>
+    <p>El barrio de las geishas (geiko en dialecto de Kioto) y maiko (aprendizas), con calles de madera tradicional que han cambiado poco en siglos. Hanami-koji es la calle principal, donde al atardecer a veces se puede ver a una geiko caminando hacia una cita.</p>
+    <p><strong>Kennin-ji</strong> — el templo zen más antiguo de Kioto, dentro del propio barrio. <strong>Pontocho</strong>, un callejón estrecho paralelo al río Kamogawa, está lleno de restaurantes tradicionales, muchos con terrazas sobre el agua en verano.</p>
+    <div class="aviso aviso-warn">Está prohibido fotografiar a geiko y maiko sin permiso en algunas calles privadas de Gion (multa aplicable desde 2019). Siempre preguntar antes de hacer una foto cercana.</div>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Soba en locales sencillos</span> — <span class="resto-desc">fideos de trigo sarraceno, opción ligera y barata</span> <span class="resto-precio">· 800-1.300 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Restaurantes de Pontocho</span> — <span class="resto-desc">terraza sobre el río en verano (kawadoko)</span> <span class="resto-precio">· 3.000-5.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Cena con geiko</span> — <span class="resto-desc">reserva con meses de antelación, normalmente a través del hotel</span> <span class="resto-precio">· 30.000 ¥ +</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 25-35€</span>
+      <div class="hotel-item"><strong>Hostales cerca de la estación de Kioto</strong></div>
+      <span class="hotel-nivel h-me">Viajero Medio · 130-190€</span>
+      <div class="hotel-item"><strong>Ryokan boutique en Gion</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 500€</span>
+      <div class="hotel-item"><strong>Ryokan tradicional de máximo nivel</strong> — varios con siglos de historia</div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> a pie desde Higashiyama o autobús desde la estación de Kioto.</p>
+  </div>
+
+  <div class="lugar">
+    <h3>Centro (Shijo-Kawaramachi)</h3>
+    <p>El núcleo comercial y gastronómico de Kioto, con el mercado Nishiki como gran atractivo: casi 400 metros de puestos de comida conocido como "la cocina de Kioto". Nijo Castle, antigua residencia del shogun, tiene sus famosos "suelos ruiseñor" que chirrían deliberadamente para alertar de intrusos.</p>
+    <p><strong>Nishi Hongan-ji y Higashi Hongan-ji</strong> — dos de los templos budistas más grandes de Japón, a pocos minutos de la estación.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos de Nishiki Market</span> — <span class="resto-desc">degustación callejera, pescado y encurtidos</span> <span class="resto-precio">· 500-1.200 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Izakayas de Kiyamachi-dori</span> — <span class="resto-desc">obanzai, la cocina casera tradicional de Kioto</span> <span class="resto-precio">· 2.500-4.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Restaurantes de obanzai de autor</span> — <span class="resto-desc">reinterpretación moderna de la cocina casera de Kioto</span> <span class="resto-precio">· 8.000-14.000 ¥</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 20-28€</span>
+      <div class="hotel-item"><strong>Hostales cerca de la estación de Kioto</strong></div>
+      <span class="hotel-nivel h-me">Viajero Medio · 100-150€</span>
+      <div class="hotel-item"><strong>Business hotels céntricos</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 400€</span>
+      <div class="hotel-item"><strong>Hoteles de diseño internacional</strong></div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> estación de Kioto, metro línea Karasuma o Tozai.</p>
+  </div>
+
+  <div class="img-placeholder">📷 FOTO: Túnel de torii rojos subiendo la montaña en Fushimi Inari · loading="lazy" · alt="fushimi inari torii kioto"</div>
+
+  <div class="lugar">
+    <h3>Fushimi Inari</h3>
+    <p>El santuario sintoísta más fotografiado de Japón — miles de torii (puertas rojas) forman un túnel que sube por la montaña Inari a lo largo de 4 km, cada uno donado por una empresa o particular. Subir hasta la cima toma 2-3 horas, pero la mayoría de visitantes solo recorre el primer tramo, así que el resto del camino está prácticamente vacío.</p>
+    <p>El propio santuario, Fushimi Inari Taisha, está dedicado a Inari, deidad del arroz y la prosperidad, con estatuas de zorros (sus mensajeros) por todo el recinto.</p>
+    <div class="aviso aviso-tip">Entrada gratuita y abierto 24 horas. Ir muy temprano (antes de las 8h) o al atardecer para evitar la masificación de mediodía.</div>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos a la entrada</span> — <span class="resto-desc">inari-zushi (sushi de tofu frito dulce) y kitsune udon</span> <span class="resto-precio">· 500-900 ¥</span></li>
+    </ul>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> tren JR Nara Line, 5 minutos desde la estación de Kioto. No es zona de alojamiento, se visita como excursión.</p>
+  </div>
+
+  <div class="lugar">
+    <h3>Norte — Kinkaku-ji y alrededores</h3>
+    <p>Kinkaku-ji, el "Pabellón Dorado", es un templo zen recubierto en pan de oro que se refleja en el estanque que lo rodea — una de las imágenes más icónicas de Japón. Ryoan-ji tiene el jardín zen de rocas más famoso del país: 15 piedras dispuestas de forma que nunca se pueden ver las 15 a la vez desde ningún ángulo.</p>
+    <p><strong>Ninna-ji</strong> — otro templo Patrimonio de la Humanidad con cerezos tardíos únicos, en flor cuando el resto de Kioto ya ha perdido los suyos.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Té matcha junto al estanque de Kinkaku-ji</span> — <span class="resto-desc">con dulces tradicionales</span> <span class="resto-precio">· 600-1.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Restaurantes de yudofu</span> — <span class="resto-desc">tofu hervido, especialidad de templos zen de la zona</span> <span class="resto-precio">· 2.500-4.000 ¥</span></li>
+    </ul>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> autobús desde la estación de Kioto, unos 40 minutos. No es zona de alojamiento habitual.</p>
+  </div>
+
+</div>
+</section>
+
+<!-- MÁS ALLÁ DE KIOTO -->
+<section class="dark" id="mas-alla">
+<div class="container">
+
+  <svg class="silhouette" width="280" height="100" viewBox="0 0 280 100" fill="none">
+    <rect x="100" y="40" width="80" height="50" fill="white" opacity="0.18"/>
+    <polygon points="95,40 140,15 185,40" fill="white" opacity="0.28"/>
+    <rect x="130" y="55" width="20" height="35" fill="white" opacity="0.25"/>
+    <path d="M10,85 Q40,75 70,85 Q100,95 130,85" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+    <circle cx="220" cy="60" r="18" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+  </svg>
+
+  <span class="label">Más allá de Kioto</span>
+  <h2>Osaka, Nara, Himeji<br/>y Kobe</h2>
+  <div class="divider"></div>
+  <p>A menos de una hora en tren desde Kioto hay otro Japón completamente distinto al de los templos: la capital gastronómica del país, mil ciervos sagrados vagando libres por un parque, el castillo original mejor conservado de Japón y la cuna del wagyu más famoso del mundo. Las cuatro se pueden visitar como excursión de un día desde Kioto.</p>
+
+  <div class="img-placeholder">📷 FOTO: Dotonbori de noche con los carteles de neón reflejados en el canal · loading="lazy" · alt="dotonbori osaka noche neon"</div>
+
+  <div class="lugar">
+    <h3>Osaka</h3>
+    <p>Dotonbori es el corazón nocturno de Osaka — un canal flanqueado por carteles de neón gigantes (el cangrejo animado de Kani Doraku es el más famoso) y la mayor concentración de comida callejera de Japón. El Castillo de Osaka, reconstrucción de hormigón del original del siglo XVI, domina un parque enorme especialmente bonito en temporada de sakura.</p>
+    <p><strong>Kuromon Ichiba</strong> — el "mercado de la cocina de Osaka", con marisco fresco, wagyu y puestos para comer de pie. <strong>Amerikamura</strong> es el barrio juvenil de moda y streetwear de la ciudad.</p>
+    <p>Osaka se conoce como "la cocina de Japón" (Tenka no Daidokoro). Imprescindibles: takoyaki (bolitas de pulpo), okonomiyaki (tortilla salada de col) y kushikatsu (brochetas rebozadas y fritas).</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos de Dotonbori</span> — <span class="resto-desc">takoyaki y kushikatsu de pie</span> <span class="resto-precio">· 500-1.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Okonomiyaki en mesa-plancha</span> — <span class="resto-desc">te lo cocinas tú mismo en la mesa</span> <span class="resto-precio">· 1.500-2.500 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Wagyu de Kuromon Ichiba o kaiseki de autor</span> — <span class="resto-desc">cortes premium certificados</span> <span class="resto-precio">· 10.000-20.000 ¥</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 20-30€</span>
+      <div class="hotel-item"><strong>Hostales en Namba/Dotonbori</strong></div>
+      <span class="hotel-nivel h-me">Viajero Medio · 100-150€</span>
+      <div class="hotel-item"><strong>Business hotels céntricos</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 350€</span>
+      <div class="hotel-item"><strong>Hoteles de lujo con vistas al skyline</strong></div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> 15 minutos en shinkansen desde Kioto, o autobús directo.</p>
+  </div>
+
+  <div class="img-placeholder">📷 FOTO: Ciervos sagrados en el Parque de Nara junto a Todai-ji · loading="lazy" · alt="ciervos parque nara todai-ji"</div>
+
+  <div class="lugar">
+    <h3>Nara</h3>
+    <p>El Parque de Nara alberga más de mil ciervos sika que vagan libremente y se consideran mensajeros divinos — se pueden comprar galletas especiales ("shika senbei") para darles de comer, aunque conviene hacer una reverencia antes, ya que muchos ciervos la han aprendido y la devuelven. Todai-ji alberga el Gran Buda de bronce más grande de Japón, dentro del edificio de madera más grande del mundo.</p>
+    <p><strong>Kasuga Taisha</strong> — santuario sintoísta con miles de linternas de piedra y bronce donadas a lo largo de los siglos. <strong>Naramachi</strong>, el antiguo barrio comercial, reconvierte casas de mercaderes en tiendas de artesanía y cafés.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos del parque y Naramachi</span> — <span class="resto-desc">mochi recién hecho a golpe de mazo</span> <span class="resto-precio">· 300-700 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Kakinoha-zushi tradicional</span> — <span class="resto-desc">sushi envuelto en hoja de caqui, especialidad local</span> <span class="resto-precio">· 1.800-3.000 ¥</span></li>
+    </ul>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> 45 minutos en tren desde Kioto (línea JR Nara) o desde Osaka. Se visita habitualmente en el día.</p>
+  </div>
+
+  <div class="lugar">
+    <h3>Himeji</h3>
+    <p>El Castillo de Himeji es el castillo original mejor conservado de Japón, Patrimonio de la Humanidad, apodado "el castillo de la garza blanca" por su fachada inmaculada. A diferencia de la mayoría de castillos japoneses — reconstrucciones de hormigón tras la guerra — este es de madera original del siglo XVII.</p>
+    <p><strong>Koko-en</strong> — jardín japonés de nueve secciones distintas junto al castillo. <strong>Engyo-ji</strong>, templo de montaña a las afueras usado como localización en "El último samurái".</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Puestos cerca de la estación</span> — <span class="resto-desc">anago-zushi, sushi de anguila de mar local</span> <span class="resto-precio">· 700-1.300 ¥</span></li>
+    </ul>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> shinkansen directo desde Kioto u Osaka, 30-50 minutos según el tren. Se visita como excursión de medio día.</p>
+  </div>
+
+  <div class="lugar">
+    <h3>Kobe</h3>
+    <p>Famosa mundialmente por su wagyu, la ciudad combina un puerto moderno con la montaña Rokko justo detrás, accesible en teleférico con vistas a toda la bahía. Kitano-cho, el antiguo barrio de residencias extranjeras del siglo XIX, mezcla arquitectura europea con calles japonesas.</p>
+    <p><strong>Arima Onsen</strong> — uno de los onsen más antiguos de Japón, a 30 minutos de la ciudad.</p>
+    <h4 style="color:#5ab88a">Mochilero</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Wagyu en formato yakiniku</span> — <span class="resto-desc">la opción más asequible de probar el wagyu de Kobe</span> <span class="resto-precio">· 2.500-4.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#c47a30">Viajero Medio</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Teppanyaki de gama media</span> — <span class="resto-desc">el chef cocina en la mesa frente al cliente</span> <span class="resto-precio">· 6.000-10.000 ¥</span></li>
+    </ul>
+    <h4 style="color:#9b7fff">Lujo</h4>
+    <ul class="resto-list">
+      <li class="resto-item"><span class="resto-nombre">Wagyu certificado de Kobe</span> — <span class="resto-desc">restaurantes especializados en el corte genuino</span> <span class="resto-precio">· 15.000-30.000 ¥</span></li>
+    </ul>
+    <div class="hotel-block">
+      <span class="hotel-nivel h-m">Mochilero · 20-30€</span>
+      <div class="hotel-item"><strong>Hostales cerca de la estación</strong></div>
+      <span class="hotel-nivel h-me">Viajero Medio · 100-150€</span>
+      <div class="hotel-item"><strong>Business hotels del centro</strong></div>
+      <span class="hotel-nivel h-l">Lujo · desde 300€</span>
+      <div class="hotel-item"><strong>Ryokan en Arima Onsen</strong></div>
+    </div>
+    <p style="margin-top:10px"><strong>Cómo llegar:</strong> 15 minutos en shinkansen desde Osaka.</p>
+  </div>
+
+</div>
+</section>
+
+<!-- JOYAS ESCONDIDAS -->
+<section id="joyas">
+<div class="container">
+  <span class="label">Lejos del circuito turístico</span>
+  <h2>Joyas escondidas de Kansai</h2>
+  <div class="divider"></div>
+  <p>Kioto recibe tanto turismo que sus rincones menos conocidos se sienten como un Japón completamente distinto, a pocos minutos de las multitudes.</p>
+
+  <div class="lugar">
+    <h3>Philosopher's Path</h3>
+    <p>Un sendero junto a un canal entre Ginkaku-ji y Nanzen-ji, llamado así porque un filósofo lo recorría a diario meditando. Espectacular en sakura, casi vacío fuera de esas dos semanas.</p>
+  </div>
+  <div class="lugar">
+    <h3>Ohara</h3>
+    <p>Pueblo de montaña a 40 minutos del centro de Kioto, con templos rurales y campos de lavanda, prácticamente sin turistas extranjeros.</p>
+  </div>
+  <div class="lugar">
+    <h3>Shin-Sekai (Osaka)</h3>
+    <p>Barrio retro alrededor de la torre Tsutenkaku, con el ambiente de un Osaka de posguerra que ha desaparecido en el resto de la ciudad.</p>
+  </div>
+  <div class="lugar">
+    <h3>Mount Yoshino</h3>
+    <p>A hora y media de Nara, considerado el mejor lugar de Japón para ver sakura, con 30.000 cerezos repartidos en cuatro niveles de la montaña.</p>
+  </div>
+  <div class="lugar">
+    <h3>Sanjusangen-do</h3>
+    <p>Un templo de Kioto con 1.001 estatuas de madera de Kannon dispuestas en fila, una experiencia visual abrumadora que casi nadie incluye en su itinerario.</p>
+  </div>
+</div>
+</section>
+
+<!-- PRESUPUESTO -->
+<section class="dark">
+<div class="container">
+  <span class="label">Cuánto cuesta</span>
+  <h2>Presupuesto diario en Kansai</h2>
+  <div class="divider"></div>
+  <p>Kioto y Osaka tienen presupuestos similares entre sí — Osaka incluso algo más barata en comida gracias a su cultura de street food. Nara, Himeji y Kobe suelen visitarse en el día, así que no añaden coste de alojamiento aparte.</p>
+
+  <div class="pres-grid">
+    <div class="pres-col pres-moch">
+      <span class="pres-name">Mochilero</span>
+      <div class="pres-item"><span class="pres-label">Alojamiento</span><span class="pres-valor" style="color:#5ab88a">20-32€/noche</span></div>
+      <div class="pres-item"><span class="pres-label">Comida</span><span class="pres-valor" style="color:#5ab88a">12-20€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Transporte</span><span class="pres-valor" style="color:#5ab88a">8-15€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Actividades</span><span class="pres-valor" style="color:#5ab88a">5-12€/día</span></div>
+      <div class="pres-total">~60€/día</div>
+    </div>
+    <div class="pres-col pres-med medio">
+      <span class="pres-name">Viajero Medio</span>
+      <div class="pres-item"><span class="pres-label">Alojamiento</span><span class="pres-valor" style="color:#c47a30">90-150€/noche</span></div>
+      <div class="pres-item"><span class="pres-label">Comida</span><span class="pres-valor" style="color:#c47a30">30-50€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Transporte</span><span class="pres-valor" style="color:#c47a30">15-25€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Actividades</span><span class="pres-valor" style="color:#c47a30">20-35€/día</span></div>
+      <div class="pres-total">~195€/día</div>
+    </div>
+    <div class="pres-col pres-luj">
+      <span class="pres-name">Lujo</span>
+      <div class="pres-item"><span class="pres-label">Alojamiento</span><span class="pres-valor" style="color:#9b7fff">280-550€/noche</span></div>
+      <div class="pres-item"><span class="pres-label">Comida</span><span class="pres-valor" style="color:#9b7fff">100-280€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Transporte</span><span class="pres-valor" style="color:#9b7fff">35-70€/día</span></div>
+      <div class="pres-item"><span class="pres-label">Actividades</span><span class="pres-valor" style="color:#9b7fff">50-130€/día</span></div>
+      <div class="pres-total">~550€/día</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:24px">Consejos antes de ir</h3>
+  <div class="aviso aviso-tip">El JR Pass regional de Kansai cubre Kioto, Osaka, Nara, Himeji y Kobe en un solo billete — sale a cuenta si planeas visitar las cuatro ciudades en pocos días.</div>
+  <div class="aviso aviso-warn">Fushimi Inari y Kiyomizu-dera están masificados entre las 10h y las 16h, especialmente en sakura y momiji. Ir nada más abrir o al atardecer marca una diferencia enorme.</div>
+  <div class="aviso aviso-tip">El alojamiento en Kioto sube mucho de precio en las dos semanas de sakura (finales de marzo-principios de abril) y la primera quincena de noviembre (momiji) — reservar con varios meses de antelación.</div>
+  <div class="aviso aviso-tip">Para Nara, llevar monedas sueltas para las galletas de los ciervos y evitar llevar mapas o bolsas de papel a la vista — algunos ciervos las muerden pensando que son comida.</div>
+</div>
+</section>
+
+<!-- CUÁNDO IR -->
+<section>
+<div class="container">
+  <span class="label">Planificación</span>
+  <h2>Cuándo ir a Kioto y Kansai</h2>
+  <div class="divider"></div>
+
+  <h3>Kioto y Kansai en general</h3>
+  <div class="cal">
+    <span class="cal-m cal-y">E</span><span class="cal-m cal-y">F</span>
+    <span class="cal-m cal-g">M</span><span class="cal-m cal-g">A</span><span class="cal-m cal-g">My</span>
+    <span class="cal-m cal-r">Jn</span><span class="cal-m cal-r">Jl</span><span class="cal-m cal-r">Ag</span>
+    <span class="cal-m cal-y">S</span><span class="cal-m cal-g">O</span><span class="cal-m cal-g">N</span><span class="cal-m cal-y">D</span>
+  </div>
+  <p>Finales de marzo-principios de abril (sakura) y noviembre (momiji) son las temporadas más espectaculares y también las más concurridas y caras. Junio es temporada de lluvias. Julio-agosto es calor húmedo intenso, especialmente duro para recorrer templos a pie todo el día. Invierno es frío pero seco, con los templos prácticamente vacíos.</p>
+
+  <h3>Mount Yoshino — sakura</h3>
+  <div class="cal">
+    <span class="cal-m cal-r">E</span><span class="cal-m cal-r">F</span><span class="cal-m cal-y">M</span>
+    <span class="cal-m cal-g">A</span><span class="cal-m cal-r">My</span><span class="cal-m cal-r">Jn</span>
+    <span class="cal-m cal-r">Jl</span><span class="cal-m cal-r">Ag</span><span class="cal-m cal-r">S</span>
+    <span class="cal-m cal-r">O</span><span class="cal-m cal-r">N</span><span class="cal-m cal-r">D</span>
+  </div>
+  <p>La floración en Yoshino ocurre en una ventana muy concreta de principios a mediados de abril, y varía ligeramente cada año según el clima — conviene consultar el pronóstico de sakura un par de semanas antes de viajar.</p>
+</div>
+</section>
+
+<!-- CTA -->
+<div style="background:var(--indigo-l);text-align:center;padding:60px 24px">
+  <div style="max-width:560px;margin:0 auto">
+    <span class="label" style="text-align:center">Planificador</span>
+    <h2 style="text-align:center;margin-bottom:12px">¿Listo para Kansai?</h2>
+    <p style="text-align:center;max-width:460px;margin:0 auto 28px;color:rgba(237,230,214,.5)">Dinos desde dónde partes, cuántos días tienes y tu radio. El planificador calcula qué entra — con clima del mes y presupuesto adaptado a ti.</p>
+    <a href="/planificador/?destino=kioto" class="btn-primary">Planificar desde Kioto</a>
+    <a href="/planificador/?destino=osaka" class="btn-secondary">Planificar desde Osaka</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 La Mochila con Alas — lamochilaconalas.com</p>
+</footer>
+</body>
+</html>
