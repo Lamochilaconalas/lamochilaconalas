@@ -259,6 +259,32 @@
       border: 1px solid rgba(247,201,72,0.4);
     }
 
+    /* BLOG */
+    .blog-promo { background: var(--navy-l); }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px; max-width: 760px; margin: 0 auto;
+    }
+    .blog-card {
+      background: var(--navy);
+      border: 1px solid rgba(232,224,212,0.07);
+      border-radius: 14px; padding: 26px 24px;
+      text-decoration: none; display: block;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .blog-card:hover { transform: translateY(-3px); border-color: rgba(247,201,72,0.3); }
+    .blog-card-kicker {
+      font-family: 'Courier Prime', monospace;
+      font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
+      color: var(--gold); opacity: 0.85; margin-bottom: 10px;
+    }
+    .blog-card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 19px; font-weight: 700;
+      color: var(--sand); line-height: 1.3;
+    }
+
     /* COUNTRY CARD V2 — bandera de fondo (variante 3C: tenue, sin caja) + tipografía Chewy */
     .country-card-v2 {
       background: #13273f;
@@ -376,6 +402,7 @@
     <a href="/" class="nav-logo"></a>
     <div class="nav-links">
       <a href="/planificador/" class="nav-link nav-link-cta">🗺️ Planificador</a>
+      <a href="/blog/" class="nav-link">📝 Blog</a>
       <a href="#paises" class="nav-link">🌍 Guías</a>
       <a href="/mexico/" class="nav-link">🇲🇽 México</a>
       <a href="/tailandia/" class="nav-link">🇹🇭 Tailandia</a>
@@ -457,6 +484,22 @@
   </section>
 
   <!-- COUNTRIES -->
+  <section class="blog-promo">
+    <p class="section-eyebrow">Recién publicado</p>
+    <h2 class="section-title">Del blog</h2>
+    <p class="section-sub">Itinerarios y guías prácticas, publicados cada semana.</p>
+    <div class="blog-grid">
+      <a href="/blog/arabia-saudi-7-dias/" class="blog-card">
+        <p class="blog-card-kicker">Itinerario · Arabia Saudí</p>
+        <p class="blog-card-title">Arabia Saudí en 7 días: el itinerario que sí encaja en una semana</p>
+      </a>
+      <a href="/blog/arabia-saudi-14-dias/" class="blog-card">
+        <p class="blog-card-kicker">Itinerario · Arabia Saudí</p>
+        <p class="blog-card-title">Arabia Saudí en 14 días: la ruta completa, más allá de Riad, AlUla y Jeddah</p>
+      </a>
+    </div>
+  </section>
+
   <section class="countries" id="paises">
     <p class="section-eyebrow">Guías de viaje</p>
     <h2 class="section-title">Elige tu próximo destino</h2>
