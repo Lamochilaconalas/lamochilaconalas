@@ -563,7 +563,7 @@
 
     <div class="country-search-wrap">
       <svg viewBox="0 0 24 24" fill="none" stroke="#F7C948" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="countrySearch" placeholder="Buscar país... (ej. Grecia, Vietnam, Perú)" oninput="filterCountries(this.value)" />
+      <input type="text" id="countrySearch" placeholder="Buscar país... (ej. Grecia, Vietnam, Perú)" />
     </div>
 
     <div class="countries-grid" id="countriesGrid">
@@ -796,7 +796,7 @@
     </div>
     <p class="country-empty" id="countryEmpty">No hay ningún país que coincida con tu búsqueda.</p>
     <div class="ver-mas-wrap" id="verMasWrap">
-      <button class="btn-ver-mas" onclick="showAllCountries()">Ver más países ↓</button>
+      <button class="btn-ver-mas" id="btnVerMas">Ver más países ↓</button>
     </div>
   </section>
 
@@ -833,7 +833,25 @@
       updateDisplay(document.getElementById('countrySearch').value);
     }
 
-    updateDisplay('');
+    function initCountryFilters() {
+      var searchInput = document.getElementById('countrySearch');
+      var verMasBtn = document.getElementById('btnVerMas');
+      if (searchInput) {
+        searchInput.addEventListener('input', function() {
+          filterCountries(searchInput.value);
+        });
+      }
+      if (verMasBtn) {
+        verMasBtn.addEventListener('click', showAllCountries);
+      }
+      updateDisplay('');
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCountryFilters);
+    } else {
+      initCountryFilters();
+    }
   </script>
 
   <!-- PLANNER PROMO -->
