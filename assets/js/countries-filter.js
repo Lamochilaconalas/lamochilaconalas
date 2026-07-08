@@ -18,28 +18,18 @@ function updateDisplay(query) {
     if (shouldShow) visibleCount++;
   });
   document.getElementById('countryEmpty').style.display = visibleCount === 0 ? 'block' : 'none';
-  document.getElementById('verMasWrap').style.display = (q === '' && !expanded) ? 'block' : 'none';
 }
 
 function filterCountries(query) {
   updateDisplay(query);
 }
 
-function showAllCountries() {
-  expanded = true;
-  updateDisplay(document.getElementById('countrySearch').value);
-}
-
 function initCountryFilters() {
   var searchInput = document.getElementById('countrySearch');
-  var verMasBtn = document.getElementById('btnVerMas');
   if (searchInput) {
     searchInput.addEventListener('input', function() {
       filterCountries(searchInput.value);
     });
-  }
-  if (verMasBtn) {
-    verMasBtn.addEventListener('click', showAllCountries);
   }
   updateDisplay('');
 }
