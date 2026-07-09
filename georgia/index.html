@@ -203,6 +203,13 @@
     .faq-item:last-child{border-bottom:none}
     .faq-q{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--crema);margin-bottom:10px}
     .faq-a{font-size:15px;color:rgba(234,231,220,.6);line-height:1.75}
+    /* DEL BLOG */
+    .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+    .blog-card{background:rgba(22,35,46,.5);border:1px solid rgba(234,231,220,.08);border-radius:14px;padding:24px 22px;text-decoration:none;display:block;transition:transform .2s,border-color .2s}
+    .blog-card:hover{transform:translateY(-4px);border-color:rgba(95,168,160,.25)}
+    .blog-tag{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bug);margin-bottom:12px;display:block}
+    .blog-title{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--crema);margin-bottom:8px;line-height:1.35}
+    .blog-excerpt{font-size:13px;color:rgba(234,231,220,.5);line-height:1.65;margin:0}
     /* CTA PLAN */
     .plan-box{background:linear-gradient(135deg,rgba(95,168,160,.08),rgba(58,71,80,.5));border:1px solid rgba(95,168,160,.15);border-radius:16px;padding:48px 32px;text-align:center}
     footer{background:#0D161D;border-top:1px solid rgba(234,231,220,.05);padding:40px 24px;text-align:center}
@@ -232,6 +239,7 @@
     <a href="#cuando" class="nav-link">Cuándo ir</a>
     <a href="#presupuesto" class="nav-link">Presupuesto</a>
     <a href="#itinerarios" class="nav-link">Itinerarios</a>
+    <a href="#blog" class="nav-link">Blog</a>
     <a href="#faq" class="nav-link">FAQ</a>
     <a href="/planificador/?destino=georgia" class="nav-link nav-cta">Planificador</a>
   </div>
@@ -593,6 +601,37 @@
   <div class="faq-item">
     <p class="faq-q">¿Cuántos días hacen falta para ver Georgia bien?</p>
     <p class="faq-a">Con una semana se puede recorrer bien Tiflis, Kajetia y Kazbegi. Dos semanas permiten añadir Svaneti, Kutaisi y Batumi. Para hacerlo todo con calma, incluyendo el trekking completo Mestia-Ushguli, lo ideal son tres semanas.</p>
+  </div>
+</div>
+</section>
+
+<!-- DEL BLOG -->
+<section class="dark" id="blog">
+<div class="container">
+  <span class="label">Del blog</span>
+  <h2>Antes de reservar,<br/><em>esto te interesa</em></h2>
+  <div class="divider"></div>
+  <p class="section-sub">Trámites, comparativas y dudas concretas que no siempre caben en una guía de zonas.</p>
+  <div class="blog-grid">
+
+    <a href="/blog/seguro-obligatorio-georgia-2026/" class="blog-card">
+      <span class="blog-tag">Trámites</span>
+      <p class="blog-title">Seguro obligatorio para viajar a Georgia en 2026</p>
+      <p class="blog-excerpt">Desde el 1 de enero es obligatorio llevar seguro médico para entrar al país. Cobertura mínima, exenciones y multa si no lo tienes.</p>
+    </a>
+
+    <a href="/blog/cuantos-dias-georgia/" class="blog-card">
+      <span class="blog-tag">Planificación</span>
+      <p class="blog-title">¿Cuántos días necesitas para viajar a Georgia?</p>
+      <p class="blog-excerpt">7, 10 o 14 días: qué ves y qué te pierdes en cada duración, con tiempos reales de trayecto entre zonas.</p>
+    </a>
+
+    <a href="/blog/gudauri-o-bakuriani/" class="blog-card">
+      <span class="blog-tag">Esquí</span>
+      <p class="blog-title">Gudauri o Bakuriani: ¿dónde esquiar en Georgia?</p>
+      <p class="blog-excerpt">Comparativa de precios, altitud y ambiente entre las dos estaciones de esquí más visitadas del país.</p>
+    </a>
+
   </div>
 </div>
 </section>
