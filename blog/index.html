@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — Guías, itinerarios y curiosidades de viaje</title>
+  <meta name="description" content="Itinerarios, datos de seguridad y curiosidades de viaje verificadas, país por país: Arabia Saudí, El Salvador y los próximos destinos que vamos publicando."/>
+  <meta name="robots" content="noindex, nofollow"/>
+  <link rel="canonical" href="https://lamochilaconalas.com/blog/"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="La Mochila con Alas"/>
+  <meta property="og:title" content="Blog — Guías, itinerarios y curiosidades de viaje"/>
+  <meta property="og:description" content="Itinerarios, datos de seguridad y curiosidades de viaje verificadas, país por país."/>
+  <meta property="og:url" content="https://lamochilaconalas.com/blog/"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Blog de La Mochila con Alas",
+  "url": "https://lamochilaconalas.com/blog/",
+  "publisher": {"@type":"Organization","name":"La Mochila con Alas","logo":{"@type":"ImageObject","url":"https://lamochilaconalas.com/assets/logo.png"}}
+}
+</script>
+<style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --navy: #0D1B2A; --navy-l: #1a2d45; --gold: #F7C948; --sand: #E8E0D4; --green: #2D6A4F; --paper: #F5F0E8;
+    }
+    html{scroll-behavior:smooth}
+    body{font-family:'Lato',sans-serif;background:var(--navy);color:var(--sand);overflow-x:hidden}
+
+    nav{
+      position:sticky;top:0;z-index:100;
+      background:rgba(13,27,42,.95);backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(232,224,212,.07);
+      padding:14px 24px
+    }
+    .nav-inner{max-width:960px;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px}
+    .nav-brand{justify-self:start}
+    .nav-cta{justify-self:center}
+    .nav-inner > .nav-link{justify-self:end}
+    .nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+    .nav-brand img{width:30px;height:30px;object-fit:contain}
+    .nav-brand span{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);opacity:.85}
+    .nav-links{display:flex;align-items:center;gap:6px;flex-wrap:nowrap}
+    .nav-link{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:rgba(232,224,212,.5);padding:8px 14px;border-radius:8px;border:1px solid transparent;transition:all .18s}
+    .nav-link:hover,.nav-link.active{color:var(--gold);border-color:rgba(247,201,72,.2);background:rgba(247,201,72,.06)}
+    .nav-cta{background:var(--gold);color:var(--navy)!important;padding:9px 18px;border-radius:8px;font-family:'Lato',sans-serif;font-weight:900;font-size:12px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+
+    .container{max-width:960px;margin:0 auto;padding:0 24px}
+
+    header.hub{
+      text-align:center;padding:88px 24px 64px;position:relative;overflow:hidden;
+      background:radial-gradient(ellipse at 20% 0%, rgba(45,106,79,.12) 0%, transparent 55%),
+                 radial-gradient(ellipse at 85% 95%, rgba(247,201,72,.07) 0%, transparent 50%),
+                 linear-gradient(180deg, #0D1B2A 0%, #0f1e2e 100%);
+    }
+    .hub-dots{position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(circle, rgba(247,201,72,.055) 1px, transparent 1px);background-size:36px 36px}
+    .hub-logo{width:120px;height:120px;margin:0 auto 28px;position:relative}
+    .hub-logo::before{content:'';position:absolute;inset:0;border-radius:50%;background:rgba(247,201,72,.08);border:1px solid rgba(247,201,72,.2)}
+    .hub-logo img{width:100%;height:100%;object-fit:contain;position:relative;z-index:1}
+    .eyebrow{font-family:'Courier Prime',monospace;color:var(--gold);letter-spacing:.25em;font-size:11px;text-transform:uppercase;margin-bottom:14px;opacity:.85;position:relative;z-index:1}
+    h1{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(36px,7vw,64px);font-weight:700;line-height:1.15;color:var(--gold);margin-bottom:18px;position:relative;z-index:1}
+    .hub-sub{color:rgba(232,224,212,.55);font-size:clamp(15px,2vw,18px);line-height:1.8;max-width:520px;margin:0 auto;position:relative;z-index:1}
+    .hub-label{font-family:'Lato',sans-serif;font-weight:900;font-size:clamp(20px,3vw,28px);text-transform:none;letter-spacing:0;color:var(--sand);margin-bottom:18px;position:relative;z-index:1}
+
+    section.country-section{padding:56px 0}
+    section.country-section.alt{background:var(--navy-l)}
+    h2.country-group{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--sand);margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid rgba(232,224,212,.1);display:flex;align-items:center;gap:14px}
+    .country-flag{width:38px;height:38px;flex-shrink:0}
+    .country-flag svg{width:100%;height:100%;display:block}
+    .posts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .post-card{display:block;text-decoration:none;background:rgba(232,224,212,.04);border-radius:14px;padding:22px;border:1px solid rgba(232,224,212,.08);transition:border-color .18s,transform .18s}
+    .post-card:hover{border-color:rgba(247,201,72,.35);transform:translateY(-2px)}
+    .post-card-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    .post-thumb{width:44px;height:44px;border-radius:50%;flex-shrink:0;overflow:hidden;background:rgba(247,201,72,.1);border:1px solid rgba(247,201,72,.25);display:flex;align-items:center;justify-content:center}
+    .post-thumb img{width:100%;height:100%;object-fit:cover}
+    .post-thumb.logo-fallback img{width:70%;height:70%;object-fit:contain}
+    .post-card-headline{min-width:0}
+    .post-card h3{font-size:16px;color:var(--sand);margin-bottom:0;line-height:1.3;font-weight:700;font-family:'Lato',sans-serif}
+    .post-card-kicker{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+    .post-card p.desc{font-size:13px;color:rgba(232,224,212,.5);line-height:1.6;margin:0}
+
+    footer{background:#0a141f;border-top:1px solid rgba(232,224,212,.05);padding:36px 24px;text-align:center}
+    footer p{color:rgba(232,224,212,.4);font-size:13px;margin:0}
+    @media(max-width:420px){
+      nav{padding:12px 14px}
+      .nav-link{padding:7px 10px;font-size:10px}
+      .nav-cta{padding:7px 14px;font-size:11px}
+    }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">
+      <img src="/assets/logo.png" alt="La Mochila con Alas" width="30" height="30"/>
+    </a>
+    <a href="/planificador/" class="nav-cta">Planificador</a>
+    <a href="/#paises" class="nav-link">Guías</a>
+  </div>
+</nav>
+
+<header class="hub">
+  <div class="hub-dots"></div>
+  <div class="hub-logo"><img src="/assets/logo.png" alt="La Mochila con Alas"/></div>
+  <h1>Crónicas con alas</h1>
+  <p class="hub-label">El blog</p>
+  <p class="hub-sub">Donde aterrizan las historias que no caben en la guía.</p>
+</header>
+
+<section class="country-section">
+<div class="container">
+  <h2 class="country-group">
+    <span class="country-flag"><svg viewBox="0 0 100 100"><circle cx="35" cy="18" r="3" fill="#AAA298" opacity="0.5"/><circle cx="43" cy="11" r="4" fill="#AAA298" opacity="0.4"/><polygon points="12,84 48,20 55,34 62,20 90,84" fill="#F7C948"/></svg></span>
+    El Salvador
+  </h2>
+  <div class="posts-grid">
+    <a href="/blog/es-seguro-viajar-el-salvador-2026/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb"><img src="/assets/blog/es-seguro-viajar-el-salvador-2026/hero-el-salvador.jpg" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Seguridad y viaje</p>
+          <h3>¿Es seguro viajar a El Salvador en 2026?</h3>
+        </div>
+      </div>
+      <p class="desc">Tasa de homicidios, alertas oficiales de España y EEUU, y qué precauciones reales tomar.</p>
+    </a>
+    <a href="/blog/surf-costa-del-balsamo-el-salvador/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb"><img src="/assets/blog/surf-costa-del-balsamo-el-salvador/hero-surf.jpg" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Surf y aventura</p>
+          <h3>Surf City El Salvador: la guía del boom del surf</h3>
+        </div>
+      </div>
+      <p class="desc">Qué playa elegir según tu nivel, dónde alojarte y el calendario de competiciones de 2026.</p>
+    </a>
+    <a href="/blog/bitcoin-beach-el-zonte/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb"><img src="/assets/blog/bitcoin-beach-el-zonte/hero-el-zonte.jpg" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Curiosidad y viaje</p>
+          <h3>Bitcoin Beach: la verdad sobre El Zonte en 2026</h3>
+        </div>
+      </div>
+      <p class="desc">Cómo empezó todo en 2019, y lo que la mayoría de artículos no ha actualizado desde la reforma de 2025.</p>
+    </a>
+    <a href="/blog/ruta-de-las-flores-fin-de-semana/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb"><img src="/assets/blog/ruta-de-las-flores-fin-de-semana/hero-ruta-flores.jpg" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Escapada de fin de semana</p>
+          <h3>Ruta de las Flores en fin de semana</h3>
+        </div>
+      </div>
+      <p class="desc">El itinerario de dos días para Juayúa, Ataco y Apaneca desde San Salvador.</p>
+    </a>
+  </div>
+</div>
+</section>
+
+<section class="country-section alt">
+<div class="container">
+  <h2 class="country-group">
+    <span class="country-flag"><svg viewBox="0 0 100 100"><rect x="20" y="35" width="60" height="47" fill="#F7C948"/><rect x="15" y="25" width="10" height="10" fill="#F7C948"/><rect x="30" y="20" width="10" height="15" fill="#F7C948"/><rect x="45" y="15" width="10" height="20" fill="#F7C948"/><rect x="60" y="20" width="10" height="15" fill="#F7C948"/><rect x="75" y="25" width="10" height="10" fill="#F7C948"/><rect x="42" y="60" width="16" height="22" fill="#0D1B2A"/></svg></span>
+    Arabia Saudí
+  </h2>
+  <div class="posts-grid">
+    <a href="/blog/arabia-saudi-7-dias/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Itinerario</p>
+          <h3>Arabia Saudí en 7 días: el itinerario que sí encaja en una semana</h3>
+        </div>
+      </div>
+      <p class="desc">La ruta pensada para quien solo tiene una semana, sin renunciar a lo esencial.</p>
+    </a>
+    <a href="/blog/arabia-saudi-14-dias/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Itinerario</p>
+          <h3>Arabia Saudí en 14 días: la ruta completa</h3>
+        </div>
+      </div>
+      <p class="desc">Más allá de Riad, AlUla y Jeddah, para quien tiene dos semanas por delante.</p>
+    </a>
+    <a href="/blog/cuantos-dias-alula/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Guía práctica</p>
+          <h3>¿Cuántos días necesitas en AlUla?</h3>
+        </div>
+      </div>
+      <p class="desc">La guía para no quedarte corto de tiempo en uno de los sitios más impresionantes del país.</p>
+    </a>
+    <a href="/blog/como-reservar-hegra/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Guía práctica</p>
+          <h3>Cómo reservar Hegra: tours, precios y todo lo que hay que saber</h3>
+        </div>
+      </div>
+      <p class="desc">El paso a paso para no llegar a AlUla sin la reserva hecha.</p>
+    </a>
+  </div>
+</div>
+</section>
+
+<section class="country-section">
+<div class="container">
+  <h2 class="country-group">
+    <span class="country-flag"><svg viewBox="0 0 100 100"><polygon points="15,85 45,25 75,85" fill="#F7C948"/><polygon points="38,40 45,25 52,40 45,35" fill="#0D1B2A"/></svg></span>
+    Georgia
+  </h2>
+  <div class="posts-grid">
+    <a href="/blog/cuantos-dias-georgia/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Planificación</p>
+          <h3>¿Cuántos días necesitas para viajar a Georgia?</h3>
+        </div>
+      </div>
+      <p class="desc">Qué cambia entre 7, 10 y 14 días, y por qué las carreteras de montaña pesan más que los kilómetros en el mapa.</p>
+    </a>
+    <a href="/blog/gudauri-o-bakuriani/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Esquí</p>
+          <h3>Gudauri o Bakuriani: ¿dónde esquiar en Georgia?</h3>
+        </div>
+      </div>
+      <p class="desc">Cuál elegir según tu nivel y con quién viajas, precios de forfait, y cómo llegar desde Tiflis a cada estación.</p>
+    </a>
+    <a href="/blog/seguro-obligatorio-georgia-2026/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Requisitos y trámites</p>
+          <h3>Seguro obligatorio para viajar a Georgia en 2026</h3>
+        </div>
+      </div>
+      <p class="desc">El trámite nuevo desde el 1 de enero de 2026 que muchas guías todavía no han actualizado, con cobertura mínima y multas si no lo llevas.</p>
+    </a>
+  </div>
+</div>
+</section>
+
+<section class="country-section alt">
+<div class="container">
+  <h2 class="country-group">
+    <span class="country-flag"><svg viewBox="0 0 100 100"><rect x="46" y="45" width="8" height="45" fill="#F7C948"/><path d="M50 45 Q30 30 15 40 Q35 35 50 45" fill="#F7C948"/><path d="M50 45 Q70 30 85 40 Q65 35 50 45" fill="#F7C948"/><path d="M50 45 Q35 20 25 15 Q45 25 50 45" fill="#F7C948"/><path d="M50 45 Q65 20 75 15 Q55 25 50 45" fill="#F7C948"/></svg></span>
+    Guinea Ecuatorial
+  </h2>
+  <div class="posts-grid">
+    <a href="/blog/itinerario-guinea-ecuatorial-dias/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Itinerarios</p>
+          <h3>Itinerario por Guinea Ecuatorial: ¿7, 10 o 14 días?</h3>
+        </div>
+      </div>
+      <p class="desc">Qué ver en cada duración, y por qué Malabo y Bata se conectan por avión, no por carretera.</p>
+    </a>
+    <a href="/blog/monte-alen-fauna-guinea-ecuatorial/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Naturaleza</p>
+          <h3>Monte Alén: gorilas, chimpancés y elefantes en la selva</h3>
+        </div>
+      </div>
+      <p class="desc">Qué fauna vive realmente en el parque, y por qué ver gorilas es cuestión de suerte, días y logística.</p>
+    </a>
+    <a href="/blog/visado-guinea-ecuatorial/" class="post-card">
+      <div class="post-card-top">
+        <div class="post-thumb logo-fallback"><img src="/assets/logo.png" alt=""/></div>
+        <div class="post-card-headline">
+          <p class="post-card-kicker">Trámites</p>
+          <h3>Visado para Guinea Ecuatorial: la guía sin líos</h3>
+        </div>
+      </div>
+      <p class="desc">E-visa online o vía consular: cuál elegir y qué documentos hacen falta en cualquier caso.</p>
+    </a>
+  </div>
+</div>
+</section>
+
+<footer>
+  <p>© 2026 La Mochila con Alas — lamochilaconalas.com</p>
+</footer>
+</body>
+</html>
