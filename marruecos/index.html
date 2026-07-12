@@ -86,11 +86,21 @@
     .why-text p{font-size:14px}
     .btn-primary{display:inline-block;background:var(--menta);color:var(--azul);padding:16px 32px;border-radius:10px;text-decoration:none;font-family:'Lato',sans-serif;font-weight:900;font-size:14px;letter-spacing:.07em;text-transform:uppercase;transition:all .2s;margin:6px}
     .btn-secondary{display:inline-block;background:transparent;color:var(--menta);padding:16px 32px;border-radius:10px;border:2px solid var(--menta);text-decoration:none;font-family:'Lato',sans-serif;font-weight:700;font-size:14px;letter-spacing:.07em;text-transform:uppercase;margin:6px}
+    .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+    .blog-card{display:block;text-decoration:none;background:rgba(242,232,213,.04);border:1px solid rgba(242,232,213,.09);border-radius:14px;padding:20px;transition:all .2s}
+    .blog-card:hover{border-color:rgba(143,160,92,.4);background:rgba(143,160,92,.06)}
+    .blog-thumb{width:100%;aspect-ratio:16/10;border-radius:8px;overflow:hidden;margin-bottom:14px;background:rgba(143,160,92,.1)}
+    .blog-thumb img{width:100%;height:100%;object-fit:cover}
+    .blog-kicker{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--menta);margin-bottom:6px;display:block}
+    .blog-title{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--arena);margin-bottom:6px;line-height:1.3}
+    .blog-desc{font-size:13px;color:rgba(242,232,213,.5);line-height:1.6}
+    .blog-more{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--menta);text-decoration:none;border-bottom:1px solid rgba(143,160,92,.35);padding-bottom:2px}
     footer{background:#0a0f14;border-top:1px solid rgba(242,232,213,.05);padding:36px 24px;text-align:center}
     footer p{font-family:'Courier Prime',monospace;color:rgba(242,232,213,.1);font-size:11px;letter-spacing:.2em;text-transform:uppercase}
     @media(max-width:640px){
       .hero-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:20px 12px;justify-items:center}
       .zonas-grid{grid-template-columns:1fr}
+      .blog-grid{grid-template-columns:1fr}
     }
   </style>
 </head>
@@ -214,6 +224,41 @@
         <p>Tajine, cuscús, pastela, tanjia y té a la menta — una cocina con siglos de historia, muy alejada del tópico turístico, con enormes diferencias entre regiones.</p>
       </div>
     </div>
+  </div>
+</div>
+</section>
+
+<!-- DEL BLOG -->
+<section>
+<div class="container">
+  <span class="label">Del blog</span>
+  <h2>Dudas resueltas antes de viajar</h2>
+  <div class="divider"></div>
+  <p>Las preguntas que más se repiten antes de pisar Marruecos, respondidas sin rodeos.</p>
+
+  <div class="blog-grid">
+    <a href="/blog/guia-obligatoria-toubkal/" class="blog-card">
+      <div class="blog-thumb"><img src="/assets/blog/guia-obligatoria-toubkal/hero-trekking-toubkal.jpg" alt=""/></div>
+      <span class="blog-kicker">Trekking</span>
+      <div class="blog-title">¿Es obligatorio el guía para subir el Toubkal?</div>
+      <p class="blog-desc">Normativa, controles en la ruta y precios reales desde 2019.</p>
+    </a>
+    <a href="/blog/dormir-desierto-merzouga-merece-la-pena/" class="blog-card">
+      <div class="blog-thumb"><img src="/assets/blog/dormir-desierto-merzouga-merece-la-pena/hero-dunas-atardecer.jpg" alt=""/></div>
+      <span class="blog-kicker">Desierto</span>
+      <div class="blog-title">¿Merece la pena dormir en el desierto de Merzouga?</div>
+      <p class="blog-desc">La respuesta honesta: qué incluye un campamento y qué no esperar.</p>
+    </a>
+    <a href="/blog/chefchaouen-cuanto-tiempo/" class="blog-card">
+      <div class="blog-thumb"><img src="/assets/blog/chefchaouen-cuanto-tiempo/hero-calle-azul.jpg" alt=""/></div>
+      <span class="blog-kicker">Ciudades</span>
+      <div class="blog-title">Chefchaouen: ¿cuántos días dedicarle?</div>
+      <p class="blog-desc">Un día, dos o tres, y cómo esquivar a los grupos de excursión.</p>
+    </a>
+  </div>
+
+  <div style="margin-top:24px">
+    <a href="/blog/" class="blog-more">Ver todo el blog →</a>
   </div>
 </div>
 </section>
