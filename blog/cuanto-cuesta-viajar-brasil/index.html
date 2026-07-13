@@ -56,11 +56,10 @@ body{font-family:'Lato',sans-serif;background:var(--blog-bg);color:var(--blog-te
 p{opacity:1}
 a{color:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid rgba(245,240,232,.1)}
-.logo{font-family:'Courier Prime',monospace;font-size:13px;letter-spacing:.08em;color:var(--crema);text-decoration:none;text-transform:uppercase}
-.nav-links{display:flex;align-items:center;gap:20px}
-.nav-links a{font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--blog-soft)}
-.btn-plan{background:var(--acc);color:var(--ol);padding:9px 18px;border-radius:24px;font-weight:700}
+nav{position:sticky;top:0;z-index:100;background:rgba(18,17,16,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(245,240,232,.07);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nav-links{display:flex;align-items:center;gap:18px}
+.nav-links a{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,240,232,.55);text-decoration:none}
+.nav-links a.active{color:var(--acc)}
 main{padding:48px 0 60px}
 .kicker{font-family:'Lato',sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--blog-accent);margin-bottom:14px}
 h1{font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 18px;color:var(--blog-text)}
@@ -95,16 +94,20 @@ ol.mistakes li{margin-bottom:14px}
 .btn-secondary{display:inline-block;background:transparent;border:1px solid rgba(242,236,222,.35);color:var(--crema);font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:13px 27px;border-radius:30px;text-decoration:none;margin:6px 8px}
 footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace;font-size:11px;color:var(--blog-soft);border-top:1px solid rgba(245,240,232,.08)}
 @media(max-width:600px){table.summary{font-size:13px}table.summary th,table.summary td{padding:9px 6px}}
+
 </style>
 </head>
 <body>
 
 <nav>
-<a class="logo" href="/">La Mochila con Alas</a>
-<div class="nav-links">
-<a href="/blog/">Blog</a>
-<a class="btn-plan" href="/planificador/">Planificador</a>
-</div>
+  <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0">
+    <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
+    <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);opacity:.8">La Mochila con Alas</span>
+  </a>
+  <div class="nav-links">
+    <a href="/blog/" class="active">Blog</a>
+    <a href="/planificador/" style="display:inline-block;background:var(--acc);color:var(--crema);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  </div>
 </nav>
 
 <main class="wrap">
@@ -124,7 +127,7 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <p>Brasil es enorme, así que si el itinerario combina varias ciudades alejadas entre sí (por ejemplo Río, Iguazú y el Nordeste), hay que sumar también vuelos internos: un trayecto corto entre grandes ciudades ronda los 60–100€ si se reserva con antelación, aunque conviene revisar también el autobús interurbano para tramos más cortos, más barato pero mucho más lento. En temporada alta o si se reserva con poca antelación, esos mismos trayectos pueden superar fácilmente los 150–250€.</p>
 
 <h2>Presupuesto diario según tu estilo de viaje</h2>
-<p>Estos rangos son una media nacional: en Río de Janeiro y São Paulo hay que contar con la parte alta de cada horquilla, mientras que en el Nordeste, el interior o el sur (fuera de las zonas más turísticas) se puede bajar bastante.</p>
+<p>Estos rangos son una media nacional: en <a href="/brasil/rio.html">Río de Janeiro</a> y <a href="/brasil/saopaulo.html">São Paulo</a> hay que contar con la parte alta de cada horquilla, mientras que en el <a href="/brasil/nordeste.html">Nordeste</a>, el interior o el sur (fuera de las zonas más turísticas) se puede bajar bastante.</p>
 
 <table class="summary">
 <tr><th>Estilo</th><th>Alojamiento</th><th>Comida</th><th>Transporte</th><th>Actividades</th><th>Total/día</th></tr>
@@ -230,6 +233,8 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <li><a href="/blog/rio-de-janeiro-o-sao-paulo/">Río de Janeiro o São Paulo: ¿cuál elegir?</a></li>
 <li><a href="/blog/fernando-de-noronha-merece-la-pena/">¿Merece la pena Fernando de Noronha?</a></li>
 <li><a href="/blog/amazonia-o-pantanal/">Amazonía o Pantanal: ¿qué merece más la pena?</a></li>
+<li><a href="/brasil/rio.html">Guía de Río de Janeiro</a></li>
+<li><a href="/brasil/saopaulo.html">Guía de São Paulo</a></li>
 <li><a href="/brasil/">Guía completa de Brasil</a></li>
 </ul>
 </div>
