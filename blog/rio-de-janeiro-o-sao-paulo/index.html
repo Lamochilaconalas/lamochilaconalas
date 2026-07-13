@@ -55,11 +55,10 @@ html{scroll-behavior:smooth;background:var(--blog-bg)}
 body{font-family:'Lato',sans-serif;background:var(--blog-bg);color:var(--blog-text);font-size:17px;line-height:1.75;margin:0}
 a{color:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid rgba(245,240,232,.1)}
-.logo{font-family:'Courier Prime',monospace;font-size:13px;letter-spacing:.08em;color:var(--crema);text-decoration:none;text-transform:uppercase}
-.nav-links{display:flex;align-items:center;gap:20px}
-.nav-links a{font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--blog-soft)}
-.btn-plan{background:var(--acc);color:var(--ol);padding:9px 18px;border-radius:24px;font-weight:700}
+nav{position:sticky;top:0;z-index:100;background:rgba(18,17,16,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(245,240,232,.07);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nav-links{display:flex;align-items:center;gap:18px}
+.nav-links a{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,240,232,.55);text-decoration:none}
+.nav-links a.active{color:var(--acc)}
 main{padding:48px 0 60px}
 .kicker{font-family:'Lato',sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--blog-accent);margin-bottom:14px}
 h1{font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 18px;color:var(--blog-text)}
@@ -97,16 +96,20 @@ ol.mistakes li{margin-bottom:14px}
 .btn-secondary{display:inline-block;background:transparent;border:1px solid rgba(242,236,222,.35);color:var(--crema);font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:13px 27px;border-radius:30px;text-decoration:none;margin:6px 8px}
 footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace;font-size:11px;color:var(--blog-soft);border-top:1px solid rgba(245,240,232,.08)}
 @media(max-width:600px){table.summary,table.rating{font-size:13px}table.summary th,table.summary td,table.rating th,table.rating td{padding:9px 6px}}
+
 </style>
 </head>
 <body>
 
 <nav>
-<a class="logo" href="/">La Mochila con Alas</a>
-<div class="nav-links">
-<a href="/blog/">Blog</a>
-<a class="btn-plan" href="/planificador/">Planificador</a>
-</div>
+  <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0">
+    <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
+    <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);opacity:.8">La Mochila con Alas</span>
+  </a>
+  <div class="nav-links">
+    <a href="/blog/" class="active">Blog</a>
+    <a href="/planificador/" style="display:inline-block;background:var(--acc);color:var(--crema);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  </div>
 </nav>
 
 <main class="wrap">
@@ -122,8 +125,8 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <img class="post-img" src="/assets/blog/rio-de-janeiro-o-sao-paulo/hero-1.jpg" alt="Avenida Paulista, São Paulo, Brasil">
 
 <h2>Playa y naturaleza vs. energía urbana</h2>
-<p>Río de Janeiro es, para muchos, la imagen mental de Brasil: playas urbanas como Copacabana e Ipanema, el Cristo Redentor sobre el Corcovado, el Pan de Azúcar y una geografía de montañas que se hunden literalmente en el mar. Es una ciudad pensada para vivirse al aire libre, con la playa como epicentro social durante buena parte del año.</p>
-<p>São Paulo no tiene playa ni ese perfil postal, pero compensa con una escena cultural y gastronómica de primer nivel: el MASP y otros museos de referencia, la Avenida Paulista como corazón cultural y comercial, y una oferta de restaurantes que refleja su enorme diversidad migratoria —italiana, japonesa, árabe, entre otras. Es la ciudad para quien prioriza museos, arquitectura y mesa por encima del paisaje.</p>
+<p><a href="/brasil/rio.html">Río de Janeiro</a> es, para muchos, la imagen mental de Brasil: playas urbanas como Copacabana e Ipanema, el Cristo Redentor sobre el Corcovado, el Pan de Azúcar y una geografía de montañas que se hunden literalmente en el mar. Es una ciudad pensada para vivirse al aire libre, con la playa como epicentro social durante buena parte del año.</p>
+<p><a href="/brasil/saopaulo.html">São Paulo</a> no tiene playa ni ese perfil postal, pero compensa con una escena cultural y gastronómica de primer nivel: el MASP y otros museos de referencia, la Avenida Paulista como corazón cultural y comercial, y una oferta de restaurantes que refleja su enorme diversidad migratoria —italiana, japonesa, árabe, entre otras. Es la ciudad para quien prioriza museos, arquitectura y mesa por encima del paisaje.</p>
 
 <h2>Seguridad: qué dicen los datos</h2>
 <p>Por tasa de homicidios, São Paulo sale claramente mejor parada: el estado registra unos 5,7 homicidios por cada 100.000 habitantes, frente a los aproximadamente 17,1 del estado de Río de Janeiro. Las cifras corresponden a los estados, no exclusivamente a las capitales, así que hay que tomarlas como un indicador general y no como una medición exacta de cada ciudad. Dicho esto, el patrón de delincuencia también es distinto en cada una: en Río, los hurtos y tirones tienden a concentrarse en las zonas turísticas de playa (Copacabana, Ipanema), mientras que en São Paulo el delito se concentra más en corredores específicos alejados de las zonas donde se mueve un visitante habitual. En ambas ciudades, el sentido común de siempre —no exhibir el móvil, evitar entrar en favelas sin guía autorizado, moverte en Uber de noche— reduce el riesgo drásticamente.</p>
@@ -198,6 +201,8 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <li><a href="/blog/cuanto-cuesta-viajar-brasil/">¿Cuánto cuesta viajar a Brasil?</a></li>
 <li><a href="/blog/fernando-de-noronha-merece-la-pena/">¿Merece la pena Fernando de Noronha?</a></li>
 <li><a href="/blog/amazonia-o-pantanal/">Amazonía o Pantanal: ¿qué merece más la pena?</a></li>
+<li><a href="/brasil/rio.html">Guía de Río de Janeiro</a></li>
+<li><a href="/brasil/saopaulo.html">Guía de São Paulo</a></li>
 <li><a href="/brasil/">Guía completa de Brasil</a></li>
 </ul>
 </div>
