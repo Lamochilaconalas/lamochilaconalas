@@ -55,11 +55,10 @@ html{scroll-behavior:smooth;background:var(--blog-bg)}
 body{font-family:'Lato',sans-serif;background:var(--blog-bg);color:var(--blog-text);font-size:17px;line-height:1.75;margin:0}
 a{color:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:0 24px}
-nav{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid rgba(245,240,232,.1)}
-.logo{font-family:'Courier Prime',monospace;font-size:13px;letter-spacing:.08em;color:var(--crema);text-decoration:none;text-transform:uppercase}
-.nav-links{display:flex;align-items:center;gap:20px}
-.nav-links a{font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--blog-soft)}
-.btn-plan{background:var(--acc);color:var(--ol);padding:9px 18px;border-radius:24px;font-weight:700}
+nav{position:sticky;top:0;z-index:100;background:rgba(18,17,16,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(245,240,232,.07);padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nav-links{display:flex;align-items:center;gap:18px}
+.nav-links a{font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,240,232,.55);text-decoration:none}
+.nav-links a.active{color:var(--acc)}
 main{padding:48px 0 60px}
 .kicker{font-family:'Lato',sans-serif;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--blog-accent);margin-bottom:14px}
 h1{font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 18px;color:var(--blog-text)}
@@ -94,16 +93,20 @@ ol.mistakes li{margin-bottom:14px}
 .btn-secondary{display:inline-block;background:transparent;border:1px solid rgba(242,236,222,.35);color:var(--crema);font-family:'Courier Prime',monospace;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:13px 27px;border-radius:30px;text-decoration:none;margin:6px 8px}
 footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace;font-size:11px;color:var(--blog-soft);border-top:1px solid rgba(245,240,232,.08)}
 @media(max-width:600px){table.rating{font-size:13px}table.rating th,table.rating td{padding:9px 6px}}
+
 </style>
 </head>
 <body>
 
 <nav>
-<a class="logo" href="/">La Mochila con Alas</a>
-<div class="nav-links">
-<a href="/blog/">Blog</a>
-<a class="btn-plan" href="/planificador/">Planificador</a>
-</div>
+  <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0">
+    <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
+    <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);opacity:.8">La Mochila con Alas</span>
+  </a>
+  <div class="nav-links">
+    <a href="/blog/" class="active">Blog</a>
+    <a href="/planificador/" style="display:inline-block;background:var(--acc);color:var(--crema);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  </div>
 </nav>
 
 <main class="wrap">
@@ -134,7 +137,7 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <p style="font-style:italic;color:var(--blog-soft)">Amazonía y Pantanal no ofrecen la misma experiencia. Elegir uno u otro no es tanto una cuestión de cuál es "mejor", sino de qué tipo de naturaleza quieres vivir.</p>
 
 <h2>Cómo llegar y logística</h2>
-<p>A la Amazonía brasileña se accede normalmente por Manaus, desde donde se organizan traslados a lodges de selva situados a varias horas en barco o coche. Al Pantanal se accede por dos puertas distintas según la zona: Cuiabá para el Pantanal Norte (más orientado al avistamiento de jaguares vía la Transpantaneira, la única carretera de la región) y Campo Grande para el Pantanal Sur (más centrado en fazendas y safaris terrestres). En ambos casos, lo habitual es enlazar el vuelo desde <a href="/blog/rio-de-janeiro-o-sao-paulo/">Río o São Paulo</a>, ya que ninguno de los dos destinos tiene conexiones internacionales directas. Ambos destinos requieren, en la práctica, contratar un lodge o una fazenda con guía: moverse por libre reduce muchísimo las posibilidades de ver fauna y complica la logística.</p>
+<p>A la <a href="/brasil/amazonia.html">Amazonía brasileña</a> se accede normalmente por Manaus, desde donde se organizan traslados a lodges de selva situados a varias horas en barco o coche. Al <a href="/brasil/iguazupantanal.html">Pantanal</a> se accede por dos puertas distintas según la zona: Cuiabá para el Pantanal Norte (más orientado al avistamiento de jaguares vía la Transpantaneira, la única carretera de la región) y Campo Grande para el Pantanal Sur (más centrado en fazendas y safaris terrestres). En ambos casos, lo habitual es enlazar el vuelo desde <a href="/blog/rio-de-janeiro-o-sao-paulo/">Río o São Paulo</a>, ya que ninguno de los dos destinos tiene conexiones internacionales directas. Ambos destinos requieren, en la práctica, contratar un lodge o una fazenda con guía: moverse por libre reduce muchísimo las posibilidades de ver fauna y complica la logística.</p>
 
 <h2>Cuándo ir</h2>
 <p>En el Pantanal, la temporada seca (aproximadamente entre junio y octubre) es, con diferencia, la mejor época: el agua se retira, los animales se concentran junto a los cursos de agua que quedan y los avistamientos se disparan. En temporada de lluvias, gran parte del territorio queda inundado, el acceso se complica y muchos lodges cierran. En la Amazonía la lógica es distinta: la época de aguas altas (aproximadamente diciembre-mayo) es mejor para explorar la selva inundada en canoa, mientras que la de aguas bajas facilita más las caminatas por tierra firme.</p>
@@ -203,6 +206,8 @@ footer{text-align:center;padding:30px 24px;font-family:'Courier Prime',monospace
 <li><a href="/blog/cuanto-cuesta-viajar-brasil/">¿Cuánto cuesta viajar a Brasil?</a></li>
 <li><a href="/blog/rio-de-janeiro-o-sao-paulo/">Río de Janeiro o São Paulo: ¿cuál elegir?</a></li>
 <li><a href="/blog/fernando-de-noronha-merece-la-pena/">¿Merece la pena Fernando de Noronha?</a></li>
+<li><a href="/brasil/amazonia.html">Guía de la Amazonía</a></li>
+<li><a href="/brasil/iguazupantanal.html">Guía de Foz do Iguaçu y Pantanal</a></li>
 <li><a href="/brasil/">Guía completa de Brasil</a></li>
 </ul>
 </div>
