@@ -218,6 +218,15 @@
       .pres-val{font-size:10.5px}
       .pres-total{font-size:16px;margin-top:10px;padding-top:8px}
     }
+    /* DEL BLOG */
+    .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+    .blog-card{display:block;text-decoration:none;background:rgba(64,70,74,.35);border-radius:14px;padding:22px;border:1px solid rgba(237,231,218,.08);transition:border-color .18s,transform .18s}
+    .blog-card:hover{border-color:rgba(201,106,52,.35);transform:translateY(-2px)}
+    .blog-card-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    .blog-thumb{width:44px;height:44px;border-radius:50%;flex-shrink:0;overflow:hidden;background:rgba(201,106,52,.1);border:1px solid rgba(201,106,52,.25)}
+    .blog-thumb img{width:100%;height:100%;object-fit:cover}
+    .blog-card-kicker{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--hib);margin-bottom:4px}
+    .blog-card h3{font-size:15px;color:var(--crema);margin:0;line-height:1.3;font-weight:700}
   </style>
 </head>
 <body>
@@ -232,6 +241,7 @@
     <a href="#cuando" class="nav-link">Cuándo ir</a>
     <a href="#presupuesto" class="nav-link">Presupuesto</a>
     <a href="#itinerarios" class="nav-link">Itinerarios</a>
+    <a href="/blog/" class="nav-link">Blog</a>
     <a href="#faq" class="nav-link">FAQ</a>
     <a href="/planificador/?destino=montenegro" class="nav-link nav-cta">Planificador</a>
   </div>
@@ -307,7 +317,7 @@
   <p class="section-sub">De la bahía de Kotor a las montañas de Durmitor, cada zona de Montenegro tiene un paisaje y un ritmo completamente distintos pese a la cercanía entre ellas.</p>
   <div class="zonas-grid">
 
-    <a href="/montenegro/bahia-de-kotor/" class="zona-card z-kotor">
+    <a href="/montenegro/bahiadekotor.html" class="zona-card z-kotor">
       <div class="zona-inner">
         <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
           <path d="M4,30 Q14,14 24,26 Q34,14 44,30" stroke="white" stroke-width="2" fill="none" opacity="0.4"/>
@@ -325,7 +335,7 @@
       </div>
     </a>
 
-    <a href="/montenegro/riviera-de-budva/" class="zona-card z-budva">
+    <a href="/montenegro/rivieradebudva.html" class="zona-card z-budva">
       <div class="zona-inner">
         <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
           <path d="M4,28 Q16,14 24,24 Q32,14 44,28" stroke="white" stroke-width="2" fill="none" opacity="0.4"/>
@@ -342,7 +352,7 @@
       </div>
     </a>
 
-    <a href="/montenegro/costa-sur/" class="zona-card z-costasur">
+    <a href="/montenegro/costasur.html" class="zona-card z-costasur">
       <div class="zona-inner">
         <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
           <path d="M4,30 Q24,20 44,30" stroke="white" stroke-width="2" fill="none" opacity="0.4"/>
@@ -360,7 +370,7 @@
       </div>
     </a>
 
-    <a href="/montenegro/cetinje-lovcen/" class="zona-card z-cetinje">
+    <a href="/montenegro/cetinjelovcen.html" class="zona-card z-cetinje">
       <div class="zona-inner">
         <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
           <path d="M8,32 L18,12 L28,32 Z" stroke="white" stroke-width="1.5" fill="none" opacity="0.35"/>
@@ -378,7 +388,7 @@
       </div>
     </a>
 
-    <a href="/montenegro/durmitor-norte/" class="zona-card z-durmitor">
+    <a href="/montenegro/durmitornorte.html" class="zona-card z-durmitor">
       <div class="zona-inner">
         <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
           <path d="M4,32 L14,12 L24,32 Z" stroke="white" stroke-width="1.5" fill="none" opacity="0.35"/>
@@ -530,6 +540,44 @@
     <div class="itin-body">
       <p style="font-size:14px;color:rgba(237,231,218,.6);line-height:1.75;margin-bottom:0">La ruta de una semana, añadiendo <strong style="color:var(--crema)">2-3 días en la Costa Sur</strong> (Ulcinj, Ada Bojana) y ampliando el tiempo en Durmitor para hacer rafting en el cañón del Tara o rutas de trekking de varios días entre los lagos glaciares. Con dos semanas hay margen también para cruzar a Albania o Bosnia y Herzegovina, ambos a pocas horas de carretera.</p>
     </div>
+  </div>
+</div>
+</section>
+
+<!-- DEL BLOG -->
+<section class="dark">
+<div class="container">
+  <span class="label">Del blog</span>
+  <h2>Sigue leyendo <em>sobre Montenegro</em></h2>
+  <div class="divider"></div>
+  <div class="blog-grid">
+    <a href="/blog/montenegro-merece-la-pena/" class="blog-card">
+      <div class="blog-card-top">
+        <div class="blog-thumb"><img src="/assets/blog/montenegro-merece-la-pena/hero-1.jpg" alt=""/></div>
+        <div>
+          <p class="blog-card-kicker">Destino</p>
+        </div>
+      </div>
+      <h3>¿Merece la pena viajar a Montenegro?</h3>
+    </a>
+    <a href="/blog/montenegro-cuantos-dias/" class="blog-card">
+      <div class="blog-card-top">
+        <div class="blog-thumb"><img src="/assets/blog/montenegro-cuantos-dias/hero-1.jpg" alt=""/></div>
+        <div>
+          <p class="blog-card-kicker">Itinerario</p>
+        </div>
+      </div>
+      <h3>¿Cuántos días necesitas para visitar Montenegro?</h3>
+    </a>
+    <a href="/blog/kotor-o-budva/" class="blog-card">
+      <div class="blog-card-top">
+        <div class="blog-thumb"><img src="/assets/blog/kotor-o-budva/hero-1.jpg" alt=""/></div>
+        <div>
+          <p class="blog-card-kicker">Alojamiento</p>
+        </div>
+      </div>
+      <h3>Kotor o Budva: ¿dónde dormir?</h3>
+    </a>
   </div>
 </div>
 </section>
