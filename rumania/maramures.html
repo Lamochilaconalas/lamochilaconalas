@@ -70,8 +70,10 @@
     p strong{color:var(--crema)}
     p:last-child{margin-bottom:0}
     .hero{min-height:60vh;display:flex;align-items:center;padding:52px 0 40px;position:relative;overflow:hidden;background:linear-gradient(170deg,#232C4A 0%,#161B2E 45%,#0C0F1C 100%)}
+    .hero-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(212,160,57,.06) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
     .hero-content{position:relative;z-index:1}
     .divider{width:40px;height:2px;background:var(--bug);margin:16px 0;opacity:.6}
+    .silhouette{display:block;margin:0 auto 20px}
     .hero-stats{display:flex;gap:28px;margin-top:24px;flex-wrap:wrap}
     .hero-stat-num{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--bug);display:block}
     .hero-stat-lbl{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.5)}
@@ -137,14 +139,21 @@
     <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
     <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bug);opacity:.8">La Mochila con Alas</span>
   </a>
-  <div class="nav-links">
-    <a href="/planificador/?destino=maramures" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  <div style="display:flex;align-items:center;gap:18px">
+    <a href="/blog/" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.55);text-decoration:none">Blog</a>
+    <a href="/planificador/?destino=maramures" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-family:'Courier Prime',monospace;font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;flex-shrink:0">Planificador</a>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-grid"></div>
   <div class="container hero-content">
+    <div style="display:flex;gap:8px;margin-bottom:24px;align-items:center">
+      <a href="/rumania/" style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.32);text-decoration:none">Rumanía</a>
+      <span style="color:rgba(241,238,230,.16)">/</span>
+      <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug)">Maramureș</span>
+    </div>
     <span class="label">Rumanía · Norte, frontera con Ucrania</span>
     <h1>Maramureș</h1>
     <div class="divider"></div>
@@ -154,6 +163,13 @@
       <div class="hero-stat"><span class="hero-stat-num">8</span><span class="hero-stat-lbl">Iglesias de madera UNESCO</span></div>
       <div class="hero-stat"><span class="hero-stat-num">S.XVII-XIX</span><span class="hero-stat-lbl">Época de construcción</span></div>
       <div class="hero-stat"><span class="hero-stat-num">Coche</span><span class="hero-stat-lbl">Forma más práctica de moverse</span></div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+      <a href="#iglesias-madera" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug);text-decoration:none;border-bottom:1px solid rgba(212,160,57,.3);padding-bottom:2px">Iglesias de madera ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#sapanta-memoria" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Săpânța ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#joyas-escondidas" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Joyas escondidas ↓</a>
     </div>
   </div>
 </section>
@@ -188,6 +204,16 @@
 <!-- IGLESIAS DE MADERA -->
 <section class="dark" id="iglesias-madera">
 <div class="container">
+
+  <svg class="silhouette" width="200" height="120" viewBox="0 0 200 120" fill="none">
+    <!-- Iglesia de madera de Maramureș, aguja muy alta -->
+    <rect x="70" y="70" width="60" height="45" fill="white" opacity="0.24"/>
+    <path d="M64,70 L100,20 L136,70 Z" fill="white" opacity="0.3"/>
+    <rect x="94" y="0" width="12" height="24" fill="white" opacity="0.34"/>
+    <path d="M94,0 L100,-12 L106,0 Z" fill="white" opacity="0.38"/>
+    <rect x="0" y="115" width="200" height="4" fill="white" opacity="0.14"/>
+  </svg>
+
   <span class="label">Patrimonio de la Humanidad</span>
   <h2>Iglesias<br/><em>de madera</em></h2>
   <div class="divider"></div>
@@ -217,6 +243,17 @@
 <!-- SAPANTA Y MEMORIA -->
 <section id="sapanta-memoria">
 <div class="container">
+
+  <svg class="silhouette" width="220" height="90" viewBox="0 0 220 90" fill="none">
+    <!-- Fila de cruces del Cementerio Alegre -->
+    <rect x="14" y="40" width="6" height="35" fill="white" opacity="0.22"/><rect x="4" y="52" width="26" height="6" fill="white" opacity="0.22"/>
+    <rect x="54" y="30" width="6" height="45" fill="white" opacity="0.26"/><rect x="44" y="44" width="26" height="6" fill="white" opacity="0.26"/>
+    <rect x="94" y="36" width="6" height="39" fill="white" opacity="0.24"/><rect x="84" y="49" width="26" height="6" fill="white" opacity="0.24"/>
+    <rect x="134" y="26" width="6" height="49" fill="white" opacity="0.28"/><rect x="124" y="42" width="26" height="6" fill="white" opacity="0.28"/>
+    <rect x="174" y="34" width="6" height="41" fill="white" opacity="0.24"/><rect x="164" y="47" width="26" height="6" fill="white" opacity="0.24"/>
+    <rect x="0" y="75" width="220" height="4" fill="white" opacity="0.14"/>
+  </svg>
+
   <span class="label">Historia y tradición</span>
   <h2>Săpânța<br/><em>y la memoria de Maramureș</em></h2>
   <div class="divider"></div>

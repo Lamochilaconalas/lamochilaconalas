@@ -71,8 +71,10 @@
     p strong{color:var(--crema)}
     p:last-child{margin-bottom:0}
     .hero{min-height:60vh;display:flex;align-items:center;padding:52px 0 40px;position:relative;overflow:hidden;background:linear-gradient(170deg,#232C4A 0%,#161B2E 45%,#0C0F1C 100%)}
+    .hero-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(212,160,57,.06) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
     .hero-content{position:relative;z-index:1}
     .divider{width:40px;height:2px;background:var(--bug);margin:16px 0;opacity:.6}
+    .silhouette{display:block;margin:0 auto 20px}
     .hero-stats{display:flex;gap:28px;margin-top:24px;flex-wrap:wrap}
     .hero-stat-num{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--bug);display:block}
     .hero-stat-lbl{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.5)}
@@ -134,14 +136,21 @@
     <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
     <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bug);opacity:.8">La Mochila con Alas</span>
   </a>
-  <div class="nav-links">
-    <a href="/planificador/?destino=bucarest" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  <div style="display:flex;align-items:center;gap:18px">
+    <a href="/blog/" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.55);text-decoration:none">Blog</a>
+    <a href="/planificador/?destino=bucarest" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-family:'Courier Prime',monospace;font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;flex-shrink:0">Planificador</a>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-grid"></div>
   <div class="container hero-content">
+    <div style="display:flex;gap:8px;margin-bottom:24px;align-items:center">
+      <a href="/rumania/" style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.32);text-decoration:none">Rumanía</a>
+      <span style="color:rgba(241,238,230,.16)">/</span>
+      <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug)">Bucarest</span>
+    </div>
     <span class="label">Rumanía · Capital</span>
     <h1>Bucarest, la <em>capital</em><br/>que sorprende</h1>
     <div class="divider"></div>
@@ -152,12 +161,34 @@
       <div class="hero-stat"><span class="hero-stat-num">4</span><span class="hero-stat-lbl">Líneas de metro</span></div>
       <div class="hero-stat"><span class="hero-stat-num">~0,60€</span><span class="hero-stat-lbl">Billete sencillo de metro</span></div>
     </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+      <a href="#casco-antiguo" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug);text-decoration:none;border-bottom:1px solid rgba(212,160,57,.3);padding-bottom:2px">Casco Antiguo ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#calea-victoriei" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Calea Victoriei ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#religion" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Lugares religiosos ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#joyas-escondidas" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Joyas escondidas ↓</a>
+    </div>
   </div>
 </section>
 
 <!-- CASCO ANTIGUO -->
 <section class="dark" id="casco-antiguo">
 <div class="container">
+
+  <svg class="silhouette" width="260" height="100" viewBox="0 0 260 100" fill="none">
+    <!-- Fachadas de Lipscani, tejados a dos aguas -->
+    <rect x="0" y="55" width="40" height="35" fill="white" opacity="0.2"/><path d="M-4,55 L20,38 L44,55 Z" fill="white" opacity="0.26"/>
+    <rect x="44" y="45" width="36" height="45" fill="white" opacity="0.24"/><path d="M40,45 L62,26 L84,45 Z" fill="white" opacity="0.3"/>
+    <rect x="84" y="60" width="30" height="30" fill="white" opacity="0.2"/><path d="M80,60 L99,45 L118,60 Z" fill="white" opacity="0.26"/>
+    <rect x="118" y="30" width="24" height="60" fill="white" opacity="0.3"/><circle cx="130" cy="20" r="10" fill="white" opacity="0.34"/>
+    <rect x="146" y="50" width="34" height="40" fill="white" opacity="0.22"/><path d="M142,50 L163,32 L184,50 Z" fill="white" opacity="0.28"/>
+    <rect x="184" y="58" width="38" height="32" fill="white" opacity="0.2"/><path d="M180,58 L203,42 L226,58 Z" fill="white" opacity="0.26"/>
+    <rect x="226" y="48" width="32" height="42" fill="white" opacity="0.24"/><path d="M222,48 L242,30 L262,48 Z" fill="white" opacity="0.3"/>
+    <rect x="0" y="90" width="260" height="4" fill="white" opacity="0.14"/>
+  </svg>
+
   <span class="label">El punto de partida</span>
   <h2>Casco Antiguo<br/><em>de Lipscani</em></h2>
   <div class="divider"></div>
@@ -181,6 +212,20 @@
 <!-- CALEA VICTORIEI Y EL PARLAMENTO -->
 <section id="calea-victoriei">
 <div class="container">
+
+  <svg class="silhouette" width="260" height="100" viewBox="0 0 260 100" fill="none">
+    <!-- Palacio del Parlamento: fachada monumental con columnas -->
+    <rect x="20" y="40" width="220" height="50" fill="white" opacity="0.22"/>
+    <rect x="30" y="20" width="16" height="70" fill="white" opacity="0.28"/>
+    <rect x="60" y="20" width="16" height="70" fill="white" opacity="0.28"/>
+    <rect x="90" y="14" width="20" height="76" fill="white" opacity="0.32"/>
+    <rect x="122" y="8" width="24" height="82" fill="white" opacity="0.36"/>
+    <rect x="158" y="14" width="20" height="76" fill="white" opacity="0.32"/>
+    <rect x="188" y="20" width="16" height="70" fill="white" opacity="0.28"/>
+    <rect x="216" y="20" width="16" height="70" fill="white" opacity="0.28"/>
+    <rect x="10" y="90" width="240" height="4" fill="white" opacity="0.16"/>
+  </svg>
+
   <span class="label">Historia y poder</span>
   <h2>Calea Victoriei<br/><em>y el Parlamento</em></h2>
   <div class="divider"></div>

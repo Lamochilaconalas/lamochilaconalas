@@ -70,8 +70,10 @@
     p strong{color:var(--crema)}
     p:last-child{margin-bottom:0}
     .hero{min-height:60vh;display:flex;align-items:center;padding:52px 0 40px;position:relative;overflow:hidden;background:linear-gradient(170deg,#232C4A 0%,#161B2E 45%,#0C0F1C 100%)}
+    .hero-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(212,160,57,.06) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
     .hero-content{position:relative;z-index:1}
     .divider{width:40px;height:2px;background:var(--bug);margin:16px 0;opacity:.6}
+    .silhouette{display:block;margin:0 auto 20px}
     .hero-stats{display:flex;gap:28px;margin-top:24px;flex-wrap:wrap}
     .hero-stat-num{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--bug);display:block}
     .hero-stat-lbl{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.5)}
@@ -133,14 +135,21 @@
     <img src="/assets/logo.png" alt="La Mochila con Alas" style="width:30px;height:30px;object-fit:contain"/>
     <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bug);opacity:.8">La Mochila con Alas</span>
   </a>
-  <div class="nav-links">
-    <a href="/planificador/?destino=cluj" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-weight:700;flex-shrink:0">Planificador</a>
+  <div style="display:flex;align-items:center;gap:18px">
+    <a href="/blog/" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:rgba(241,238,230,.55);text-decoration:none">Blog</a>
+    <a href="/planificador/?destino=cluj" style="display:inline-block;background:var(--bug);color:var(--ol);padding:8px 18px;border-radius:8px;text-decoration:none;font-family:'Courier Prime',monospace;font-weight:700;font-size:10px;letter-spacing:.12em;text-transform:uppercase;flex-shrink:0">Planificador</a>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-grid"></div>
   <div class="container hero-content">
+    <div style="display:flex;gap:8px;margin-bottom:24px;align-items:center">
+      <a href="/rumania/" style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.32);text-decoration:none">Rumanía</a>
+      <span style="color:rgba(241,238,230,.16)">/</span>
+      <span style="font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug)">Cluj y Transilvania Occidental</span>
+    </div>
     <span class="label">Rumanía · Oeste de Transilvania</span>
     <h1>Cluj y<br/><em>Transilvania Occidental</em></h1>
     <div class="divider"></div>
@@ -151,12 +160,32 @@
       <div class="hero-stat"><span class="hero-stat-num">1.500</span><span class="hero-stat-lbl">Cuevas en los Montes Apuseni</span></div>
       <div class="hero-stat"><span class="hero-stat-num">Jul-Ago</span><span class="hero-stat-lbl">Festival Untold en Cluj</span></div>
     </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+      <a href="#cluj-napoca" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--bug);text-decoration:none;border-bottom:1px solid rgba(212,160,57,.3);padding-bottom:2px">Cluj-Napoca ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#salinas-alba" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Salina Turda ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#apuseni" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Montes Apuseni ↓</a>
+      <span style="color:rgba(241,238,230,.2)">·</span>
+      <a href="#joyas-escondidas" style="font-family:'Courier Prime',monospace;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:rgba(241,238,230,.45);text-decoration:none;border-bottom:1px solid rgba(241,238,230,.15);padding-bottom:2px">Joyas escondidas ↓</a>
+    </div>
   </div>
 </section>
 
 <!-- CLUJ-NAPOCA -->
 <section class="dark" id="cluj-napoca">
 <div class="container">
+
+  <svg class="silhouette" width="220" height="110" viewBox="0 0 220 110" fill="none">
+    <!-- Iglesia de San Miguel, torre gótica única -->
+    <rect x="90" y="30" width="40" height="65" fill="white" opacity="0.24"/>
+    <rect x="98" y="10" width="24" height="26" fill="white" opacity="0.3"/>
+    <path d="M98,10 L110,-10 L122,10 Z" fill="white" opacity="0.36"/>
+    <rect x="60" y="55" width="26" height="40" fill="white" opacity="0.18"/><path d="M56,55 L73,42 L90,55 Z" fill="white" opacity="0.22"/>
+    <rect x="134" y="55" width="26" height="40" fill="white" opacity="0.18"/><path d="M130,55 L147,42 L164,55 Z" fill="white" opacity="0.22"/>
+    <rect x="0" y="95" width="220" height="4" fill="white" opacity="0.14"/>
+  </svg>
+
   <span class="label">La ciudad más joven del país</span>
   <h2>Cluj-Napoca</h2>
   <div class="divider"></div>
@@ -193,6 +222,14 @@
 <!-- SALINAS Y ALBA IULIA -->
 <section id="salinas-alba">
 <div class="container">
+
+  <svg class="silhouette" width="220" height="90" viewBox="0 0 220 90" fill="none">
+    <!-- Bastiones en forma de estrella de Alba Carolina -->
+    <path d="M20,80 L35,50 L20,45 L45,30 L40,50 L70,35 L55,55 L85,50 L60,65 L90,75 L55,72 L65,85 Z" fill="white" opacity="0.2"/>
+    <path d="M120,80 L135,50 L120,45 L145,30 L140,50 L170,35 L155,55 L185,50 L160,65 L190,75 L155,72 L165,85 Z" fill="white" opacity="0.2"/>
+    <rect x="0" y="80" width="220" height="4" fill="white" opacity="0.16"/>
+  </svg>
+
   <span class="label">Bajo tierra y entre murallas</span>
   <h2>Salinas de Turda<br/><em>y Alba Iulia</em></h2>
   <div class="divider"></div>
