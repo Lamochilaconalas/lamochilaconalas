@@ -81,11 +81,28 @@
     .razon h4{color:var(--bug);font-size:17px;margin-bottom:4px}
     .zonas-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
     @media(max-width:640px){.zonas-grid{grid-template-columns:1fr}}
-    .zona-card{background:var(--ol-l);border-radius:12px;padding:20px;border:1px solid rgba(241,238,230,.06);text-decoration:none;display:block;transition:none}
-    section.dark .zona-card{background:var(--ol)}
-    .zona-card .zona-num{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--bug);display:block;margin-bottom:8px}
-    .zona-card h4{color:var(--crema);font-size:19px;margin-bottom:6px}
-    .zona-card p{font-size:13.5px;color:rgba(241,238,230,.55);margin-bottom:0}
+    .zona-card{border-radius:16px;overflow:hidden;border:1px solid rgba(241,238,230,.08);text-decoration:none;display:block;position:relative}
+    .zona-inner{padding:28px 24px 22px}
+    .zona-icon{margin-bottom:16px}
+    .zona-name{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--crema);margin-bottom:6px}
+    .zona-tag{font-family:'Courier Prime',monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;display:block}
+    .zona-desc{font-size:13px;color:rgba(241,238,230,.55);line-height:1.65;margin-bottom:18px}
+    .zona-cities{display:flex;flex-wrap:wrap;gap:6px}
+    .zona-city{font-size:11px;font-weight:700;background:rgba(22,27,46,.5);border:1px solid rgba(241,238,230,.1);border-radius:6px;padding:3px 10px;color:rgba(241,238,230,.45)}
+    .z-bucarest{background:linear-gradient(135deg,#14121c 0%,#2e2314 100%)}
+    .z-bucarest .zona-tag{color:#D4A039}
+    .z-transilvania{background:linear-gradient(135deg,#1a1416 0%,#3a2018 100%)}
+    .z-transilvania .zona-tag{color:#C9793A}
+    .z-cluj{background:linear-gradient(135deg,#0d1a1a 0%,#173a2e 100%)}
+    .z-cluj .zona-tag{color:#5FA88A}
+    .z-maramures{background:linear-gradient(135deg,#181410 0%,#3a2c14 100%)}
+    .z-maramures .zona-tag{color:#B08050}
+    .z-bucovina{background:linear-gradient(135deg,#0d1620 0%,#16324a 100%)}
+    .z-bucovina .zona-tag{color:#6FB8D9}
+    .z-delta{background:linear-gradient(135deg,#0f1c14 0%,#1e3a24 100%)}
+    .z-delta .zona-tag{color:#7FBF6A}
+    .z-costa{background:linear-gradient(135deg,#0d1a1e 0%,#123a3e 100%)}
+    .z-costa .zona-tag{color:#4FBFC4}
     .clima-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
     @media(max-width:640px){.clima-grid{grid-template-columns:1fr}}
     .clima-card{background:var(--ol);border-radius:12px;padding:18px;border:1px solid rgba(241,238,230,.06)}
@@ -190,41 +207,133 @@
   <h2>Explora <em>Rumanía</em></h2>
   <div class="divider"></div>
   <div class="zonas-grid">
-    <a href="/rumania/bucarest/" class="zona-card">
-      <span class="zona-num">01 · Capital</span>
-      <h4>Bucarest</h4>
-      <p>El Casco Antiguo, el Palacio del Parlamento y la mejor relación calidad-precio de una capital europea.</p>
+
+    <a href="/rumania/bucarest/" class="zona-card z-bucarest">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <rect x="14" y="16" width="6" height="16" fill="white" opacity="0.35"/>
+          <rect x="21" y="10" width="6" height="22" fill="white" opacity="0.4"/>
+          <rect x="28" y="16" width="6" height="16" fill="white" opacity="0.35"/>
+          <rect x="8" y="30" width="32" height="3" fill="white" opacity="0.25"/>
+        </svg>
+        <p class="zona-name">Bucarest</p>
+        <span class="zona-tag">Capital · Palacio del Parlamento</span>
+        <p class="zona-desc">El Casco Antiguo, el Palacio del Parlamento y la mejor relación calidad-precio de una capital europea.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Lipscani</span>
+          <span class="zona-city">Parlamento</span>
+          <span class="zona-city">Cărturești</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/transilvania/" class="zona-card">
-      <span class="zona-num">02 · Imprescindible</span>
-      <h4>Transilvania Central</h4>
-      <p>Brasov, Bran, Sighișoara, Sibiu y el Transfăgărășan: el corazón turístico del país.</p>
+
+    <a href="/rumania/transilvania/" class="zona-card z-transilvania">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <rect x="18" y="16" width="12" height="16" fill="white" opacity="0.35"/>
+          <path d="M14,16 Q24,4 34,16 Z" fill="white" opacity="0.4"/>
+          <rect x="8" y="22" width="8" height="10" fill="white" opacity="0.25"/>
+          <rect x="32" y="22" width="8" height="10" fill="white" opacity="0.25"/>
+        </svg>
+        <p class="zona-name">Transilvania Central</p>
+        <span class="zona-tag">Imprescindible · Castillos</span>
+        <p class="zona-desc">Brasov, Bran, Sighișoara, Sibiu y el Transfăgărășan: el corazón turístico del país.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Brasov</span>
+          <span class="zona-city">Bran</span>
+          <span class="zona-city">Sighișoara</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/cluj/" class="zona-card">
-      <span class="zona-num">03 · Oeste</span>
-      <h4>Cluj y Transilvania Occidental</h4>
-      <p>La ciudad más joven del país, la Salina Turda y los Montes Apuseni.</p>
+
+    <a href="/rumania/cluj/" class="zona-card z-cluj">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <rect x="20" y="10" width="8" height="22" fill="white" opacity="0.35"/>
+          <rect x="17" y="4" width="14" height="6" fill="white" opacity="0.4"/>
+          <path d="M2,32 L12,18 L20,32 Z" fill="white" opacity="0.22"/>
+        </svg>
+        <p class="zona-name">Cluj y Transilvania Occidental</p>
+        <span class="zona-tag">Oeste · Salina Turda</span>
+        <p class="zona-desc">La ciudad más joven del país, la Salina Turda y los Montes Apuseni.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Cluj-Napoca</span>
+          <span class="zona-city">Salina Turda</span>
+          <span class="zona-city">Apuseni</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/maramures/" class="zona-card">
-      <span class="zona-num">04 · Norte</span>
-      <h4>Maramureș</h4>
-      <p>Iglesias de madera UNESCO y el Cementerio Alegre de Săpânța.</p>
+
+    <a href="/rumania/maramures/" class="zona-card z-maramures">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <rect x="20" y="18" width="8" height="14" fill="white" opacity="0.35"/>
+          <path d="M17,18 L24,4 L31,18 Z" fill="white" opacity="0.4"/>
+          <rect x="22" y="0" width="4" height="6" fill="white" opacity="0.4"/>
+        </svg>
+        <p class="zona-name">Maramureș</p>
+        <span class="zona-tag">Norte · Iglesias de madera</span>
+        <p class="zona-desc">Iglesias de madera UNESCO y el Cementerio Alegre de Săpânța.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Săpânța</span>
+          <span class="zona-city">Bârsana</span>
+          <span class="zona-city">Ieud</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/bucovina/" class="zona-card">
-      <span class="zona-num">05 · Norte de Moldavia</span>
-      <h4>Bucovina</h4>
-      <p>Los monasterios pintados Patrimonio de la Humanidad.</p>
+
+    <a href="/rumania/bucovina/" class="zona-card z-bucovina">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <rect x="16" y="18" width="16" height="14" fill="white" opacity="0.35"/>
+          <ellipse cx="24" cy="12" rx="7" ry="6" fill="white" opacity="0.4"/>
+          <rect x="22" y="2" width="4" height="8" fill="white" opacity="0.4"/>
+        </svg>
+        <p class="zona-name">Bucovina</p>
+        <span class="zona-tag">Norte de Moldavia · Monasterios</span>
+        <p class="zona-desc">Los monasterios pintados Patrimonio de la Humanidad.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Voronet</span>
+          <span class="zona-city">Sucevița</span>
+          <span class="zona-city">Moldovița</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/delta-danubio/" class="zona-card">
-      <span class="zona-num">06 · Naturaleza</span>
-      <h4>Delta del Danubio</h4>
-      <p>Canales salvajes, pelícanos y caballos en libertad en el bosque de Letea.</p>
+
+    <a href="/rumania/delta-danubio/" class="zona-card z-delta">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <path d="M4,28 Q14,20 24,26 Q34,32 44,22" stroke="white" stroke-width="2" fill="none" opacity="0.35"/>
+          <ellipse cx="30" cy="14" rx="8" ry="5" fill="white" opacity="0.3"/>
+        </svg>
+        <p class="zona-name">Delta del Danubio</p>
+        <span class="zona-tag">Naturaleza · Patrimonio UNESCO</span>
+        <p class="zona-desc">Canales salvajes, pelícanos y caballos en libertad en el bosque de Letea.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Tulcea</span>
+          <span class="zona-city">Letea</span>
+          <span class="zona-city">Sulina</span>
+        </div>
+      </div>
     </a>
-    <a href="/rumania/costa-mar-negro/" class="zona-card">
-      <span class="zona-num">07 · Playa</span>
-      <h4>Costa del Mar Negro</h4>
-      <p>Constanța, Mamaia y las ruinas griegas de Histria, de junio a septiembre.</p>
+
+    <a href="/rumania/costa-mar-negro/" class="zona-card z-costa">
+      <div class="zona-inner">
+        <svg class="zona-icon" width="48" height="40" viewBox="0 0 48 40" fill="none">
+          <path d="M2,26 Q12,20 24,26 Q36,32 46,22" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+          <path d="M2,32 Q12,26 24,32 Q36,38 46,28" stroke="white" stroke-width="2" fill="none" opacity="0.22"/>
+        </svg>
+        <p class="zona-name">Costa del Mar Negro</p>
+        <span class="zona-tag">Playa · Junio-Septiembre</span>
+        <p class="zona-desc">Constanța, Mamaia y las ruinas griegas de Histria, de junio a septiembre.</p>
+        <div class="zona-cities">
+          <span class="zona-city">Constanța</span>
+          <span class="zona-city">Mamaia</span>
+          <span class="zona-city">Vama Veche</span>
+        </div>
+      </div>
     </a>
+
   </div>
 </div>
 </section>
