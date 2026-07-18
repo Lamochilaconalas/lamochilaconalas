@@ -1,0 +1,26 @@
+name: Quitar noindex del sitio
+
+on:
+  workflow_dispatch:
+
+jobs:
+  quitar-noindex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Borrar líneas noindex,nofollow en todos los .html
+        run: |
+          find . -type f -name "*.html" -print0 | xargs -0 sed -i '/noindex,\s*nofollow/d'
+
+      - name: Ver qué archivos cambiaron
+        run: git status
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Quitar noindex,nofollow de todo el sitio para indexación"
+          git push
