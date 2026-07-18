@@ -197,7 +197,7 @@
     }
 
     /* HOW IT WORKS */
-    .how { background: var(--navy-l); }
+    .how { background: var(--navy-l); padding-bottom: 40px; }
     .features-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -206,22 +206,24 @@
     .feature-card {
       background: rgba(13,27,42,0.5);
       border: 1px solid rgba(232,224,212,0.07);
-      border-radius: 14px; padding: 28px 24px;
+      border-radius: 14px; padding: 24px 22px;
+      display: flex; align-items: flex-start; gap: 18px;
     }
     .feature-icon { font-size: 32px; margin-bottom: 16px; }
     .feature-icon-svg {
-      width: 52px; height: 52px; margin-bottom: 18px;
+      width: 44px; height: 44px; flex-shrink: 0;
       display: flex; align-items: center; justify-content: center;
     }
-    .feature-icon-svg svg { width: 40px; height: 40px; }
+    .feature-icon-svg svg { width: 32px; height: 32px; }
+    .feature-text { flex: 1; min-width: 0; }
     .feature-title {
       font-family: 'Playfair Display', serif;
       font-size: 18px; font-weight: 700;
-      color: var(--sand); margin-bottom: 10px;
+      color: var(--sand); margin-bottom: 6px;
     }
     .feature-desc {
       color: rgba(232,224,212,0.5);
-      font-size: 14px; line-height: 1.7;
+      font-size: 14px; line-height: 1.6;
     }
 
     /* COUNTRIES */
@@ -286,7 +288,7 @@
     }
 
     /* BLOG */
-    .blog-promo { background: var(--navy-l); }
+    .blog-promo { background: var(--navy-l); padding-top: 40px; }
     .blog-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -295,15 +297,19 @@
     .blog-card {
       background: var(--navy);
       border: 1px solid rgba(232,224,212,0.07);
-      border-radius: 14px; padding: 26px 24px;
+      border-radius: 14px; padding: 22px 24px;
       text-decoration: none; display: block;
       transition: transform 0.2s, border-color 0.2s;
     }
     .blog-card:hover { transform: translateY(-3px); border-color: rgba(247,201,72,0.3); }
+    .blog-card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+    .blog-card-thumb { width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; overflow: hidden; background: rgba(247,201,72,0.1); border: 1px solid rgba(247,201,72,0.25); }
+    .blog-card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .blog-card-headline { min-width: 0; }
     .blog-card-kicker {
       font-family: 'Courier Prime', monospace;
       font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
-      color: var(--gold); opacity: 0.85; margin-bottom: 10px;
+      color: var(--gold); opacity: 0.85; margin-bottom: 4px;
     }
     .blog-card-title {
       font-family: 'Playfair Display', serif;
@@ -418,6 +424,12 @@
       .hero-stats { gap: 24px; }
       .planner-box { padding: 32px 22px; }
       .hero-btns { flex-direction: column; align-items: center; }
+      .features-grid { gap: 10px; }
+      .feature-card { padding: 16px 16px; gap: 14px; }
+      .feature-icon-svg { width: 34px; height: 34px; }
+      .feature-icon-svg svg { width: 24px; height: 24px; }
+      .feature-title { font-size: 14.5px; margin-bottom: 4px; }
+      .feature-desc { font-size: 12px; line-height: 1.5; }
     }
   </style>
 </head>
@@ -478,8 +490,10 @@
               <path d="M9 3 3 5v16l6-2 6 2 6-2V3l-6 2-6-2Z"/><path d="M9 3v16"/><path d="M15 5v16"/>
             </svg>
           </div>
-          <h3 class="feature-title">Itinerarios día a día</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Itinerarios día a día</h3>
           <p class="feature-desc">Rutas geográficamente eficientes con actividades de mañana, tarde y noche. Sin perder tiempo ni dinero en desplazamientos innecesarios.</p>
+</div>
         </div>
         <div class="feature-card">
           <div class="feature-icon-svg">
@@ -487,8 +501,10 @@
               <circle cx="12" cy="12" r="9"/><path d="M12 6v2M12 16v2"/><path d="M9 9a3 3 0 0 1 3-1.5c1.7 0 3 1 3 2.3 0 2.3-4 2-4 4.4 0 1.3 1.3 2.3 3 2.3a3 3 0 0 0 3-1.5"/>
             </svg>
           </div>
-          <h3 class="feature-title">Tres niveles de presupuesto</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Tres niveles de presupuesto</h3>
           <p class="feature-desc">Mochilero, viajero medio o lujo. Cada guía detalla opciones de alojamiento, transporte y gastronomía para cada bolsillo.</p>
+</div>
         </div>
         <div class="feature-card">
           <div class="feature-icon-svg">
@@ -496,8 +512,10 @@
               <rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><circle cx="7.5" cy="14.5" r="1"/><path d="M12 14.5h5"/>
             </svg>
           </div>
-          <h3 class="feature-title">Visados actualizados</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Visados actualizados</h3>
           <p class="feature-desc">Información de visado por nacionalidad, coste, duración y trámites. Actualizado mensualmente para que no haya sorpresas en la frontera.</p>
+</div>
         </div>
         <div class="feature-card">
           <div class="feature-icon-svg">
@@ -505,8 +523,10 @@
               <circle cx="12" cy="10" r="4"/><path d="M12 2v2M4.9 4.9l1.4 1.4M2 12h2M19.1 4.9l-1.4 1.4M22 12h-2"/><path d="M6 20a6 6 0 0 1 12 0"/>
             </svg>
           </div>
-          <h3 class="feature-title">Mejor época para ir</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Mejor época para ir</h3>
           <p class="feature-desc">Clima mes a mes, temporada alta y baja, festividades locales y consejos para evitar las multitudes y el mal tiempo.</p>
+</div>
         </div>
         <div class="feature-card">
           <div class="feature-icon-svg">
@@ -514,8 +534,10 @@
               <rect x="3" y="6" width="18" height="10" rx="2"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="18.5" r="1.5"/><path d="M3 11h18"/>
             </svg>
           </div>
-          <h3 class="feature-title">Transporte interior</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Transporte interior</h3>
           <p class="feature-desc">Distancias entre ciudades, tiempos de viaje, precios y qué medio de transporte usar en cada tramo del recorrido.</p>
+</div>
         </div>
         <div class="feature-card">
           <div class="feature-icon-svg">
@@ -523,8 +545,10 @@
               <rect x="4" y="8" width="16" height="12" rx="2"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/>
             </svg>
           </div>
-          <h3 class="feature-title">Planificador con IA</h3>
+          <div class="feature-text">
+<h3 class="feature-title">Planificador con IA</h3>
           <p class="feature-desc">Pon tu destino, días disponibles, presupuesto y radio de exploración. Genera un itinerario personalizado en segundos.</p>
+</div>
         </div>
       </div>
     </div>
@@ -534,40 +558,92 @@
   <section class="blog-promo">
     <p class="section-eyebrow">Recién publicado</p>
     <h2 class="section-title">Del blog</h2>
-    <p class="section-sub">Itinerarios y guías prácticas, publicados cada semana.</p>
+    <p class="section-sub">Itinerarios y guías prácticas, país por país.</p>
     <div class="blog-grid">
-      <a href="/blog/arabia-saudi-7-dias/" class="blog-card">
-        <p class="blog-card-kicker">Itinerario · Arabia Saudí</p>
-        <p class="blog-card-title">Arabia Saudí en 7 días: el itinerario que sí encaja en una semana</p>
-      </a>
-      <a href="/blog/arabia-saudi-14-dias/" class="blog-card">
-        <p class="blog-card-kicker">Itinerario · Arabia Saudí</p>
-        <p class="blog-card-title">Arabia Saudí en 14 días: la ruta completa, más allá de Riad, AlUla y Jeddah</p>
-      </a>
-      <a href="/blog/cuantos-dias-alula/" class="blog-card">
-        <p class="blog-card-kicker">Guía práctica · Arabia Saudí</p>
-        <p class="blog-card-title">¿Cuántos días necesitas en AlUla? La guía para no quedarte corto</p>
-      </a>
-      <a href="/blog/como-reservar-hegra/" class="blog-card">
-        <p class="blog-card-kicker">Guía práctica · Arabia Saudí</p>
-        <p class="blog-card-title">Cómo reservar Hegra: tours, precios y todo lo que hay que saber</p>
-      </a>
       <a href="/blog/es-seguro-viajar-el-salvador-2026/" class="blog-card">
-        <p class="blog-card-kicker">Seguridad y viaje · El Salvador</p>
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/es-seguro-viajar-el-salvador-2026/hero-el-salvador.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">El Salvador</p>
         <p class="blog-card-title">¿Es seguro viajar a El Salvador en 2026? Datos reales</p>
-      </a>
-      <a href="/blog/surf-costa-del-balsamo-el-salvador/" class="blog-card">
-        <p class="blog-card-kicker">Surf y aventura · El Salvador</p>
-        <p class="blog-card-title">Surf City El Salvador: la guía del boom del surf en 2026</p>
-      </a>
-      <a href="/blog/bitcoin-beach-el-zonte/" class="blog-card">
-        <p class="blog-card-kicker">Curiosidad y viaje · El Salvador</p>
-        <p class="blog-card-title">Bitcoin Beach: la verdad sobre El Zonte en 2026</p>
-      </a>
-      <a href="/blog/ruta-de-las-flores-fin-de-semana/" class="blog-card">
-        <p class="blog-card-kicker">Escapada de fin de semana · El Salvador</p>
-        <p class="blog-card-title">Ruta de las Flores en fin de semana: el itinerario que sí encaja</p>
-      </a>
+      </div>
+</div>
+</a>
+      <a href="/blog/arabia-saudi-7-dias/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/arabia-saudi-7-dias/riad-skyline.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Arabia Saudí</p>
+        <p class="blog-card-title">Arabia Saudí en 7 días: el itinerario que sí encaja en una semana</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/cuantos-dias-georgia/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/cuantos-dias-georgia/hero-caucaso.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Georgia</p>
+        <p class="blog-card-title">¿Cuántos días necesitas para viajar a Georgia?</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/itinerario-guinea-ecuatorial-dias/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/itinerario-guinea-ecuatorial-dias/malabo-parque-v2.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Guinea Ecuatorial</p>
+        <p class="blog-card-title">Itinerario por Guinea Ecuatorial: ¿7, 10 o 14 días?</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/mejores-playas-albania/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/mejores-playas-albania/hero-riviera-panoramica.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Albania</p>
+        <p class="blog-card-title">Las mejores playas de Albania</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/chefchaouen-cuanto-tiempo/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/chefchaouen-cuanto-tiempo/hero-calle-azul-v2.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Marruecos</p>
+        <p class="blog-card-title">Chefchaouen: ¿cuántos días dedicarle?</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/cuanto-cuesta-viajar-brasil/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/cuanto-cuesta-viajar-brasil/hero-1.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Brasil</p>
+        <p class="blog-card-title">¿Cuánto cuesta viajar a Brasil?</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/montenegro-merece-la-pena/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/montenegro-merece-la-pena/hero-1.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Montenegro</p>
+        <p class="blog-card-title">¿Merece la pena viajar a Montenegro?</p>
+      </div>
+</div>
+</a>
+      <a href="/blog/cuanto-cuesta-viajar-vietnam/" class="blog-card">
+        <div class="blog-card-top">
+<div class="blog-card-thumb"><img src="/assets/blog/cuanto-cuesta-viajar-vietnam/hero-1.jpg" alt=""/></div>
+<div class="blog-card-headline">
+<p class="blog-card-kicker">Vietnam</p>
+        <p class="blog-card-title">Cuánto cuesta viajar a Vietnam en 2026</p>
+      </div>
+</div>
+</a>
+    </div>
+    <div style="text-align:center;margin-top:32px">
+      <a href="/blog/" class="btn-secondary">Ver todos los artículos</a>
     </div>
   </section>
 
@@ -790,13 +866,13 @@
           <span class="country-badge badge-live">Disponible</span>
         </div>
       </a>
-      <a href="/peru/" class="country-card-v2 extra" data-name="perú peru">
+      <a href="/peru/" class="country-card-v2 available extra" data-name="perú peru">
         <svg class="card-flag-bg" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid slice">
           <rect width="66.6" height="140" fill="#D91023"/><rect x="66.6" width="66.8" height="140" fill="#fff"/><rect x="133.4" width="66.6" height="140" fill="#D91023"/>
         </svg>
         <div class="card-content">
           <p class="country-name-v2">Perú</p>
-          <span class="country-badge badge-soon">Próximamente</span>
+          <span class="country-badge badge-live">Disponible</span>
         </div>
       </a>
       <a href="/brasil/" class="country-card-v2 available extra" data-name="brasil">
@@ -823,6 +899,15 @@
         </svg>
         <div class="card-content">
           <p class="country-name-v2">Rumanía</p>
+          <span class="country-badge badge-live">Disponible</span>
+        </div>
+      </a>
+      <a href="/republicadominicana/" class="country-card-v2 available extra" data-name="república dominicana republica dominicana">
+        <svg class="card-flag-bg" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid slice">
+          <rect width="200" height="140" fill="#002D62"/><rect x="0" y="0" width="200" height="140" fill="#CE1126" opacity="0"/><rect x="86" y="0" width="28" height="140" fill="#fff"/><rect x="0" y="56" width="200" height="28" fill="#fff"/><rect x="0" y="0" width="86" height="56" fill="#002D62"/><rect x="114" y="0" width="86" height="56" fill="#CE1126"/><rect x="0" y="84" width="86" height="56" fill="#CE1126"/><rect x="114" y="84" width="86" height="56" fill="#002D62"/>
+        </svg>
+        <div class="card-content">
+          <p class="country-name-v2">República Dominicana</p>
           <span class="country-badge badge-live">Disponible</span>
         </div>
       </a>
