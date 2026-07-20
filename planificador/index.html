@@ -3449,8 +3449,26 @@ try {
   if (typeof React === "undefined" || typeof ReactDOM === "undefined" || typeof window.PlanificadorLMCA === "undefined") {
     throw new Error("Faltan piezas antes de montar: React=" + typeof React + " ReactDOM=" + typeof ReactDOM + " PlanificadorLMCA=" + typeof window.PlanificadorLMCA);
   }
-  const root = ReactDOM.createRoot(document.getElementById("root"));
-  root.render(React.createElement(window.PlanificadorLMCA));
+
+  class LmcaBoundary extends React.Component {
+    constructor(props) { super(props); this.state = { error: null }; }
+    static getDerivedStateFromError(error) { return { error }; }
+    componentDidCatch(error, info) {
+      lmcaLog("err", "FALLO DE RENDER capturado por el Error Boundary:\n" + (error.stack || error.message) + "\n--- componentStack ---\n" + (info && info.componentStack || ""));
+    }
+    render() {
+      if (this.state.error) return null;
+      return this.props.children;
+    }
+  }
+
+  const root = ReactDOM.createRoot(document.getElementById("root"), {
+    onRecoverableError: function(error, errorInfo) {
+      lmcaLog("err", "onRecoverableError:\n" + (error && (error.stack || error.message)) + "\n" + (errorInfo && errorInfo.componentStack || ""));
+    }
+  });
+  root.render(React.createElement(LmcaBoundary, null, React.createElement(window.PlanificadorLMCA)));
+
   setTimeout(function() {
     var rootEl = document.getElementById("root");
     lmcaLog("ok", "Paso 3/3 — Montado. Hijos dentro de #root: " + rootEl.children.length + " · HTML interno (primeros 300 car.): " + JSON.stringify(rootEl.innerHTML.slice(0, 300)));
