@@ -3455,7 +3455,7 @@ try {
     constructor(props) { super(props); this.state = { error: null }; }
     static getDerivedStateFromError(error) { return { error }; }
     componentDidCatch(error, info) {
-      lmcaLog("err", "FALLO DE RENDER capturado por el Error Boundary:\n" + (error.stack || error.message) + "\n--- componentStack ---\n" + (info && info.componentStack || ""));
+      lmcaLog("err", "FALLO DE RENDER — TIPO: " + (error && error.name) + "\nMENSAJE: " + (error && error.message) + "\n--- stack ---\n" + (error && error.stack) + "\n--- componentStack ---\n" + (info && info.componentStack || ""));
     }
     render() {
       if (this.state.error) return null;
