@@ -22660,7 +22660,7 @@
           mapInstanceRef.current = null;
         }
         const map = window.L.map(mapRef.current, { scrollWheelZoom: false });
-        window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "\xA9 OpenStreetMap", maxZoom: 18 }).addTo(map);
+        window.L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { attribution: "\xA9 OpenStreetMap, \xA9 CARTO", maxZoom: 18, subdomains: "abcd" }).addTo(map);
         const latlngs = puntos.map((p) => [p.lat, p.lon]);
         if (coords.origen) window.L.marker([coords.origen.lat, coords.origen.lon]).addTo(map).bindPopup(`Origen: ${origin}`);
         coords.paradas.forEach((p) => {
