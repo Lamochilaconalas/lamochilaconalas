@@ -30,6 +30,13 @@
     d.appendChild(line);
   }
   var lmcaErrorCount = 0;
+  var _origConsoleError = console.error;
+  console.error = function() {
+    lmcaLog("warn", "console.error: " + Array.prototype.slice.call(arguments).map(function(a){
+      return (a && a.stack) ? a.stack : String(a);
+    }).join(" | "));
+    _origConsoleError.apply(console, arguments);
+  };
   window.addEventListener("error", function (e) {
     lmcaErrorCount++;
     lmcaLog("warn", "Aviso #" + lmcaErrorCount + " (puede no ser del planificador): " +
