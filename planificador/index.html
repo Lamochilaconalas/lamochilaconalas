@@ -8,8 +8,6 @@
 <meta name="description" content="Planifica tu ruta de viaje personalizada: visado, clima y lugares reales, adaptado a tu presupuesto." />
 <meta name="robots" content="index, follow" />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
-<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <style>
   html, body { background:#0D1B2A; margin:0; padding:0; }
   #root { min-height:100vh; }
@@ -22,12 +20,25 @@
 <div id="root"></div>
 
 <script>
-  // Red de seguridad: si algo falla, se ve en pantalla en vez de quedar en blanco.
-  window.addEventListener("error", function (e) {
+  function lmcaShowError(msg) {
     var b = document.getElementById("lmca-error-banner");
     b.style.display = "block";
-    b.textContent = "Error al cargar el planificador:\n" + (e.error ? (e.error.stack || e.message) : e.message);
+    b.textContent = msg;
+  }
+  window.addEventListener("error", function (e) {
+    lmcaShowError("Error al cargar el planificador:\n" + (e.error ? (e.error.stack || e.message) : e.message) + "\n(archivo: " + e.filename + ", línea " + e.lineno + ")");
   });
+</script>
+
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin="anonymous"
+  onerror="lmcaShowError('No se pudo cargar React desde unpkg.com. Comprueba la conexión o si algo está bloqueando scripts externos (extensión, VPN, firewall del sitio).')"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin="anonymous"
+  onerror="lmcaShowError('No se pudo cargar ReactDOM desde unpkg.com. Comprueba la conexión o si algo está bloqueando scripts externos (extensión, VPN, firewall del sitio).')"></script>
+
+<script>
+  if (typeof React === "undefined" || typeof ReactDOM === "undefined") {
+    lmcaShowError("React o ReactDOM no se cargaron (typeof React=" + typeof React + ", typeof ReactDOM=" + typeof ReactDOM + "). Puede que unpkg.com esté bloqueado desde esta red o por algún ajuste del sitio.");
+  }
 </script>
 
 <script>
@@ -3424,12 +3435,13 @@ react/cjs/react-jsx-runtime.development.js:
 </script>
 <script>
 try {
+  if (typeof React === "undefined" || typeof ReactDOM === "undefined" || typeof window.PlanificadorLMCA === "undefined") {
+    throw new Error("Faltan piezas antes de montar: React=" + typeof React + " ReactDOM=" + typeof ReactDOM + " PlanificadorLMCA=" + typeof window.PlanificadorLMCA);
+  }
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(React.createElement(window.PlanificadorLMCA));
 } catch (e) {
-  var b = document.getElementById("lmca-error-banner");
-  b.style.display = "block";
-  b.textContent = "Error al montar el planificador:\n" + (e.stack || e.message);
+  lmcaShowError("Error al montar el planificador:\n" + (e.stack || e.message));
 }
 </script>
 </body>
