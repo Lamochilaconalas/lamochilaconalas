@@ -5,32 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="dark only" />
 <title>Planificador — La Mochila con Alas</title>
+<meta name="description" content="Planifica tu ruta de viaje personalizada: visado, clima y lugares reales, adaptado a tu presupuesto." />
+<meta name="robots" content="index, follow" />
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;900&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet" />
 <style>
   html, body { background:#0D1B2A; margin:0; padding:0; }
   #root { min-height:100vh; }
-  #lmca-diag { font-family:monospace; font-size:12px; white-space:pre-wrap; word-break:break-word; }
-  #lmca-diag .ok { background:#2D6A4F; color:#fff; padding:10px 16px; }
-  #lmca-diag .warn { background:#c47a30; color:#fff; padding:10px 16px; }
-  #lmca-diag .err { background:#c94b4b; color:#fff; padding:10px 16px; }
 </style>
 </head>
 <body>
-<div id="lmca-diag"></div>
 <div id="root"></div>
-<script>
-  window.lmcaLog = function(type, msg) {
-    var d = document.getElementById("lmca-diag");
-    var line = document.createElement("div");
-    line.className = type;
-    line.textContent = msg;
-    d.appendChild(line);
-  };
-  window.addEventListener("error", function (e) {
-    window.lmcaLog("warn", "Aviso (puede no ser del planificador): " +
-      (e.error ? (e.error.stack || e.message) : e.message));
-  });
-</script>
 <script>
 (() => {
   var __create = Object.create;
