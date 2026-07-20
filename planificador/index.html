@@ -22310,6 +22310,7 @@
   var WORKER_URL = `${WORKER_BASE}/api/planificador`;
   var EMAIL_URL = `${WORKER_BASE}/api/planificador/email`;
   var FEEDBACK_URL = `${WORKER_BASE}/api/planificador/feedback`;
+  var TURNSTILE_SITE_KEY = "0x4AAAAAAA_SUSTITUYE_ESTA_SITE_KEY";
   var DIA_EMOJIS = ["\u{1F305}", "\u{1F3DB}\uFE0F", "\u{1F37D}\uFE0F", "\u{1F3D6}\uFE0F", "\u{1F304}", "\u{1F54C}", "\u26F0\uFE0F", "\u{1F6B6}", "\u{1F30A}", "\u{1F3A8}", "\u{1F3DD}\uFE0F", "\u{1F333}"];
   function normalize(str) {
     return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -23266,6 +23267,16 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
             }, children: ZONA_LABELS[`${zonaCandidatas.pais}.${zona}`] || zona }, zona))
           ] })
         ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
+          "div",
+          {
+            className: "cf-turnstile",
+            "data-sitekey": TURNSTILE_SITE_KEY,
+            "data-callback": "onTurnstileSuccess",
+            "data-size": "flexible",
+            style: { marginBottom: 14 }
+          }
+        ),
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { className: "btn-cta", onClick: handleGenerate, disabled: loading || !origin.trim() || !!zonaCandidatas, style: {
           width: "100%",
           padding: "17px",
@@ -23905,7 +23916,7 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
     }
     componentDidCatch(error, info) {
       if (window.lmcaLog) {
-        window.lmcaLog("err", "FALLO DE RENDER \u2014 TIPO: " + (error && error.name) + "\nMENSAJE: " + (error && error.message) + "\n--- stack ---\n" + (error && error.stack) + "\n--- componentStack ---\n" + (info && info.componentStack || ""));
+        window.lmcaLog("err", "FALLO: " + (error && error.message) + "\n" + (error && error.stack));
       }
     }
     render() {
@@ -23913,20 +23924,8 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
       return this.props.children;
     }
   };
-  var root = (0, import_client.createRoot)(document.getElementById("root"), {
-    onRecoverableError: function(error, errorInfo) {
-      if (window.lmcaLog) {
-        window.lmcaLog("err", "onRecoverableError:\n" + (error && (error.stack || error.message)) + "\n" + (errorInfo && errorInfo.componentStack || ""));
-      }
-    }
-  });
+  var root = (0, import_client.createRoot)(document.getElementById("root"));
   root.render(import_react.default.createElement(LmcaBoundary, null, import_react.default.createElement(PlanificadorLMCA)));
-  if (window.lmcaLog) {
-    setTimeout(function() {
-      var rootEl = document.getElementById("root");
-      window.lmcaLog("ok", "Montado. Hijos dentro de #root: " + rootEl.children.length);
-    }, 300);
-  }
 })();
 /*! Bundled license information:
 
