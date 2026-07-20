@@ -22310,7 +22310,7 @@
   var WORKER_URL = `${WORKER_BASE}/api/planificador`;
   var EMAIL_URL = `${WORKER_BASE}/api/planificador/email`;
   var FEEDBACK_URL = `${WORKER_BASE}/api/planificador/feedback`;
-  var TURNSTILE_SITE_KEY = "0x4AAAAAAA_SUSTITUYE_ESTA_SITE_KEY";
+  var TURNSTILE_SITE_KEY = "0x4AAAAAAD6BF5n6y1r8sbe2";
   var DIA_EMOJIS = ["\u{1F305}", "\u{1F3DB}\uFE0F", "\u{1F37D}\uFE0F", "\u{1F3D6}\uFE0F", "\u{1F304}", "\u{1F54C}", "\u26F0\uFE0F", "\u{1F6B6}", "\u{1F30A}", "\u{1F3A8}", "\u{1F3DD}\uFE0F", "\u{1F333}"];
   function normalize(str) {
     return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -22363,12 +22363,15 @@
     return Math.round(2 * R * Math.asin(Math.sqrt(h)));
   }
   async function ensamblarItinerario(zonaLabel, ciudades, days, budgetTier, climaInfo, hasRadius, origenTexto, paisLabel, pais) {
+    var _a, _b;
     if (!ciudades || ciudades.length === 0) return null;
     const origenCoord = await geocode(`${origenTexto}, ${paisLabel}`);
     await espera(1100);
     const ciudadesCoords = [];
     for (const ciudad of ciudades) {
-      const coord = await geocode(`${ciudad.nombre.split("\u2014")[0].trim()}, ${paisLabel}`);
+      const primerLugar = (_b = (_a = ciudad.lugares) == null ? void 0 : _a[0]) == null ? void 0 : _b.nombre;
+      const nombreGeocodificable = primerLugar && primerLugar.length > 3 ? primerLugar : ciudad.nombre;
+      const coord = await geocode(`${nombreGeocodificable.split("\u2014")[0].trim()}, ${paisLabel}`);
       ciudadesCoords.push(coord);
       await espera(1100);
     }
@@ -22409,13 +22412,13 @@
     let diaGlobal = 1;
     let diasConPocoContenido = 0;
     ciudades.forEach((ciudad, ci) => {
-      var _a, _b;
+      var _a2, _b2;
       if (diaGlobal > days) return;
       const nDias = Math.min(diasPorCiudad[ci] || 1, days - diaGlobal + 1);
       const lugaresPool = [...ciudad.lugares];
       const MAX_LUGARES_POR_DIA = 4;
       const lugaresPorDia = Math.min(MAX_LUGARES_POR_DIA, Math.max(1, Math.ceil(lugaresPool.length / Math.max(nDias, 1))));
-      const restos = ((_a = ciudad.restaurantes) == null ? void 0 : _a[budgetTier]) || [];
+      const restos = ((_a2 = ciudad.restaurantes) == null ? void 0 : _a2[budgetTier]) || [];
       const distanciaDesdeOrigen = origenCoord ? haversineKm(origenCoord, ciudadesCoords[ci]) : null;
       const coordAnterior = ci === 0 ? origenCoord : ciudadesCoords[ci - 1];
       const distanciaTramo = coordAnterior ? haversineKm(coordAnterior, ciudadesCoords[ci]) : null;
@@ -22434,7 +22437,7 @@
           distancia_km: distanciaDesdeOrigen,
           distancia_tramo_km: d === 0 ? distanciaTramo : null,
           emoji: DIA_EMOJIS[(diaGlobal - 1) % DIA_EMOJIS.length],
-          titulo: ((_b = lugaresDelDia[0]) == null ? void 0 : _b.nombre) || ciudad.nombre,
+          titulo: ((_b2 = lugaresDelDia[0]) == null ? void 0 : _b2.nombre) || ciudad.nombre,
           manana: manana.length ? manana : [{ nombre: `Explorar ${ciudad.nombre} con calma`, url: zonaUrl }],
           tarde: tarde.length ? tarde : [{ nombre: "Tiempo libre para descansar o callejear", url: null }],
           noche,
@@ -22445,8 +22448,8 @@
       }
     });
     const hotelesRecomendados = ciudades.map((c) => {
-      var _a, _b;
-      return (_b = (_a = c.hoteles) == null ? void 0 : _a[budgetTier]) == null ? void 0 : _b[0];
+      var _a2, _b2;
+      return (_b2 = (_a2 = c.hoteles) == null ? void 0 : _a2[budgetTier]) == null ? void 0 : _b2[0];
     }).filter(Boolean).slice(0, 2);
     const consejos = [];
     if (hotelesRecomendados.length) {
@@ -23906,26 +23909,8 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
       }, children: "La Mochila con Alas \xA9 2026 \u2014 lamochilaconalas.com" }) })
     ] });
   }
-  var LmcaBoundary = class extends import_react.default.Component {
-    constructor(props) {
-      super(props);
-      this.state = { error: null };
-    }
-    static getDerivedStateFromError(error) {
-      return { error };
-    }
-    componentDidCatch(error, info) {
-      if (window.lmcaLog) {
-        window.lmcaLog("err", "FALLO: " + (error && error.message) + "\n" + (error && error.stack));
-      }
-    }
-    render() {
-      if (this.state.error) return null;
-      return this.props.children;
-    }
-  };
   var root = (0, import_client.createRoot)(document.getElementById("root"));
-  root.render(import_react.default.createElement(LmcaBoundary, null, import_react.default.createElement(PlanificadorLMCA)));
+  root.render(import_react.default.createElement(PlanificadorLMCA));
 })();
 /*! Bundled license information:
 
