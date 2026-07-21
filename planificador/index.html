@@ -22363,7 +22363,7 @@
     aceptable: { color: "#c47a30", Icon: IconCloudSun, tempColors: "rgba(196,122,48,0.15)", tempBorders: "rgba(196,122,48,0.3)" },
     evitar: { color: "#c94b4b", Icon: IconCloudRain, tempColors: "rgba(201,75,75,0.15)", tempBorders: "rgba(201,75,75,0.3)" }
   };
-  var FREE_USES_LIMIT = 3;
+  var FREE_USES_LIMIT = 1;
   var USES_STORAGE_KEY = "lmca_planificador_usos";
   var EMAIL_STORAGE_KEY = "lmca_planificador_email";
   var WORKER_BASE = "https://lamochilaconalas.com";
@@ -23483,12 +23483,8 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
       ] }),
       emailBloqueado && !loading && !emailPendienteConfirmacion && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "no-print", ref: resultsRef, style: { padding: "60px 20px", maxWidth: 520, margin: "0 auto", textAlign: "center" }, children: [
         /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { style: { marginBottom: 16 }, children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(IconPlaneLine, { size: 40, color: C.gold }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { style: { fontFamily: "'Playfair Display',serif", color: C.sand, fontSize: 24, margin: "0 0 12px" }, children: "\xBFSeguimos planificando?" }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { style: { color: "rgba(232,224,212,0.55)", fontSize: 14, marginBottom: 24, lineHeight: 1.6 }, children: [
-          "Ya has usado el planificador ",
-          FREE_USES_LIMIT,
-          " veces \u2014 d\xE9janos tu email para seguir us\xE1ndolo gratis, y de paso te avisamos cuando publiquemos algo que te pueda interesar: pa\xEDses, ciudades, monumentos o art\xEDculos nuevos del blog. Sin spam, lo prometemos."
-        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", { style: { fontFamily: "'Playfair Display',serif", color: C.sand, fontSize: 24, margin: "0 0 12px" }, children: "\xBFEres un humano o una mochila con patas? \u{1F392}" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { style: { color: "rgba(232,224,212,0.55)", fontSize: 14, marginBottom: 24, lineHeight: 1.6 }, children: "Antes de seguir planificando, d\xE9janos tu email para comprobar que hay una persona real detr\xE1s de la pantalla (los robots no suelen tener bandeja de entrada). Nada de spam \u2014 como mucho, alg\xFAn aviso si publicamos una gu\xEDa de un sitio que te interese." }),
         /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { style: { display: "flex", gap: 10, marginBottom: 10 }, children: [
           /* @__PURE__ */ (0, import_jsx_runtime.jsx)(
             "input",
@@ -23516,7 +23512,7 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
             borderRadius: 10,
             fontWeight: 900,
             cursor: "pointer"
-          }, children: "Suscribirme y seguir" })
+          }, children: "Confirmar que soy humano" })
         ] }),
         error && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { style: { color: "#e07070", fontSize: 13 }, children: error })
       ] }),
