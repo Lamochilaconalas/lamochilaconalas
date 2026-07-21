@@ -22396,6 +22396,7 @@
   var WORKER_URL = `${WORKER_BASE}/api/planificador`;
   var EMAIL_URL = `${WORKER_BASE}/api/planificador/email`;
   var FEEDBACK_URL = `${WORKER_BASE}/api/planificador/feedback`;
+  var INTERES_URL = `${WORKER_BASE}/api/planificador/interes`;
   var TURNSTILE_SITE_KEY = "0x4AAAAAAD6BF5n6y1r8sbe2";
   var DIA_EMOJIS = ["\u{1F305}", "\u{1F3DB}\uFE0F", "\u{1F37D}\uFE0F", "\u{1F3D6}\uFE0F", "\u{1F304}", "\u{1F54C}", "\u26F0\uFE0F", "\u{1F6B6}", "\u{1F30A}", "\u{1F3A8}", "\u{1F3DD}\uFE0F", "\u{1F333}"];
   function normalize(str) {
@@ -22968,6 +22969,17 @@ Devuelve exactamente ${days} objetos en "dias". Informaci\xF3n de visado precisa
           }
         }
         setUsos((u) => u + 1);
+        let emailGuardado = null;
+        try {
+          emailGuardado = localStorage.getItem(EMAIL_STORAGE_KEY);
+        } catch {
+        }
+        fetch(INTERES_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ destino: trimmed, pais: pais || null, dias: days, presupuesto: budget, email: emailGuardado })
+        }).catch(() => {
+        });
         setTimeout(() => {
           var _a3;
           return (_a3 = resultsRef.current) == null ? void 0 : _a3.scrollIntoView({ behavior: "smooth", block: "start" });
