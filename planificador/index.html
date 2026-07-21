@@ -22721,6 +22721,26 @@
       } catch {
       }
     }, []);
+    (0, import_react.useEffect)(() => {
+      const revisarConfirmacion = () => {
+        try {
+          if (localStorage.getItem(EMAIL_STORAGE_KEY)) {
+            setEmailEnviado(true);
+            setEmailBloqueado(false);
+            setEmailPendienteConfirmacion(false);
+          }
+        } catch {
+        }
+      };
+      window.addEventListener("storage", revisarConfirmacion);
+      window.addEventListener("focus", revisarConfirmacion);
+      document.addEventListener("visibilitychange", revisarConfirmacion);
+      return () => {
+        window.removeEventListener("storage", revisarConfirmacion);
+        window.removeEventListener("focus", revisarConfirmacion);
+        document.removeEventListener("visibilitychange", revisarConfirmacion);
+      };
+    }, []);
     const [turnstileToken, setTurnstileToken] = (0, import_react.useState)(null);
     const [feedbackEnviado, setFeedbackEnviado] = (0, import_react.useState)(null);
     const resultsRef = (0, import_react.useRef)(null);
