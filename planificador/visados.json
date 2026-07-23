@@ -1,0 +1,2835 @@
+{
+  "_meta": {
+    "descripcion": "Base de datos de visados de La Mochila con Alas. Cada país destino contiene un objeto por nacionalidad. Actualizar cada 6 meses o cuando una fuente oficial confirme un cambio.",
+    "ultima_actualizacion": "2026-07-14",
+    "formato_nacionalidad": [
+      "espana",
+      "mexico",
+      "colombia",
+      "argentina",
+      "chile",
+      "peru",
+      "venezuela",
+      "ecuador",
+      "bolivia",
+      "uruguay",
+      "paraguay",
+      "costa_rica",
+      "cuba",
+      "guatemala",
+      "honduras",
+      "el_salvador",
+      "nicaragua",
+      "panama",
+      "rep_dominicana",
+      "eeuu",
+      "reino_unido",
+      "francia",
+      "alemania",
+      "italia",
+      "brasil"
+    ],
+    "tipos_posibles": [
+      "libre",
+      "visa_on_arrival",
+      "evisa",
+      "visa_requerida",
+      "no_permitido",
+      "verificar"
+    ],
+    "nota_tipo_verificar": "Usar 'verificar' (en vez de inventar libre/requerida) cuando las fuentes consultadas se contradicen o no hay fuente oficial reciente y fiable. El frontend debe mostrar esto como aviso amarillo con enlace a fuente oficial, nunca como dato firme."
+  },
+  "mexico": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte español en vigor. Puede pedirse billete de vuelta y comprobante de alojamiento en el control migratorio."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, igual que el resto de pasaportes Schengen."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, igual que el resto de pasaportes Schengen."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, igual que el resto de pasaportes Schengen."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte británico en vigor."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte estadounidense en vigor."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo (acuerdo Alianza del Pacífico)."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo (acuerdo Alianza del Pacífico)."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo."
+    },
+    "peru": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "IMPORTANTE: México suspendió en 2026 la exención de visado para pasaportes peruanos ordinarios (antes era libre). Alternativa: entrar con visa vigente de EEUU, Canadá, Reino Unido o Schengen, o residencia permanente en Chile/Colombia/Perú (Alianza del Pacífico), sin necesidad de visa mexicana aparte. Sin esos documentos, tramitar visa en consulado mexicano antes de viajar."
+    },
+    "brasil": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Pasaporte ordinario cubano requiere visa mexicana. (Pasaporte oficial cubano sí está exento hasta 90 días, no aplica a turistas particulares)."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "guatemala": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "honduras": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "el_salvador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "nicaragua": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Requiere visa mexicana tramitada en consulado antes de viajar, salvo que se cuente con visa vigente de EEUU/Canadá/Reino Unido/Schengen."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre por acuerdo bilateral de supresión de visado entre Bolivia y México (vigente desde 2024)."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para actividades no remuneradas (turismo, negocios, tránsito), confirmado por la embajada de México en Paraguay."
+    }
+  },
+  "tailandia": {
+    "_nota": "Tailandia revisó por completo su sistema de exenciones en mayo de 2026: eliminó la exención general de 60 días y la redujo a 30 para la mayoría de países, manteniendo acuerdos bilaterales de 90 días solo para Argentina, Brasil, Chile y Perú. Varios países que antes tenían exención (México, Colombia, Cuba, Panamá, Uruguay) la perdieron. Dato con mucha probabilidad de seguir cambiando: confirmar en embajada tailandesa antes de viajar.",
+    "espana": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida de 60 a 30 días en la revisión de mayo de 2026. Requiere Thailand Digital Arrival Card (TDAC) online antes de volar."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida a 30 días en mayo de 2026. Requiere TDAC online antes de volar."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida a 30 días en mayo de 2026. Requiere TDAC online antes de volar."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida a 30 días en mayo de 2026. Requiere TDAC online antes de volar."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida a 30 días en mayo de 2026. Requiere TDAC online antes de volar."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado reducida a 30 días en mayo de 2026. Requiere TDAC online antes de volar."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Mantiene acuerdo bilateral de 90 días sin visado, no afectado por la reforma de mayo de 2026."
+    },
+    "brasil": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Mantiene acuerdo bilateral de 90 días sin visado, no afectado por la reforma de mayo de 2026."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Mantiene acuerdo bilateral de 90 días sin visado, no afectado por la reforma de mayo de 2026."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Mantiene acuerdo bilateral de 90 días sin visado, no afectado por la reforma de mayo de 2026."
+    },
+    "mexico": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perdió la exención de visado en la reforma de mayo de 2026. Tramitar visa de turista antes de viajar."
+    },
+    "colombia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perdió la exención de visado en la reforma de mayo de 2026. Tramitar visa de turista antes de viajar."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perdió la exención de visado en la reforma de mayo de 2026. Tramitar visa de turista antes de viajar."
+    },
+    "panama": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perdió la exención de visado en la reforma de mayo de 2026. Tramitar visa de turista antes de viajar."
+    },
+    "uruguay": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perdió la exención de visado en la reforma de mayo de 2026. Tramitar visa de turista antes de viajar."
+    },
+    "nicaragua": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Ya requería visa de turista antes de la reforma de 2026."
+    },
+    "ecuador": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Tenía exención antes de la reforma de mayo de 2026; no confirmado si la mantiene tras el cambio. Verificar con la embajada tailandesa."
+    },
+    "guatemala": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Tenía exención antes de la reforma de mayo de 2026; no confirmado si la mantiene tras el cambio. Verificar con la embajada tailandesa."
+    },
+    "rep_dominicana": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Tenía exención antes de la reforma de mayo de 2026; no confirmado si la mantiene tras el cambio. Verificar con la embajada tailandesa."
+    },
+    "bolivia": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    },
+    "venezuela": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    },
+    "paraguay": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    },
+    "costa_rica": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    },
+    "honduras": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    },
+    "el_salvador": {
+      "tipo": "verificar",
+      "duracion": null,
+      "coste": null,
+      "info": "Estado tras la reforma de mayo de 2026 no confirmado con fuente fiable. Verificar con la embajada tailandesa."
+    }
+  },
+  "jordania": {
+    "espana": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass (70-80 JOD)",
+      "info": "Visado a la llegada en aeropuerto de Amán o frontera de Sheikh Hussein. Muy recomendable comprar el Jordan Pass online antes de viajar (jordanpass.jo): incluye el visado gratis + entrada a 40+ atracciones (Petra incluida) si te quedas mínimo 3 noches."
+    },
+    "francia": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "alemania": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "italia": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "reino_unido": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "eeuu": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "mexico": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "argentina": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "chile": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "peru": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "brasil": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "venezuela": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "ecuador": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "bolivia": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "uruguay": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "paraguay": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "costa_rica": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "guatemala": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "honduras": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "el_salvador": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "nicaragua": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "panama": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_on_arrival",
+      "duracion": "30 días",
+      "coste": "40 JOD (~56 USD), o incluido gratis en el Jordan Pass",
+      "info": "Visado a la llegada. Recomendable el Jordan Pass si te quedas 3+ noches."
+    },
+    "colombia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "EXCEPCIÓN: a diferencia del resto de Latinoamérica, Colombia debe tramitar el visado con antelación en la embajada de Jordania — no hay visado a la llegada para pasaporte colombiano. El Jordan Pass no aplica en este caso."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Debe tramitar el visado con antelación en la embajada de Jordania — no hay visado a la llegada para pasaporte cubano."
+    }
+  },
+  "turquia": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre desde marzo de 2020. Se puede entrar con DNI o pasaporte (mín. 6 meses de validez); con DNI solo por determinadas fronteras/aeropuertos y sin vehículo propio ni nada que declarar en aduana."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "reino_unido": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~$50-60",
+      "info": "e-Visa obligatoria, tramitar online en evisa.gov.tr antes de viajar (aprobación en minutos)."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~51 USD",
+      "info": "e-Visa obligatoria, tramitar online en evisa.gov.tr antes de viajar (aprobación en minutos)."
+    },
+    "mexico": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "e-Visa de una entrada, válida 180 días, permite estancia máxima de 30 días. Trámite online gratuito en evisa.gov.tr, confirmado por la embajada de México en Turquía."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "brasil": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo hasta 90 días en un periodo de 180."
+    },
+    "rep_dominicana": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~20 USD",
+      "info": "e-Visa de entradas múltiples, tramitar online en evisa.gov.tr antes de viajar."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Solo se puede tramitar en embajada o consulado turco — no disponible online (a diferencia del resto de nacionalidades)."
+    }
+  },
+  "brasil": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Se debe viajar con pasaporte (el DNI no es válido como documento de entrada, a diferencia de los países del Mercosur)."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "80 USD",
+      "info": "Brasil restableció en 2023 el requisito de eVisa para ciudadanos estadounidenses tras la suspensión de la era COVID. Trámite online en brazil.vfsevisa.com o gov.br/vistos, hasta 10 días hábiles."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (México no es miembro del Mercosur pero está dentro de la exención amplia para el continente americano)."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser Estado asociado del Mercosur, se puede entrar con cédula de ciudadanía vigente, sin necesidad de pasaporte."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser miembro pleno del Mercosur, se puede entrar con DNI vigente, sin necesidad de pasaporte."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser Estado asociado del Mercosur, se puede entrar con cédula de identidad vigente, sin necesidad de pasaporte."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser Estado asociado del Mercosur, se puede entrar con cédula de identidad vigente, sin necesidad de pasaporte."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con documento de identidad o pasaporte vigente."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser Estado asociado del Mercosur, se puede entrar con cédula de identidad vigente, sin necesidad de pasaporte."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser miembro pleno del Mercosur, se puede entrar con documento de identidad vigente, sin necesidad de pasaporte."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser miembro pleno del Mercosur, se puede entrar con cédula de identidad vigente, sin necesidad de pasaporte."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Al ser miembro pleno del Mercosur, se puede entrar con documento de identidad vigente, sin necesidad de pasaporte."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "EXCEPCIÓN: junto con Haití, es de los pocos países americanos que sí necesita visado de turismo tramitado con antelación para entrar a Brasil."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "60 días",
+      "coste": "Gratuito",
+      "info": "EXCEPCIÓN: a diferencia del resto de nacionalidades hispanoamericanas (90 días), República Dominicana solo tiene 60 días de estancia libre de visado — el único país hispanohablante con esta restricción de tiempo reducida."
+    }
+  },
+  "marruecos": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Obligatorio pasaporte (el DNI NO es válido para entrar en Marruecos, ni siquiera en ferry desde Tarifa/Algeciras)."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Marruecos y Colombia firmaron un acuerdo específico de exención mutua de visados en abril de 2021 para pasaportes ordinarios."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    }
+  },
+  "montenegro": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Se puede entrar incluso solo con DNI (sin pasaporte) para estancias de hasta 90 días en 6 meses, aunque se recomienda llevar también pasaporte por si hay incidencias. Registro policial obligatorio en las primeras 24h (lo gestiona el hotel automáticamente si te alojas en uno)."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h (lo gestiona el hotel si te alojas en uno)."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "cuba": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Registro policial obligatorio en las primeras 24h."
+    }
+  },
+  "arabiasaudi": {
+    "espana": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, aprobación en 5-30 minutos. También disponible visado a la llegada en el aeropuerto por el mismo precio aprox."
+    },
+    "francia": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, aprobación en 5-30 minutos."
+    },
+    "alemania": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, aprobación en 5-30 minutos."
+    },
+    "italia": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, aprobación en 5-30 minutos."
+    },
+    "reino_unido": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, mismas condiciones que EEUU."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "eVisa online en visa.visitsaudi.com, aprobación en 5-30 minutos. Una de las 66 nacionalidades elegibles."
+    },
+    "panama": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "~130-145€ (incluye seguro médico obligatorio)",
+      "info": "Panamá es la ÚNICA nacionalidad latinoamericana con eVisa directo — añadida a la lista de elegibles en 2023."
+    },
+    "mexico": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "México NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada de Arabia Saudí. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "colombia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Colombia NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "argentina": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Argentina NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "chile": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Chile NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "peru": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Perú NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Venezuela NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Ecuador NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Bolivia NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "uruguay": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Uruguay NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "paraguay": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Paraguay NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "costa_rica": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Costa Rica NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Cuba NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "guatemala": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Guatemala NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "honduras": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Honduras NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "el_salvador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "El Salvador NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "nicaragua": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Nicaragua NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "República Dominicana NO está en la lista de países elegibles para eVisa — hay que tramitar visado en la embajada. Atajo: si ya tienes un visado válido de EEUU, Reino Unido o Schengen usado al menos una vez, puedes solicitar igualmente el eVisa online en vez de ir a la embajada."
+    }
+  },
+  "albania": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo. Se puede entrar con DNI o pasaporte, ambos con mínimo 6 meses de validez."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte o DNI en vigor."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte o DNI en vigor."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte o DNI en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, y de hecho con validez extendida a 1 año (con la condición de salir del país 90 días antes de poder reingresar de nuevo con el mismo régimen libre)."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (según patrón regional confirmado — verificar si el viaje es importante, ya que no encontré una fuente que lo nombrase explícitamente)."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (según patrón regional confirmado — verificar si el viaje es importante, ya que no encontré una fuente que lo nombrase explícitamente)."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Cuba NO aparece en ninguna lista de destinos libres de visado para pasaporte cubano — hay que tramitar visado en la embajada de Albania antes de viajar. Alternativa: si ya tienes un visado Schengen, de EEUU o de Reino Unido válido y usado al menos una vez, puedes entrar a Albania sin visado propio."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (según patrón regional confirmado — verificar si el viaje es importante, ya que no encontré una fuente que lo nombrase explícitamente)."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (según patrón regional confirmado — verificar si el viaje es importante, ya que no encontré una fuente que lo nombrase explícitamente)."
+    }
+  },
+  "georgia": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, sin necesidad de trámite ni pago."
+    },
+    "peru": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "Variable (trámite online)",
+      "info": "eVisa obligatoria, se tramita online en evisa.gov.ge antes de viajar."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Aún no está habilitado el trámite de eVisa para esta nacionalidad — hay que tramitar el visado en la embajada o consulado de Georgia antes de viajar. Excepción: si ya tienes visado o residencia válidos de la UE, EEUU, Reino Unido, Canadá, Japón, Corea del Sur u otros países del listado ampliado, puedes entrar sin visado propio hasta 90 días."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "bolivia": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "Variable (trámite online)",
+      "info": "eVisa obligatoria, se tramita online en evisa.gov.ge antes de viajar."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo, sin necesidad de trámite ni pago."
+    },
+    "paraguay": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "Variable (trámite online)",
+      "info": "eVisa obligatoria, se tramita online en evisa.gov.ge antes de viajar."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "cuba": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "Variable (trámite online)",
+      "info": "eVisa obligatoria, se tramita online en evisa.gov.ge antes de viajar."
+    },
+    "guatemala": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "Variable (trámite online)",
+      "info": "eVisa obligatoria, se tramita online en evisa.gov.ge antes de viajar."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "nicaragua": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Aún no está habilitado el trámite de eVisa para esta nacionalidad — hay que tramitar el visado en la embajada o consulado de Georgia antes de viajar. Excepción: si ya tienes visado o residencia válidos de la UE, EEUU, Reino Unido, Canadá, Japón, Corea del Sur u otros países del listado ampliado, puedes entrar sin visado propio hasta 90 días."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "365 días",
+      "coste": "Gratuito",
+      "info": "Solo con mostrar el pasaporte válido te sellan 365 días — sin pagar nada ni presentar más documentación. Una de las políticas de visado más generosas del mundo."
+    }
+  },
+  "rumania": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Rumanía es Schengen completo desde enero de 2025. Se puede entrar con DNI o pasaporte."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Rumanía es Schengen completo desde enero de 2025."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Rumanía es Schengen completo desde enero de 2025."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Rumanía es Schengen completo desde enero de 2025."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — México está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Colombia está exenta de visado Schengen desde 2015. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Argentina está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Chile está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Perú está exento de visado Schengen desde 2016. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Venezuela está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~90€ (tasa visado Schengen tipo C)",
+      "info": "Ecuador es una de las 4 únicas nacionalidades latinoamericanas que SÍ necesitan visado Schengen tipo C — hay que tramitarlo en la embajada/consulado antes de viajar, con seguro médico de viaje obligatorio (mínimo 30.000€ de cobertura)."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~90€ (tasa visado Schengen tipo C)",
+      "info": "Bolivia es una de las 4 únicas nacionalidades latinoamericanas que SÍ necesitan visado Schengen tipo C — hay que tramitarlo en la embajada/consulado antes de viajar, con seguro médico de viaje obligatorio (mínimo 30.000€ de cobertura)."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Uruguay está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Paraguay está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Costa Rica está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~90€ (tasa visado Schengen tipo C)",
+      "info": "Cuba es una de las 4 únicas nacionalidades latinoamericanas que SÍ necesitan visado Schengen tipo C — hay que tramitarlo en la embajada/consulado antes de viajar, con seguro médico de viaje obligatorio (mínimo 30.000€ de cobertura)."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Guatemala está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Honduras está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — El Salvador está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Nicaragua está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — Panamá está en la lista de exención Schengen. A partir de 2026, además de la exención de visado, se exigirá también el ETIAS (autorización de viaje electrónica, no un visado, ~7€, trámite online de unos minutos)."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~90€ (tasa visado Schengen tipo C)",
+      "info": "República Dominicana es una de las 4 únicas nacionalidades latinoamericanas que SÍ necesitan visado Schengen tipo C — hay que tramitarlo en la embajada/consulado antes de viajar, con seguro médico de viaje obligatorio (mínimo 30.000€ de cobertura)."
+    }
+  },
+  "china": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención unilateral de visado, vigente hasta el 31 de diciembre de 2026 (prorrogable). Registro policial obligatorio en 24h si te alojas en vivienda particular (72h en zona rural) — automático si es en hotel."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención unilateral de visado, vigente hasta el 31 de diciembre de 2026 (prorrogable)."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención unilateral de visado, vigente hasta el 31 de diciembre de 2026 (prorrogable)."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Exención unilateral de visado, vigente hasta el 31 de diciembre de 2026 (prorrogable)."
+    },
+    "reino_unido": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Reino Unido NO está en la lista de exención unilateral de China — solo aplica el tránsito libre de 240h sin salir de la zona de conexión, no sirve para turismo real por el país. Hay que tramitar visado de turista (tipo L) con antelación."
+    },
+    "eeuu": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "EEUU NO está en la lista de exención unilateral de China — solo aplica el tránsito libre de 240h sin salir de la zona de conexión, no sirve para turismo real por el país. Hay que tramitar visado de turista (tipo L) con antelación."
+    },
+    "mexico": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "México no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) en la embajada o centro de visados antes de viajar."
+    },
+    "colombia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Colombia no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — parte del programa piloto de exención de visado para 5 países sudamericanos, vigente y confirmado activo a julio de 2026 (inicialmente hasta el 31 de mayo de 2026, se ha mantenido más allá de esa fecha)."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — parte del programa piloto de exención de visado para 5 países sudamericanos, vigente y confirmado activo a julio de 2026."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — parte del programa piloto de exención de visado para 5 países sudamericanos, vigente y confirmado activo a julio de 2026."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Venezuela no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Ecuador no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Bolivia no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "30 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — parte del programa piloto de exención de visado para 5 países sudamericanos, vigente y confirmado activo a julio de 2026."
+    },
+    "paraguay": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Paraguay no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "costa_rica": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Costa Rica no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Cuba no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "guatemala": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Guatemala no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "honduras": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Honduras no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "el_salvador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "El Salvador no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "nicaragua": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Nicaragua no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "panama": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "Panamá no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "~140-160€ (visado L, trámite en embajada/consulado o centro de visados)",
+      "info": "República Dominicana no está en la lista de exención de visado de China — hay que tramitar visado de turista (tipo L) antes de viajar."
+    }
+  },
+  "elsalvador": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "180 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor — acuerdo bilateral que da a los españoles hasta 180 días, el doble que la mayoría de nacionalidades."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Venezuela es una de las 2 únicas nacionalidades latinoamericanas que necesitan visado para entrar a El Salvador — tramitar en la embajada/consulado antes de viajar."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Bolivia es una de las 2 únicas nacionalidades latinoamericanas que necesitan visado para entrar a El Salvador — tramitar en la embajada/consulado antes de viajar."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — gracias al convenio CA-4 (Centroamérica-4) se puede entrar incluso solo con DUI, sin necesidad de pasaporte."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — gracias al convenio CA-4 (Centroamérica-4) se puede entrar incluso solo con DUI, sin necesidad de pasaporte."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo — gracias al convenio CA-4 (Centroamérica-4) se puede entrar incluso solo con DUI, sin necesidad de pasaporte."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    }
+  },
+  "guineaecuatorial": {
+    "espana": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "francia": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "alemania": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "italia": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "reino_unido": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "mexico": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "colombia": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "argentina": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "chile": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "peru": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "venezuela": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "ecuador": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "bolivia": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "uruguay": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "paraguay": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "costa_rica": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "cuba": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "guatemala": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "honduras": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "el_salvador": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "nicaragua": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "panama": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    },
+    "rep_dominicana": {
+      "tipo": "evisa",
+      "duracion": "N/A",
+      "coste": "~30-60€ + tasas consulares",
+      "info": "Guinea Ecuatorial exige visado a TODAS las nacionalidades sin excepción, incluidos los propios españoles — no hay ningún país exento. Se puede tramitar como eVisa online (más rápido) o de forma presencial en la embajada/consulado. Requiere: pasaporte con 6 meses de validez, certificado internacional de fiebre amarilla, reserva de alojamiento, billete de ida y vuelta y justificante de medios económicos."
+    }
+  },
+  "japon": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Se recomienda registrarse en Visit Japan Web (gratis, opcional) para agilizar el paso por inmigración y aduanas."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "colombia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Colombia no está en la lista de exención de Japón — hay que tramitar visado de turista en la embajada o consulado antes de viajar."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo desde julio de 2025 (exención relativamente reciente)."
+    },
+    "venezuela": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Venezuela no está en la lista de exención de Japón — hay que tramitar visado de turista en la embajada o consulado antes de viajar."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Ecuador no está en la lista de exención de Japón — hay que tramitar visado de turista en la embajada o consulado antes de viajar."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Bolivia no está en la lista de exención de Japón — hay que tramitar visado de turista en la embajada o consulado antes de viajar."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo desde junio de 2025, PERO solo con pasaporte electrónico con chip (IC) emitido a partir de julio de 2023 — si tu pasaporte es antiguo sin chip, necesitas renovarlo antes de poder entrar sin visado."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "N/A",
+      "coste": "Variable",
+      "info": "Cuba no está en la lista de exención de Japón — hay que tramitar visado de turista en la embajada o consulado antes de viajar."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo desde abril de 2024 (exención relativamente reciente)."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor."
+    }
+  },
+  "srilanka": {
+    "espana": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "francia": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "alemania": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "italia": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "reino_unido": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "mexico": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "colombia": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "argentina": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "chile": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "peru": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "venezuela": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "ecuador": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "bolivia": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "uruguay": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "paraguay": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "costa_rica": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "cuba": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "guatemala": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "honduras": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "el_salvador": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "nicaragua": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "panama": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    },
+    "rep_dominicana": {
+      "tipo": "evisa",
+      "duracion": "30 días",
+      "coste": "Gratis (España y ~39 países más desde mayo 2026) o ~50 USD según nacionalidad",
+      "info": "ETA (Electronic Travel Authorization) obligatoria para todas las nacionalidades salvo Singapur, Maldivas y Seychelles — se tramita online en eta.gov.lk antes de viajar (nunca en webs intermediarias). Válida 30 días, doble entrada, ampliable hasta 6 meses. Desde el 25 de mayo de 2026 es gratuita para España y otros 39 países (antes costaba ~50 USD) — verificar en el momento de solicitarla si tu nacionalidad está en esa lista de gratuidad, ya que no está confirmado para todas."
+    }
+  },
+  "vietnam": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "45 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado vigente hasta el 14 de marzo de 2028. Se puede salir y volver a entrar tantas veces como se quiera, cada entrada da otros 45 días nuevos."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "45 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado vigente hasta el 14 de marzo de 2028. Se puede salir y volver a entrar tantas veces como se quiera, cada entrada da otros 45 días nuevos."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "45 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado vigente hasta el 14 de marzo de 2028. Se puede salir y volver a entrar tantas veces como se quiera, cada entrada da otros 45 días nuevos."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "45 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado vigente hasta el 14 de marzo de 2028. Se puede salir y volver a entrar tantas veces como se quiera, cada entrada da otros 45 días nuevos."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "45 días",
+      "coste": "Gratuito",
+      "info": "Exención de visado vigente hasta el 14 de marzo de 2028. Se puede salir y volver a entrar tantas veces como se quiera, cada entrada da otros 45 días nuevos."
+    },
+    "eeuu": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "mexico": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "colombia": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "argentina": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (mínimo 6 meses de validez)."
+    },
+    "peru": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "venezuela": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "ecuador": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "bolivia": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "uruguay": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "paraguay": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "costa_rica": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "cuba": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "guatemala": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "honduras": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "el_salvador": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "nicaragua": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor (mínimo 6 meses de validez)."
+    },
+    "rep_dominicana": {
+      "tipo": "evisa",
+      "duracion": "90 días",
+      "coste": "25 USD (entrada simple) o 50 USD (entrada múltiple)",
+      "info": "eVisa obligatoria, tramitar solo en evisa.gov.vn (nunca en webs intermediarias que cobran comisión). Requiere foto tipo carné digital y escaneo del pasaporte. Máximo 30 días consecutivos aunque el visado sea de 90."
+    }
+  },
+  "malasia": {
+    "espana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor — acuerdo bilateral desde 1994/1995. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "ecuador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "bolivia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "cuba": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    },
+    "rep_dominicana": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito",
+      "info": "Libre para turismo con pasaporte en vigor. Obligatorio completar el registro online MDAC (Malaysia Digital Arrival Card) entre 72h y 3 días antes del vuelo — es gratuito y va aparte del visado."
+    }
+  },
+  "espana": {
+    "mexico": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor. España es Schengen, no requiere visado para estancias cortas."
+    },
+    "colombia": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "argentina": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "chile": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "peru": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "venezuela": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor, dentro de los 90 días en cualquier periodo de 180. Conviene verificar el estado del pasaporte antes de viajar por los cambios normativos internos de Venezuela."
+    },
+    "ecuador": {
+      "tipo": "visa_requerida",
+      "duracion": "Según visado concedido",
+      "coste": "90 EUR (45 EUR para menores de 6-12 años)",
+      "info": "Ecuador es, junto a Cuba, Bolivia y República Dominicana, uno de los cuatro países latinoamericanos que en 2026 todavía requieren visado Schengen de corta estancia (tipo C) para entrar a España. Trámite en el Consulado de España o centro autorizado, con seguro médico de viaje obligatorio."
+    },
+    "bolivia": {
+      "tipo": "visa_requerida",
+      "duracion": "Según visado concedido",
+      "coste": "90 EUR (45 EUR para menores de 6-12 años)",
+      "info": "Bolivia sigue en la lista de países latinoamericanos que requieren visado Schengen en 2026, pese a conversaciones diplomáticas en curso para su exención. Trámite en el Consulado de España, con seguro médico de viaje obligatorio."
+    },
+    "uruguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "paraguay": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "costa_rica": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "cuba": {
+      "tipo": "visa_requerida",
+      "duracion": "Según visado concedido",
+      "coste": "90 EUR (45 EUR para menores de 6-12 años)",
+      "info": "Cuba requiere visado Schengen de corta estancia para entrar a España en 2026. Trámite en el Consulado de España en La Habana o centro autorizado, con seguro médico de viaje obligatorio."
+    },
+    "guatemala": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "honduras": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "el_salvador": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "nicaragua": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "panama": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "rep_dominicana": {
+      "tipo": "visa_requerida",
+      "duracion": "Según visado concedido",
+      "coste": "90 EUR (45 EUR para menores de 6-12 años)",
+      "info": "República Dominicana requiere visado Schengen para entrar a España en 2026, aunque el país está adoptando el pasaporte biométrico como paso previo a solicitar la exención. Trámite en el Consulado de España, con seguro médico de viaje obligatorio."
+    },
+    "eeuu": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    },
+    "reino_unido": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor tras el Brexit, dentro de cualquier periodo de 180 días."
+    },
+    "francia": {
+      "tipo": "libre",
+      "duracion": "Sin límite",
+      "coste": "Gratuito",
+      "info": "Ciudadano de la Unión Europea: libre circulación sin control de pasaporte ni límite de estancia."
+    },
+    "alemania": {
+      "tipo": "libre",
+      "duracion": "Sin límite",
+      "coste": "Gratuito",
+      "info": "Ciudadano de la Unión Europea: libre circulación sin control de pasaporte ni límite de estancia."
+    },
+    "italia": {
+      "tipo": "libre",
+      "duracion": "Sin límite",
+      "coste": "Gratuito",
+      "info": "Ciudadano de la Unión Europea: libre circulación sin control de pasaporte ni límite de estancia."
+    },
+    "brasil": {
+      "tipo": "libre",
+      "duracion": "90 días",
+      "coste": "Gratuito (ETIAS ~7€ a partir de su entrada en vigor)",
+      "info": "Libre para turismo con pasaporte en vigor."
+    }
+  }
+}

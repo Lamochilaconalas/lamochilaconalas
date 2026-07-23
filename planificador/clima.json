@@ -1,0 +1,4186 @@
+{
+  "mexico": {
+    "centro": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "El Centro de México tiene el clima más estable del país — CDMX a 2.240m y las ciudades coloniales entre 1.700 y 2.000m tienen temperaturas perfectas casi todo el año. Mayo-septiembre es la temporada de lluvias vespertinas pero no impide el turismo.",
+      "festividades": [
+        "Noviembre 1-2 — Día de Muertos en todo el Centro y especialmente en Michoacán (Pátzcuaro y Janitzio). La celebración más auténtica de México.",
+        "Octubre — Festival Cervantino en Guanajuato — el evento cultural más importante de América Latina. Reservar alojamiento con meses de antelación.",
+        "Agosto-Septiembre — Chiles en Nogada en Puebla — el plato más estacional de México. Obligatorio si visitas en esa época."
+      ],
+      "lugares_clave": [
+        "Centro Histórico",
+        "Roma y Condesa",
+        "Coyoacán",
+        "Xochimilco",
+        "Polanco y San Ángel",
+        "Museo Nacional de Antropología",
+        "Templo Mayor",
+        "Palacio de Bellas Artes",
+        "Teotihuacán",
+        "Casa Azul",
+        "La gastronomía de CDMX",
+        "Dónde comer en CDMX"
+      ]
+    },
+    "caribe": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Diciembre-abril es temporada perfecta — cielos despejados, temperatura ideal, sin humedad excesiva. También la más cara. Junio-septiembre es temporada de huracanes — evitar la costa caribeña especialmente entre agosto y octubre. Noviembre es excelente: el calor ha bajado, los huracanes han terminado y los precios caen. El tiburón ballena está en Holbox de junio a septiembre. La bioluminiscencia de julio a noviembre. Fuera de estos meses Holbox sigue siendo bonita pero pierde sus dos experiencias más únicas. Mérida es visitable todo el año pero mayo es el mes más caluroso — 38-40°C con humedad. Noviembre-abril es el período ideal. Mérida e interior son seguros durante la temporada de huracanes — los ciclones afectan a la costa, no al interior.",
+      "festividades": [],
+      "lugares_clave": [
+        "Cancún",
+        "Isla Mujeres",
+        "Holbox",
+        "Cozumel",
+        "Tulum",
+        "Bacalar",
+        "Sian Ka'an",
+        "Los mejores por zona",
+        "Cerca de Tulum",
+        "Cerca de Valladolid",
+        "Cerca de Mérida",
+        "Mérida"
+      ]
+    },
+    "pacifico": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre-abril: temporada perfecta. Calor con brisa marina, agua a 26-28°C, cielo despejado. Diciembre-marzo: ballenas jorobadas en la bahía de Banderas — el motivo más poderoso para ir en esas fechas. Carnaval de Mazatlán: febrero o marzo — reservar con meses de antelación. Junio-septiembre: lluvias intensas por las tardes, calor húmedo, precios mucho más bajos. Noviembre-abril perfectos. Junio-octubre: temporada de lluvias e incluye riesgo de ciclones en Guerrero — evitar la costa en esos meses. Junio-enero: tortugas marinas anidando en Maruata y Nexpa — si coincide con el viaje, los tours nocturnos de avistamiento son una experiencia única. Las mejores olas de Sayulita son en verano — junio a septiembre, con el oleaje del Pacífico sur. En temporada seca (noviembre-mayo) las olas son más pequeñas pero el clima es perfecto para todo lo demás. Para surf de calidad: ir entre junio y septiembre asumiendo lluvia vespertina.",
+      "festividades": [],
+      "lugares_clave": [
+        "La Zona Romántica",
+        "Ballenas jorobadas",
+        "Los Arcos",
+        "Islas Marietas",
+        "Mismaloya y Boca de Tomatlán",
+        "Dónde comer en Puerto Vallarta",
+        "Bares con encanto en Puerto Vallarta",
+        "Sayulita",
+        "San Pancho (San Francisco)",
+        "Punta Mita",
+        "Bucerias",
+        "La Cruz de Huanacaxtle"
+      ]
+    },
+    "sur": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre-abril es la temporada seca ideal. Días soleados, calor agradable, noches frescas. Julio — los dos lunes siguientes al 16 de julio: la Guelaguetza, el festival de danzas y tradiciones indígenas más importante de México. Oaxaca se llena, los precios suben entre un 40 y un 60% y hay que reservar con meses de antelación. Si se puede ir, es una experiencia única e irrepetible. 1 y 2 de noviembre — Día de Muertos: Oaxaca tiene una de las celebraciones más auténticas del país, con panteones iluminados de velas, altares en el zócalo y una procesión el 1 de noviembre que cada año atrae a más turistas. Mayo a septiembre es la temporada de lluvias vespertinas — no impide el turismo pero hay que contar con ello. Noviembre a marzo es la mejor época. Clima seco y agradable en San Cristóbal — fresco, entre 15 y 20 grados de día. En Palenque el calor es más soportable que en verano. Las cascadas tienen buen caudal y las aguas están en su mejor color. Junio a octubre: lluvia intensa. En Palenque el calor húmedo es extremo y llueve con fuerza todos los días. San Cristóbal es tolerable con lluvia vespertina pero el Agua Azul pierde su color turquesa y se vuelve marrón. Solo en temporada seca — noviembre a abril. Mayo a octubre el Pacífico puede ser peligroso incluso para bañarse en playas aparentemente tranquilas. Las corrientes son traicioneras y no distinguen entre expertos y principiantes.",
+      "festividades": [],
+      "lugares_clave": [
+        "Templo de Santo Domingo de Guzmán",
+        "Jardín Etnobotánico",
+        "Mercado 20 de Noviembre y Benito Juárez",
+        "El mezcal",
+        "La cocina oaxaqueña",
+        "Artesanía",
+        "Monte Albán",
+        "Santa María del Tule",
+        "San Bartolo Coyotepec",
+        "Arrazola",
+        "Tlacolula de Matamoros",
+        "Mitla"
+      ]
+    },
+    "norte": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Primavera (marzo-junio) e inicio del otoño (octubre-noviembre) son ideales — temperatura agradable en la cumbre (Creel) y calor tolerable en el fondo (Batopilas). Julio-septiembre es temporada de lluvias — el cañón está más verde pero los caminos se ponen difíciles. Diciembre-febrero puede nevar en Creel y el fondo del cañón sigue siendo cálido — el contraste de climas es extremo. Octubre-abril perfectos. Junio-agosto: calor extremo en Monterrey (40-45°C). Las sierras alrededor son 10°C más frescas y perfectas en verano para senderismo.",
+      "festividades": [
+        "Enero-marzo: ballenas grises en las lagunas — la razón principal para venir en esas fechas. Valle de Guadalupe perfecto todo el año pero con vendimia en agosto. Los Cabos: noviembre-mayo para evitar el calor extremo. El Mar de Cortés en verano puede alcanzar 30°C de temperatura del agua — fantástico para bucear."
+      ],
+      "lugares_clave": [
+        "El Cañón del Cobre —",
+        "La península que parece",
+        "La ciudad industrial",
+        "Álamos, Durango y",
+        "Desiertos, ballenas",
+        "La cocina más cárnica",
+        "Cerámica Rarámuri,",
+        "Cuándo ir al Norte",
+        "El tren Chepe",
+        "Creel",
+        "Divisadero",
+        "Batopilas",
+        "El pueblo Rarámuri",
+        "Cascada de Basaseachic",
+        "Médanos de Samalayuca"
+      ]
+    }
+  },
+  "jordania": {
+    "aman-norte": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "El norte de Jordania tiene clima mediterráneo de altitud, mucho más suave que el desierto del sur o el Mar Muerto. Marzo a mayo y septiembre a noviembre son la temporada óptima, con temperaturas templadas y los bosques de Ajloun en su mejor momento. Los veranos (junio-agosto) son calurosos pero secos, soportables gracias a la altitud de Amán (unos 900 msnm) — nada que ver con el calor extremo del Wadi Rum o el Mar Muerto en la misma época. Los inviernos (diciembre-febrero) son fríos y lluviosos, con posibilidad ocasional de nieve en Amán y Ajloun, algo que sorprende a quien imagina Jordania solo como desierto.",
+      "festividades": [],
+      "lugares_clave": [
+        "La Ciudadela (Jabal al-Qal'a)",
+        "Teatro Romano",
+        "Odeón y Ninfeo",
+        "Baños turcos Al Pasha",
+        "Jabal Amman",
+        "Jabal Al-Weibdeh",
+        "Downtown / Al-Balad",
+        "Abdoun",
+        "Mezquita del Rey Husein",
+        "Mezquita del Rey Abdullah I",
+        "Iglesia Ortodoxa Griega de Al-Husseiny",
+        "Iglesia Anglicana de la Epifanía"
+      ]
+    },
+    "aqaba": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Aqaba es la zona más cálida de Jordania durante todo el año, con clima desértico costero suavizado por el mar. Noviembre a abril es la temporada más agradable, con temperaturas templadas de día y agua a 20-24°C, ideal tanto para playa como para buceo sin necesitar traje grueso. El verano (junio-septiembre) es muy caluroso en tierra (por encima de 38-40°C con frecuencia) pero el mar se mantiene agradable y algo más fresco que el aire, por lo que muchos visitantes usan el agua como refugio del calor. A diferencia del resto del país, Aqaba prácticamente no tiene temporada \"mala\": incluso en pleno invierno las temperaturas rara vez bajan de los 15-18°C de día.",
+      "festividades": [],
+      "lugares_clave": [
+        "Castillo de Aqaba (Fuerte Mameluco)",
+        "Mástil de la bandera de Aqaba",
+        "Ayla",
+        "Barrio antiguo y zoco de Aqaba",
+        "Mezquita Sharif Al-Hussein Bin Ali",
+        "Mezquita Al-Sahaba",
+        "Chiringuitos y bares de playa",
+        "Sitios de buceo imprescindibles",
+        "Cedar Pride",
+        "Jardín Japonés (Japanese Garden)",
+        "Siete Hermanas (Seven Sisters)",
+        "Museo Militar Subacuático"
+      ]
+    },
+    "mar-muerto": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "El Mar Muerto es el punto más bajo y más cálido de Jordania — la altitud negativa (-430m) atrapa el calor y suaviza el frío del invierno respecto al resto del país. Marzo a mayo y octubre a noviembre son la temporada más agradable para flotar y visitar Madaba o Monte Nebo sin calor extremo. El verano (junio-septiembre) trae temperaturas por encima de 40°C de forma habitual, con una sensación húmeda pesada por la baja altitud — muchos visitantes prefieren entrar al agua muy temprano o al atardecer en esos meses. El invierno (diciembre-febrero) es la temporada más suave del país en esta zona concreta, con temperaturas notablemente más cálidas que en Amán o Ajloun gracias a la altitud negativa.",
+      "festividades": [],
+      "lugares_clave": [
+        "Qué ver y hacer",
+        "Flotar en el Mar Muerto",
+        "Barro mineral del Mar Muerto",
+        "Atardecer sobre Cisjordania",
+        "Playas y balnearios",
+        "Iglesia de San Jorge",
+        "Iglesia de los Apóstoles",
+        "Mezquitas del centro histórico",
+        "Museo Arqueológico y Parque Arqueológico",
+        "Memorial de Moisés",
+        "Escultura de la Serpiente de Bronce",
+        "Sitio del Bautismo (Al-Maghtas)"
+      ]
+    },
+    "petra-sur": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Petra está a unos 900-1.000 msnm, lo que suaviza el calor del desierto pero también trae contrastes térmicos fuertes entre el día y la noche. Marzo a mayo y septiembre a noviembre son la temporada óptima: temperaturas templadas durante el día y noches frescas pero soportables. Los veranos (junio-agosto) son calurosos durante las horas centrales —especialmente incómodo caminando por el Siq sin sombra al mediodía—, por lo que conviene empezar la visita al amanecer y descansar en las horas de más calor. Los inviernos (diciembre-febrero) traen temperaturas frías, lluvia ocasional y, en años puntuales, nieve ligera sobre las tumbas talladas — una estampa poco habitual pero real.",
+      "festividades": [],
+      "lugares_clave": [
+        "El Siq",
+        "Al-Khazneh (El Tesoro)",
+        "La Calle de las Fachadas y las Tumbas Reales",
+        "El Teatro nabateo",
+        "Ad-Deir (El Monasterio)",
+        "El Lugar Alto del Sacrificio (High Place of Sacrifice)",
+        "Entradas y tiempo necesario",
+        "El Lugar Alto del Sacrificio",
+        "Iglesia Bizantina de Petra",
+        "Mezquita de Wadi Musa",
+        "Ain Musa (Manantial de Moisés)",
+        "Mezquitas locales"
+      ]
+    },
+    "wadi-rum": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Wadi Rum es desierto puro, con los contrastes térmicos más extremos de todo el país entre el día y la noche. Marzo a mayo y septiembre a noviembre son la temporada óptima: días templados y noches frescas, perfectas para dormir en campamento. El verano (junio-agosto) trae calor intenso durante el día —por encima de 40°C no es raro—, aunque las noches siguen refrescando notablemente por la sequedad del aire. En invierno (diciembre-febrero) las temperaturas nocturnas pueden bajar de 0°C pese al calor relativo del día, así que la ropa de abrigo para la noche es obligatoria en cualquier época del año, no solo en invierno.",
+      "festividades": [],
+      "lugares_clave": [
+        "Siete Pilares de la Sabiduría",
+        "Puente de roca de Um Fruth",
+        "Cañón de Khazali",
+        "Duna Roja (Red Sand Dune)",
+        "Lawrence's Spring (Ain Shalaaleh)",
+        "El Elefante de Piedra (Rock Bridge)",
+        "Naturaleza y vida salvaje",
+        "Tour en jeep 4x4",
+        "Trekking y escalada",
+        "Paseos en camello",
+        "Vuelo en globo aerostático",
+        "Observación de estrellas"
+      ]
+    }
+  },
+  "turquia": {
+    "anatolia-oriental": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima continental extremo, con veranos abrasadores (Şanlıurfa y Mardin pueden superar los 40°C en julio y agosto, con muy poca sombra en los yacimientos) e inviernos fríos, especialmente en las zonas de mayor altitud como el propio Monte Nemrut, donde puede nevar. Primavera (abril-mayo) y otoño (octubre-noviembre) son claramente la mejor época — temperaturas mucho más llevaderas y paisajes más verdes en los alrededores de Mardin y Urfa. El Monte Nemrut solo es accesible con comodidad de abril a octubre; en pleno invierno la carretera de acceso puede cerrarse por nieve.",
+      "festividades": [],
+      "lugares_clave": [
+        "Las terrazas",
+        "La subida",
+        "Túmulo de Karakuş",
+        "Puente de Cendere",
+        "Arsemeia (Eski Kale)",
+        "Yeni Kale",
+        "Cómo llegar y dónde dormir",
+        "Göbekli Tepe",
+        "Balıklıgöl (Estanque de Abraham)",
+        "Parque y estanque de Ayn Zeliha",
+        "Museo Arqueológico de Şanlıurfa",
+        "Castillo de Urfa"
+      ]
+    },
+    "bursa-dardanelos": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima mediterráneo-continental de transición, similar al de Estambul pero algo más suave gracias a la influencia del Egeo. Enero es el mes más frío (6-7°C de media), julio el más caluroso (26-30°C) y también el más seco, con apenas 8mm de lluvia. El agua del mar en Bozcaada y Gökçeada alcanza los 25°C en pleno verano. La mejor época para playa es de junio a septiembre; para visitar Troya, Gallipoli y Bursa sin calor agobiante, abril-junio y septiembre-octubre son ideales — además de coincidir con el mejor momento del año para el senderismo en Uludağ.",
+      "festividades": [],
+      "lugares_clave": [
+        "Ulu Camii (Gran Mezquita)",
+        "Mezquita Verde (Yeşil Camii) y Mausoleo Verde (Yeşil Türbe)",
+        "Complejo Muradiye",
+        "Mezquita Emir Sultan",
+        "Koza Han (mercado de la seda)",
+        "Kapalı Çarşı (bazar cubierto) y Bedesten",
+        "Monte Uludağ",
+        "Baños termales de Çekirge",
+        "Pueblos cercanos",
+        "Cumalıkızık",
+        "Gölyazı",
+        "Murallas y ruinas de Hisarlık"
+      ]
+    },
+    "capadocia": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima continental semiárido, con inviernos fríos (media de 7°C de día, bajo cero de noche, con nieve ocasional que da a los valles un aspecto mágico pero dificulta el trekking) y veranos calurosos y secos (hasta 32°C en agosto). Abril-mayo y septiembre-octubre son la mejor época, tanto para trekking como para el vuelo en globo — temperaturas suaves, cielos despejados y menos cancelaciones por viento que en pleno invierno. Ankara comparte un patrón similar, algo más extremo por su altitud.",
+      "festividades": [],
+      "lugares_clave": [
+        "El castillo de roca de Uçhisar",
+        "Lugares religiosos",
+        "Museo al Aire Libre de Zelve",
+        "Paşabağ (Valle de los Monjes)",
+        "Valle Rosa y Valle Rojo (Güllüdere y Kızılçukur)",
+        "Valle del Amor (Aşk Vadisi)",
+        "Valle de las Palomas (Güvercinlik)",
+        "Valle Zemi",
+        "Valle Meskendir",
+        "Valle de las Espadas (Kılıçlar)",
+        "Valle de Ihlara",
+        "Derinkuyu"
+      ]
+    },
+    "costa-egea": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima mediterráneo típico: veranos calurosos y secos, con el viento Meltemi suavizando el calor en Bodrum y Çeşme; inviernos suaves y lluviosos, sin las temperaturas extremas de Capadocia o Anatolia central. La temporada de playa va de junio a septiembre, con julio y agosto en su punto álgido de calor, aglomeración y precios. Para visitar Éfeso y Pamukkale con menos calor y menos gente, abril-mayo y septiembre-octubre son claramente preferibles al verano.",
+      "festividades": [],
+      "lugares_clave": [
+        "Biblioteca de Celso (Éfeso)",
+        "El Gran Teatro y la Calle de los Curetes",
+        "Casa de la Virgen María y Basílica de San Juan",
+        "Pérgamo",
+        "Pamukkale",
+        "Cómo moverse entre los tres",
+        "Kordon",
+        "Mercado de Kemeraltı",
+        "Castillo de Kadifekale",
+        "Ascensor histórico (Asansör)",
+        "Barrio de Alsancak",
+        "Alaçatı"
+      ]
+    },
+    "costa-turquesa": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "La temporada más larga de toda la costa turca: de finales de abril a finales de octubre, con más de 300 días de sol al año en Antalya. Julio y agosto pueden superar los 40°C, especialmente incómodos en las horas centrales del día — mayo, junio, septiembre y la primera quincena de octubre son claramente el mejor momento, con agua ya cálida (o todavía cálida, en octubre) y mucha menos gente. En octubre el mar sigue rondando los 26-27°C, perfecto para bañarse sin las aglomeraciones del verano.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kaleiçi",
+        "Museo Arqueológico de Antalya",
+        "Cascadas de Düden",
+        "Teatro de Aspendos",
+        "Perge",
+        "Termessos",
+        "Playas de Antalya",
+        "Cómo moverse",
+        "Kaş",
+        "Kalkan",
+        "Kekova y la ciudad sumergida de Simena",
+        "Kaleköy (antigua Simena)"
+      ]
+    },
+    "estambul": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Estambul tiene un clima de transición entre mediterráneo y continental, con inviernos fríos y lluviosos (diciembre-febrero, 6-11°C) y veranos calurosos y secos (julio-agosto, hasta 29°C con alta humedad). Abril-mayo y septiembre-octubre son la mejor época — temperaturas agradables, sin las lluvias del invierno ni el calor húmedo del verano. Diciembre es el mes más lluvioso del año, mientras que julio y agosto son los más secos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Santa Sofía (Ayasofya)",
+        "Mezquita Azul (Sultan Ahmed)",
+        "Mezquita de Süleymaniye",
+        "Iglesia de San Salvador de Cora (Kariye)",
+        "Iglesia Búlgara de San Esteban",
+        "Gran Sinagoga de Neve Shalom",
+        "Mezquita de Mihrimah Sultan (Üsküdar)",
+        "Mezquita Yeni Valide (Üsküdar)",
+        "Gran Mezquita de Çamlıca",
+        "Palacio de Topkapi",
+        "Cómo llegar a Estambul",
+        "Üsküdar"
+      ]
+    }
+  },
+  "tailandia": {
+    "andaman": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a abril es la temporada óptima en todo el Andamán — cielos despejados, mar en calma y la mejor visibilidad para buceo y snorkel. Mayo a octubre trae el monzón del suroeste, con oleaje fuerte, lluvias intensas y muchos servicios de ferry reducidos o cancelados, especialmente hacia las islas más pequeñas como Ko Lipe o las Similan, que cierran por completo de mayo a octubre. Diciembre y enero son el pico de temporada alta, con los precios más elevados de todo el año.",
+      "festividades": [],
+      "lugares_clave": [
+        "Las playas de Phuket",
+        "Phuket Old Town",
+        "Wat Chalong",
+        "Big Buddha (Phuket)",
+        "Phuket Walking Street (domingos)",
+        "Chillva Market",
+        "Naka Market",
+        "Phang Nga Bay",
+        "Cabo Promthep",
+        "Islas cercanas accesibles desde Phuket",
+        "Dónde dormir en Phuket",
+        "Las playas de Krabi"
+      ]
+    },
+    "bangkok": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a febrero es la temporada óptima — calor seco, cielos despejados y temperaturas algo más soportables (25-32°C). Marzo a mayo es la época más calurosa del año, con picos de 40-45°C en abril, coincidiendo con el festival Songkran (año nuevo del agua). Junio a octubre es la temporada de lluvias del monzón — chubascos intensos pero breves, normalmente por la tarde, que no impiden visitar la ciudad.",
+      "festividades": [
+        "Abril — Songkran, el año nuevo tailandés. Toda la ciudad se convierte en una batalla de agua gigantesca durante tres días. Espectacular pero hay que aceptar acabar completamente empapado en cualquier calle.",
+        "Noviembre — Loy Krathong, el festival de las luces flotantes. Pequeñas balsas decoradas con velas e incienso se sueltan en los canales y el río Chao Phraya al anochecer — una de las imágenes más bonitas que ofrece la ciudad."
+      ],
+      "lugares_clave": [
+        "Rattanakosin",
+        "Sukhumvit",
+        "Chinatown (Yaowarat)",
+        "Banglamphu y Khao San Road",
+        "Thonburi",
+        "Gran Palacio Real y Wat Phra Kaew",
+        "Wat Pho",
+        "Wat Arun",
+        "Mercado flotante de Damnoen Saduak",
+        "Mercado de fin de semana de Chatuchak",
+        "Talad Rot Fai",
+        "Mercado de Khlong Toei"
+      ]
+    },
+    "golfo": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "aceptable",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "El Golfo de Tailandia tiene un patrón climático opuesto al del Mar de Andamán: su temporada de lluvias cae entre octubre y enero, justo cuando la costa oeste tiene su mejor clima. Esto convierte a Ko Samui, Ko Phangan y Ko Tao en el destino ideal para quien viaja en verano europeo (junio-agosto), cuando el resto del país sufre el monzón pero el Golfo está en su mejor momento. Noviembre y diciembre son los meses más lluviosos, con riesgo ocasional de tormentas tropicales que pueden cancelar ferries durante uno o dos días.",
+      "festividades": [],
+      "lugares_clave": [
+        "Las playas de Ko Samui",
+        "Islotes cercanos a Ko Samui",
+        "Wat Plai Laem",
+        "Big Buddha Temple (Wat Phra Yai)",
+        "Wat Khunaram",
+        "Fisherman's Village Walking Street (viernes)",
+        "Mercado nocturno de Chaweng",
+        "Mercado de Nathon",
+        "Cascadas Na Muang 1 y 2",
+        "Hin Ta Hin Yai (rocas del abuelo y la abuela)",
+        "Angthong National Marine Park",
+        "Secret Buddha Garden (Magic Garden)"
+      ]
+    },
+    "isaan": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Isaan es la zona menos sensible al calendario de toda Tailandia. Noviembre a marzo es la temporada ideal — días secos y soleados, noches frescas. Abril y mayo son los meses más duros: el calor del interior, sin la influencia moderadora de la costa, puede superar fácilmente los 40°C. El monzón, de junio a octubre, trae lluvias pero generalmente menos intensas que en el sur o el golfo, y el paisaje se vuelve intensamente verde — buena época para fotografía si no importa algo de lluvia ocasional.",
+      "festividades": [
+        "Abril y septiembre — el fenómeno solar de Phanom Rung, cuando el sol naciente atraviesa los 15 portales del templo en línea recta. Si el viaje puede ajustarse a estas fechas (3-5 de abril o 8-10 de septiembre), vale la pena planificarlo con antelación — hay celebraciones locales asociadas."
+      ],
+      "lugares_clave": [
+        "Wat Nong Wang",
+        "Wat Thung Sethi",
+        "Talad Bang Lamphu",
+        "Mercado de Ton Tann",
+        "Mercado de Greenery (Talad Sieo)",
+        "Bueng Kaen Nakhon",
+        "Phu Wiang National Park",
+        "Gastronomía de Isaan",
+        "Dónde comer en Khon Kaen",
+        "Dónde dormir en Khon Kaen",
+        "Templos y lugares destacados",
+        "Sala Kaewku (Wat Khaek)"
+      ]
+    },
+    "norte": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "evitar",
+        "abril": "evitar",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a febrero es la temporada ideal — cielos despejados, temperaturas frescas (15-28°C) y hasta frío real por las noches en Pai y Doi Inthanon. Marzo y abril son la temporada de quema agrícola: agricultores locales queman rastrojos para preparar los campos, generando humo denso que reduce visibilidad y calidad del aire en Chiang Mai. Quien tenga problemas respiratorios debería evitar estos dos meses. El monzón, de junio a octubre, trae lluvias intensas pero el paisaje se vuelve intensamente verde.",
+      "festividades": [
+        "Noviembre — Yi Peng, el festival de las linternas, coincide con Loy Krathong. Miles de farolillos de papel se sueltan al cielo nocturno de Chiang Mai en una de las imágenes más icónicas de Tailandia — reservar alojamiento con meses de antelación si coincide con tu viaje."
+      ],
+      "lugares_clave": [
+        "Casco antiguo amurallado",
+        "Nimmanhaemin (Nimman)",
+        "Wat Gate",
+        "San Kamphaeng",
+        "Wat Phra That Doi Suthep",
+        "Wat Phra Singh",
+        "Wat Chedi Luang",
+        "Wat Umong",
+        "Mercado Warorot (Kad Luang)",
+        "Sunday Walking Street",
+        "Saturday Walking Street (Wua Lai)",
+        "Mercado nocturno de Chang Phuak"
+      ]
+    }
+  },
+  "brasil": {
+    "rio": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "De mayo a septiembre —invierno austral— las temperaturas son más suaves (20-27°C), llueve menos y los precios de alojamiento bajan: son los mejores meses para explorar la ciudad sin agobios de calor ni de aglomeración, aunque el agua del mar está algo más fría. Enero, febrero y diciembre son los meses más calurosos y húmedos, con temperaturas que superan los 35°C y lluvias tropicales repentinas —además coinciden con Año Nuevo y Carnaval, cuando los precios se disparan y hay que reservar con meses de antelación. Marzo, abril, octubre y noviembre son meses de transición, agradables pero variables.",
+      "festividades": [],
+      "lugares_clave": [
+        "Río de Janeiroy la Costa Fluminense",
+        "Cristo Redentor (Corcovado)",
+        "Pan de Azúcar (Pão de Açúcar)",
+        "Escadaria de Selarón",
+        "Maracanã",
+        "Real Gabinete Português de Leitura",
+        "Confeitaria Colombo"
+      ]
+    },
+    "saopaulo": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "De abril a octubre —otoño e invierno austral— el clima es más templado y seco, con menos lluvias: la mejor época para explorar la ciudad a pie. En verano (diciembre-marzo) las temperaturas suben y son frecuentes las tormentas eléctricas repentinas por la tarde, típicas de una ciudad a más de 700 metros de altitud. A diferencia de Río, São Paulo no depende de la playa, así que el clima condiciona menos la planificación del viaje.",
+      "festividades": [],
+      "lugares_clave": [
+        "São Paulo",
+        "MASP",
+        "Mercado Municipal (Mercadão)",
+        "Beco do Batman",
+        "Parque Ibirapuera",
+        "Centro histórico",
+        "Edifício Copan"
+      ]
+    },
+    "amazonia": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "De junio a septiembre —temporada de menos lluvia— los días son más despejados y es más fácil combinar excursiones sin interrupciones, aunque el calor y la humedad son constantes durante todo el año (28-33°C). El resto de meses llueve con más frecuencia, generalmente en chubascos intensos y breves por la tarde, pero no impide viajar: de hecho, entre marzo y septiembre el nivel del río sube y permite explorar los igapós en canoa, una experiencia que no existe en la época seca. No hay una \"mala\" temporada para visitar la Amazonia, solo una selva distinta según el nivel del agua.",
+      "festividades": [],
+      "lugares_clave": [
+        "Amazonia",
+        "Teatro Amazonas",
+        "Encontro das Águas",
+        "Mercado Adolpho Lisboa",
+        "Bosque da Ciência",
+        "Arquipélago de Anavilhanas",
+        "Río Mamori y alrededores"
+      ]
+    },
+    "bahia": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "aceptable",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Salvador mantiene un clima cálido durante todo el año (25-30°C), pero a diferencia del resto de Brasil, la temporada de lluvias se concentra entre abril y junio —el llamado \"invierno\" bahiano—, con chubascos frecuentes que no siempre impiden disfrutar de las playas. De agosto a marzo el clima es más estable y seco, con diciembre y febrero coincidiendo con Año Nuevo y Carnaval, cuando los precios y la afluencia se disparan. Entre septiembre y noviembre, con menos aglomeración y buen tiempo, es la época que muchos consideran más equilibrada para visitar la ciudad.",
+      "festividades": [],
+      "lugares_clave": [
+        "Salvadorde Bahía",
+        "Pelourinho",
+        "Capoeira en el Pelourinho",
+        "Igreja e Convento de São Francisco",
+        "Elevador Lacerda",
+        "Fundação Casa de Jorge Amado",
+        "Igreja do Nosso Senhor do Bonfim"
+      ]
+    },
+    "nordeste": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Como en Salvador, la \"temporada de lluvias\" del Nordeste se concentra entre abril y julio, con chubascos más frecuentes que no siempre impiden disfrutar de la playa. De agosto a marzo el clima es más seco y estable, con diciembre a marzo coincidiendo con la temporada alta de precios y aglomeración. En Fernando de Noronha, además, agosto-noviembre ofrece la mejor visibilidad para bucear, mientras que mayo-junio permite ver cascadas estacionales en algunos acantilados de la isla.",
+      "festividades": [],
+      "lugares_clave": [
+        "Recifey Olinda",
+        "Recife Antigo",
+        "Santo Antônio y São José",
+        "Olinda",
+        "Instituto Ricardo Brennand",
+        "Nataly las dunas",
+        "Dunas de Genipabu",
+        "Ponta Negra y Morro do Careca",
+        "Fortaleza dos Reis Magos",
+        "Maracajaú",
+        "Pipay otros pueblos",
+        "Pipa",
+        "Galinhos",
+        "Fernandode Noronha",
+        "Baía do Sancho",
+        "Baía dos Porcos y Praia do Leão",
+        "Buceo",
+        "Centro de Artesanato de Pernambuco",
+        "Embaixada dos Bonecos Gigantes"
+      ]
+    },
+    "iguazupantanal": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Para el Pantanal, la época seca (junio-octubre) es, sin discusión, la mejor para el avistamiento de fauna: los animales se concentran alrededor de los puntos de agua y los caminos son transitables, con julio-septiembre como pico de posibilidades de ver jaguar en Porto Jofre. En época de lluvias (noviembre-mayo) hay más aves y yacarés visibles, pero los mamíferos se dispersan y algunas carreteras pueden quedar cortadas por el agua. Para las Cataratas do Iguaçu, el caudal es mayor en verano austral (diciembre-marzo), aunque el parque se visita bien todo el año; conviene evitar las vacaciones escolares brasileñas si se busca menos aglomeración.",
+      "festividades": [],
+      "lugares_clave": [
+        "Foz do Iguaçu",
+        "Lado brasileño",
+        "Parque das Aves",
+        "Macuco Safari",
+        "Itaipu Binacional",
+        "Marco das Três Fronteiras",
+        "Ciudad del Este (Paraguay)",
+        "Pantanal",
+        "Pantanal Norte (Transpantaneira)",
+        "Pantanal Sur",
+        "Safaris y actividades",
+        "Bonito"
+      ]
+    },
+    "minasgerais": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "De abril a septiembre —clima tropical de altitud, con inviernos secos— las temperaturas son agradables y hay menos lluvia, la mejor época para caminar sin prisa por las calles empedradas. De octubre a marzo el verano trae más lluvia, sobre todo en forma de chubascos por la tarde, aunque no impide el viaje. Semana Santa y Corpus Christi son fechas especiales en las ciudades históricas, con procesiones tradicionales y tapetes de aserrín coloreado en las calles —una experiencia cultural que muchos viajeros planifican expresamente, aunque implica más aglomeración y precios más altos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Ouro Pretoy Mariana",
+        "Ouro Preto",
+        "Museu da Inconfidência y Praça Tiradentes",
+        "Mariana",
+        "Congonhas",
+        "Tiradentesy São João del-Rei",
+        "Tiradentes",
+        "São João del-Rei",
+        "Serra de São José",
+        "Inhotimy Belo Horizonte",
+        "Instituto Inhotim",
+        "Belo Horizonte",
+        "Ateliês de Tiradentes",
+        "Feira de Ouro Preto",
+        "Mercado Central de Belo Horizonte"
+      ]
+    },
+    "florianopolis": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Diciembre a febrero es temporada alta de playa (25-35°C), con la isla a máxima capacidad de turistas, precios más altos y buen ambiente nocturno. De abril a junio y septiembre-noviembre —temporada media— el clima sigue permitiendo el baño con muchas menos aglomeraciones y mejores precios: para muchos viajeros, la opción más equilibrada. En invierno (junio-agosto) las temperaturas bajan y no es apto para playa, pero es una época excelente para planes culturales y gastronómicos, con precios notablemente más bajos. Si el viaje coincide con octubre, la Oktoberfest de Blumenau merece tenerse en cuenta al planificar fechas.",
+      "festividades": [],
+      "lugares_clave": [
+        "Florianópolisy el Sur",
+        "Lagoa da Conceição",
+        "Dunas da Joaquina",
+        "Santo Antônio de Lisboa",
+        "Ilha do Campeche",
+        "Blumenauy el Vale do Itajaí",
+        "Blumenau",
+        "Oktoberfest de Blumenau",
+        "Pomerode"
+      ]
+    }
+  },
+  "marruecos": {
+    "marrakech": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Marzo-mayo y septiembre-noviembre: la mejor época — días templados (20-28°C), noches frescas, ideal para caminar por la medina y hacer excursiones al Atlas.",
+        "Junio-agosto: calor extremo, con máximas que superan con frecuencia los 38-42°C. Los madrugones y las siestas dejan de ser opcionales. Los hammams y piscinas de riad ganan protagonismo.",
+        "Diciembre-febrero: días suaves y soleados (16-20°C), pero noches frías, sobre todo en riads sin calefacción central — lleva capas de abrigo para la noche."
+      ],
+      "lugares_clave": [
+        "Marrakech —la Ciudad Roja",
+        "Souk Semmarine",
+        "Souk Attarine",
+        "Souk Smata",
+        "Curtidurías de Bab Debbagh",
+        "Souk Haddadine",
+        "Mezquita Koutoubia"
+      ]
+    },
+    "costa-atlantica": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Todo el año: gracias a la brisa atlántica, esta es la zona de Marruecos con clima más suave y estable — sin el calor extremo del interior en verano ni el frío del Atlas en invierno. Essaouira en particular rara vez supera los 25°C incluso en agosto.",
+        "Octubre-febrero: mejor época para surf y kitesurf, con vientos más intensos; también trae noches más frescas, especialmente en Rabat y Casablanca.",
+        "Junio-septiembre: temperaturas más agradables para bañarse sin el viento constante de Essaouira, aunque las playas se llenan más de turismo interior, sobre todo en Oualidia."
+      ],
+      "lugares_clave": [
+        "Essaouira",
+        "La Skala y el puerto",
+        "Medina y Mellah",
+        "Artesanía de madera de tuya",
+        "Rabat",
+        "Kasbah de los Oudayas",
+        "Torre Hassan y Mausoleo de Mohamed V",
+        "Chellah",
+        "Casablanca",
+        "Mezquita Hassan II",
+        "La Corniche y Rick's Café",
+        "Medina antigua y Habous",
+        "Pescado y marisco a la parrilla",
+        "Cité Portugaise de El Jadida",
+        "Playas vírgenes al norte de Oualidia"
+      ]
+    },
+    "chefchaouen-rif": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Marzo-mayo y septiembre-noviembre: la mejor época, con temperaturas suaves y cielos limpios — ideal tanto para pasear por la medina como para las rutas de Akchour.",
+        "Junio-agosto: calor moderado gracias a la altitud del Rif (564 m), con noches frescas incluso en pleno verano. Es también la mejor época para bañarse en las pozas de Akchour, con menos caudal pero temperatura más agradable.",
+        "Diciembre-febrero: clima húmedo y frío, con nieblas frecuentes que acentúan el carácter montañoso de la ciudad — atmosférico para fotos, pero hay que abrigarse bien."
+      ],
+      "lugares_clave": [
+        "Chefchaouen —la ciudad azul",
+        "Puente de Dios",
+        "Cascadas de Akchour",
+        "Queso de cabra de Jebala",
+        "Ftour beldi",
+        "Cuscús de los viernes",
+        "Tetuán",
+        "Mezquita Bouzaafer al atardecer",
+        "Plaza El Kharrazine y sus molinos",
+        "Plaza El Haouta",
+        "Molino de Rahmouni y Ben Allouch"
+      ]
+    },
+    "fez-meknes": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Marzo-mayo y septiembre-noviembre: la mejor época, con temperaturas de 18-25°C, ideales para caminar horas por la medina sin agobios.",
+        "Junio-agosto: calor intenso en el interior (fácilmente 35-40°C), agravado por la falta de brisa marina que sí alivia a Rabat o Essaouira.",
+        "Diciembre-febrero: Fez y Meknes están en el interior, a mayor altitud que Marrakech, y el frío se nota más — noches cercanas a 0°C y ocasional niebla matinal en la medina."
+      ],
+      "lugares_clave": [
+        "Fez y Meknes —las ciudades imperiales",
+        "Medersa Bou Inania",
+        "Medersa Attarine",
+        "Bab Boujloud",
+        "Mellah de Fez",
+        "Plaza Nejjarine",
+        "Palacio Real (Dar el-Makhzen)",
+        "Meknes — la Versalles marroquí",
+        "Bab Mansour",
+        "Plaza el-Hedim",
+        "Heri es-Souani",
+        "Mausoleo de Moulay Ismail",
+        "Medersa Bou Inania de Meknes",
+        "Volubilis"
+      ]
+    },
+    "atlas-alta-montana": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Primavera (marzo-mayo) y otoño (septiembre-noviembre): la mejor época para trekking, con temperaturas suaves en los valles y nieve aún presente en las cumbres, dando un carácter casi alpino al paisaje por encima de los 2.600-2.800 m.",
+        "Diciembre-abril: temporada de nieve en el Toubkal y en Oukaïmeden — el ascenso requiere equipo técnico (crampones, piolet) y porteadores, ya que las mulas no pueden subir hasta el refugio.",
+        "Verano (junio-agosto): los valles bajos son cálidos y agradables durante el día, pero en altura (por encima de 3.000 m) puede haber nieve residual incluso en junio, y las noches en refugio siguen siendo frías."
+      ],
+      "lugares_clave": [
+        "Imlil y el Jbel Toubkal",
+        "Ascenso al Toubkal",
+        "Aremd",
+        "Valles bereberes menos transitados",
+        "Valle de Ourika",
+        "Setti Fatma y sus siete cascadas",
+        "Cooperativas de aceite de argán",
+        "Zoco de Tnine de Ourika",
+        "Oukaïmeden",
+        "Tajine bereber y pan de piedra",
+        "Té a la menta con hierbas de montaña",
+        "Valle de Azzaden",
+        "Refugio Lepiney",
+        "Eco-museo bereber de Tafza",
+        "Grabados rupestres de Oukaïmeden"
+      ]
+    },
+    "sahara-sur": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Octubre-noviembre y marzo-abril: los mejores meses, con días templados y noches frescas pero soportables en el desierto — la época recomendada por la mayoría de operadores locales.",
+        "Mayo-septiembre: calor extremo, con temperaturas que superan fácilmente los 40°C durante el día en pleno Sahara — solo recomendable para quien tolere bien el calor seco.",
+        "Diciembre-febrero: los días siguen siendo agradables, pero las noches en el desierto bajan bastante — imprescindible ropa de abrigo incluso durmiendo en jaima con mantas."
+      ],
+      "lugares_clave": [
+        "Sahara y el Sur —la ruta de las mil kasbahs",
+        "Atlas Studios",
+        "Kasbah Taourirt",
+        "Merzouga y las dunas de Erg Chebbi",
+        "Amanecer y atardecer en las dunas",
+        "Actividades en las dunas",
+        "Khamlia — música gnawa",
+        "Qué incluye normalmente",
+        "Cielo estrellado",
+        "Tajine de dátiles"
+      ]
+    }
+  },
+  "montenegro": {
+    "cetinjelovcen": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Julio-agosto: a diferencia de la costa, en Lovćen esta es la mejor época — unos 22°C de media, brisa constante y un alivio evidente frente al calor húmedo de Kotor o Budva.",
+        "Mayo, junio, septiembre: temperaturas suaves (10-16°C) y buena parte del follaje en su mejor momento — ideal para senderismo, aunque hay que contar con niebla ocasional en la carretera de montaña.",
+        "Noviembre-marzo: inviernos fríos y nevados en Lovćen, con Cetinje notablemente más gris y húmedo que la costa — el mausoleo suele cerrar o reducir horario fuera de temporada (15 abril-15 noviembre aprox.)."
+      ],
+      "lugares_clave": [
+        "Cetinje",
+        "Biljarda y el Museo de Njegoš",
+        "Museo del Rey Nikola",
+        "Monasterio de Cetinje",
+        "Calle Njegoševa y las antiguas embajadas",
+        "Palacio Azul",
+        "Parque Nacional Lovćen",
+        "Mausoleo de Njegoš",
+        "Carretera serpentina de Kotor",
+        "Teleférico Kotor-Lovćen",
+        "Ivanova Korita y el Sendero del Lobo",
+        "Njeguši",
+        "Njeguški pršut y sir",
+        "Kod Pera na Bukoviću",
+        "Casa natal de Njegoš",
+        "Bistec njeguški",
+        "Cordero en leche (Brav u mlijeku)",
+        "Restaurantes en Cetinje"
+      ]
+    },
+    "durmitornorte": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Junio-septiembre: la temporada de senderismo, con la mayoría de senderos libres de nieve y clima estable — julio y agosto son los meses más cálidos (20-25°C de día) pero también los más concurridos en el Lago Negro.",
+        "Mayo-junio: mejor época para el rafting, con el río Tara crecido por el deshielo y rápidos más intensos — el paisaje también está en su punto más verde y florido.",
+        "Diciembre-marzo: temporada de nieve, con Žabljak convertido en pequeña estación de esquí — muchos senderos de montaña quedan inaccesibles por la nieve, y conviene neumáticos de invierno para llegar por carretera."
+      ],
+      "lugares_clave": [
+        "Žabljak",
+        "Iglesia ortodoxa y mirador",
+        "Savin Kuk",
+        "Lago Negro (Crno Jezero)",
+        "Ruta perimetral",
+        "Barcas de remos y kayak",
+        "Ruta de los tres lagos",
+        "Cañón del Tara y puente de Đurđevića",
+        "Puente de Đurđevića Tara",
+        "Rafting",
+        "Tirolina sobre el cañón",
+        "Kačamak y cicvara",
+        "Cordero bajo el sač",
+        "Trucha del Tara"
+      ]
+    },
+    "costasur": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Junio y septiembre: las mejores condiciones del año, con el viento maestral constante para practicar kitesurf, precios de alojamiento razonables y las extensas playas todavía sin masificar.",
+        "Julio-agosto: temporada alta, con hasta 29°C de media y la mayor afluencia del año — aun así, Ulcinj tiende a llenarse más tarde y vaciarse más tarde que Budva, lo que da cierto margen si se elige bien la fecha.",
+        "Resto del año: temporada baja marcada, con buena parte de la infraestructura turística cerrada — la Costa Sur pierde gran parte de su atractivo fuera de la temporada de baño."
+      ],
+      "lugares_clave": [
+        "Ulcinj",
+        "Fortaleza de Ulcinj",
+        "Iglesia-Mezquita",
+        "Mala Plaza",
+        "Playa de las Damas (Ženska plaža)",
+        "Velika Plaza",
+        "Kitesurf y windsurf",
+        "Salina de Ulcinj",
+        "Ada Bojana",
+        "Restaurantes sobre el río",
+        "Zona naturista FKK",
+        "Rutas a caballo y kitesurf",
+        "Valdanos",
+        "Jegulja (anguila del Bojana)",
+        "Sopa de pescado y marisco a la parrilla",
+        "Sandía de Ulcinj",
+        "Mercado al aire libre de Ulcinj",
+        "Artesanía albanesa",
+        "Iglesia-Mezquita"
+      ]
+    },
+    "bahiadekotor": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Mayo-junio y septiembre-octubre: la mejor combinación de temperatura (24-28°C), mar templado y menos aglomeración de cruceros — la época recomendada para la mayoría de viajeros.",
+        "Julio-agosto: temporada alta, con hasta 32-35°C y máxima afluencia de cruceros y turistas — el casco antiguo de Kotor se satura al mediodía, aunque las noches siguen siendo agradables.",
+        "Noviembre-febrero: temporada de lluvias, con noviembre como el mes más húmedo del año — la bahía se vuelve tranquila y casi vacía, con un ambiente atmosférico distinto pero temperaturas suaves (rara vez bajo cero)."
+      ],
+      "lugares_clave": [
+        "Kotor",
+        "Puerta del Mar y Plaza de las Armas",
+        "Catedral de San Trifón",
+        "Fortaleza de San Juan (San Giovanni)",
+        "Museo Marítimo y Museo de los Gatos",
+        "Perast",
+        "Nuestra Señora de las Rocas",
+        "Isla de San Jorge",
+        "Palacio Bujović y las torres de Perast",
+        "Herceg Novi",
+        "Forte Mare",
+        "Kanli Kula (\"La Torre Sangrienta\")",
+        "Iglesia de San Miguel Arcángel",
+        "Paseo Pet Danica",
+        "Njeguški pršut y sir",
+        "Buzara de marisco"
+      ]
+    },
+    "rivieradebudva": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "",
+      "festividades": [
+        "Mayo-junio y septiembre-octubre: temperaturas de 24-28°C, mar ya templado y notablemente menos gente que en pleno verano — la mejor relación entre clima y aglomeración.",
+        "Julio-agosto: temporada alta absoluta, con hasta 32-35°C, playas al límite de su capacidad y precios de alojamiento en su punto más caro — también cuando la vida nocturna está en su máximo esplendor.",
+        "Noviembre-marzo: temporada baja, fría y lluviosa, con la mayoría de beach clubs y discotecas cerrados — la riviera pierde buena parte de su atractivo fuera de temporada."
+      ],
+      "lugares_clave": [
+        "Budva",
+        "La Ciudadela",
+        "Iglesia de San Juan y Palacio Episcopal",
+        "La Bailarina de Budva",
+        "Marina y la Campana",
+        "Sveti Stefan y Miločer",
+        "Mirador de Sveti Stefan",
+        "Villa Miločer",
+        "Playas de Miločer y Pržno",
+        "Petrovac",
+        "Fortaleza Kastio (Castello)",
+        "Islas Sveta Nedjelja y Katič",
+        "Monasterios de Rezevići y Gradište",
+        "Marisco fresco frente al mar",
+        "Restaurantes en Budva",
+        "Petrovac: Medin Bar"
+      ]
+    }
+  },
+  "arabiasaudi": {
+    "riad-diriyah": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "De octubre a marzo el clima es suave y coincide con la Riyadh Season, la mejor época para visitar la ciudad; de abril a septiembre hace mucho calor, con temperaturas que a menudo superan los 40°C, por lo que conviene planificar las visitas a primera y última hora del día y priorizar interiores con aire acondicionado.",
+      "festividades": [],
+      "lugares_clave": [
+        "Riady la cuna del reino en Diriyah",
+        "At-Turaif",
+        "Al-Bujairi Terrace",
+        "Diriyah Gate",
+        "Kingdom Centre y el Sky Bridge",
+        "Torre Al Faisaliah",
+        "Fortaleza de Masmak"
+      ]
+    },
+    "al-hasa-golfo": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Octubre a marzo ofrece temperaturas mucho más llevaderas para recorrer el oasis y las cuevas de Al-Qarah. De mayo a septiembre el calor es extremo y muy húmedo en la costa del Golfo, una combinación que hace sentir las temperaturas con más intensidad que en el interior del país.",
+      "festividades": [],
+      "lugares_clave": [
+        "Al-Hasay la costa del Golfo Pérsico",
+        "Montaña y cuevas de Al-Qarah",
+        "Souq Al-Qaisariya",
+        "Yellow Lake (Lago Amarillo)",
+        "Museo del Patrimonio de Al-Hasa",
+        "Dammamy Al Khobar",
+        "Corniche de Al Khobar",
+        "Corniche de Dammam",
+        "Herencia perlera"
+      ]
+    },
+    "rub-al-khali": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Octubre a marzo es la única temporada realmente recomendable: temperaturas diurnas cómodas y noches frías perfectas para dormir bajo las estrellas. De abril a septiembre el calor extremo hace que cualquier expedición sea innecesariamente peligrosa, y la mayoría de operadores directamente no ofrece salidas en esos meses.",
+      "festividades": [],
+      "lugares_clave": [
+        "Rub al Khaliel Desierto Vacío",
+        "Expediciones en 4x4",
+        "Acampada bajo las estrellas",
+        "Sandboarding y quads",
+        "Fauna del desierto",
+        "Puntos de acceso habituales",
+        "Solo con operador acreditado"
+      ]
+    },
+    "asir-montanas": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Marzo a mayo es la temporada más tranquila y con mejor visibilidad, ideal para senderismo y para explorar Rijal Almaa sin aglomeraciones, con precios de alojamiento más bajos. Julio y agosto —paradójicamente temporada alta local, ya que familias saudíes escapan aquí del calor del resto del país— traen más lluvia, niebla y las mayores multitudes, aunque el paisaje se vuelve exuberante y verde.",
+      "festividades": [],
+      "lugares_clave": [
+        "Abhala capital de Asir",
+        "Green Mountain y el teleférico",
+        "Palacio Shadda",
+        "Art Street y Muftaha Village",
+        "Lago de la presa de Abha",
+        "Jabal Sawday Al Soudah Park",
+        "Mirador Soudah 360°",
+        "Senderismo en Al Soudah",
+        "Parapente",
+        "Rijal Almaay la cultura asiri",
+        "Museo del Patrimonio (Palacio Al-Alwan)",
+        "Al-Qatt Al-Asiri",
+        "Festival de los Hombres Flor",
+        "Habala Hanging Village",
+        "Parque Nacional de Asir"
+      ]
+    },
+    "medina-meca": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a febrero trae las temperaturas más llevaderas para recorrer la ciudad a pie. De mayo a agosto el calor es extremo, con máximas que pueden superar los 50°C —el propio gobierno saudí ha instalado enormes sombrillas mecánicas en los patios de la Mezquita del Profeta para proteger a los fieles del sol.",
+      "festividades": [],
+      "lugares_clave": [
+        "Medinay La Meca",
+        "Mezquita del Profeta (vista exterior)",
+        "Mezquita de Quba",
+        "Mezquita de las Dos Qiblas (Al-Qiblatayn)",
+        "Monte Uhud",
+        "Museo Dar Al Madinah",
+        "La Mecala ciudad más sagrada del Islam",
+        "La Gran Mezquita y la Kaaba",
+        "Por qué esta guía no incluye un itinerario de La Meca"
+      ]
+    },
+    "alula-hegra": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Octubre a abril es la temporada recomendada, con temperaturas suaves ideales para explorar Hegra y hacer actividades al aire libre; coincide además con Winter at Tantora. De mayo a septiembre el calor del desierto es extremo durante el día, por lo que conviene concentrar las visitas en primera y última hora.",
+      "festividades": [],
+      "lugares_clave": [
+        "AlUlael Petra saudí",
+        "Qasr al-Farid",
+        "Jabal Al-Banat y Jabal Al-Ahmar",
+        "Al Diwan y Jabal Ithlib",
+        "Old Town de AlUla",
+        "Dadan y Jabal Ikmah",
+        "Oasis de AlUla"
+      ]
+    },
+    "yeda-mar-rojo": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a febrero ofrece las temperaturas más agradables para recorrer la Corniche y Al-Balad sin agobios. Julio y agosto son los meses más duros, con máximas que pueden superar los 43°C y una humedad costera que hace sentir el calor con más intensidad; conviene reservar esos meses para espacios cerrados o actividades acuáticas tempranas.",
+      "festividades": [],
+      "lugares_clave": [
+        "Yedapuerta al Mar Rojo",
+        "Zoco Al-Alawi",
+        "Bait Nassif",
+        "Restauración patrimonial en marcha",
+        "Fuente del Rey Fahd",
+        "Mezquita Flotante (Al-Rahmah)",
+        "Jeddah Yacht Club & Marina"
+      ]
+    }
+  },
+  "albania": {
+    "tirana": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima mediterráneo con veranos calurosos e inviernos suaves y lluviosos, algo más frescos que en la costa por la cercanía del monte Dajti. Abril-junio y septiembre-octubre son los meses más agradables para callejear por la ciudad; julio y agosto pueden ser bastante calurosos en pleno centro, aunque siempre queda la opción de subir en teleférico al monte Dajti para refrescarse.",
+      "festividades": [],
+      "lugares_clave": [
+        "Tirana —búnkeres, cafés y una ciudad que se reinventa",
+        "Plaza Skanderbeg",
+        "Mezquita de Et'hem Bey y Torre del Reloj",
+        "Pirámide de Tirana",
+        "Mezquita de Namazgah",
+        "Pazari i Ri (Nuevo Bazar)",
+        "Artesanía y souvenirs"
+      ]
+    },
+    "korce-sureste": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima continental de altitud: inviernos fríos, con nieve frecuente en Korçë y en los pueblos de montaña —Dardhë incluso vive del turismo de nieve en esa temporada—, y veranos cálidos pero más suaves que en la costa gracias a la altitud. Mayo a septiembre son los mejores meses para recorrer la región sin depender de la nieve; el paisaje otoñal, con los huertos de manzanos de Dardhë en plena cosecha, tiene también mucho encanto.",
+      "festividades": [],
+      "lugares_clave": [
+        "Korçë —la cuna de la cultura albanesa",
+        "Bazar Antiguo",
+        "Museo Nacional de Arte Medieval",
+        "Catedral Ortodoxa y Museo Bratko",
+        "Voskopojë (antigua Moscopole)",
+        "Dardhë",
+        "Boboshticë y Vithkuq",
+        "LagosOhrid y Prespa",
+        "Pogradec y el lago de Ohrid",
+        "Lagos de Prespa",
+        "Bazar Antiguo por la noche",
+        "Serenatas y Birra Korça"
+      ]
+    },
+    "riviera-albanesa": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima mediterráneo con veranos largos y calurosos e inviernos suaves. Mayo, junio y septiembre son, según coinciden la mayoría de quienes ya la han recorrido, los mejores meses: buen tiempo, agua ya templada (o todavía templada, en septiembre) y playas sin la masificación de pleno agosto. Julio y agosto son la temporada más animada —y con más ambiente de fiesta en los beach clubs—, pero también cuando más se llenan Ksamil y Sarandë.",
+      "festividades": [],
+      "lugares_clave": [
+        "Riviera Albanesa —el Jónico que aún no se ha masificado",
+        "Vlorë",
+        "Dhërmi",
+        "Himarë",
+        "Sarandë",
+        "Ksamil",
+        "Paso de Llogara",
+        "Butrint",
+        "Parque Nacional de Llogara",
+        "Península de Karaburun e isla de Sazan",
+        "Ojo Azul (Syri i Kaltër)",
+        "Mercados y compras",
+        "Vida nocturna en Sarandë",
+        "Atardeceres en Himarë y Dhërmi"
+      ]
+    },
+    "shkoder-alpes": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Shkodër tiene un clima mediterráneo suave, mientras que los Alpes Albaneses, a más de 1.000 metros, viven un clima de montaña con inviernos fríos y nevados. Mayo a septiembre es la temporada en la que el sendero Valbona-Theth está garantizado abierto y con buen tiempo; abril y octubre son posibles pero con más riesgo de nieve residual o cierre parcial del paso. En invierno, Theth y Valbona quedan prácticamente aislados y la mayoría de guesthouses cierran.",
+      "festividades": [],
+      "lugares_clave": [
+        "Shkodër —la puerta de los Alpes Albaneses",
+        "Castillo de Rozafa",
+        "Calle Kole Idromeno y los tres templos",
+        "Museo Marubi de Fotografía",
+        "Lago de Shkodër",
+        "Theth y Valbonaen los Alpes Albaneses",
+        "Theth",
+        "Valbona",
+        "El trekking Valbona-Theth",
+        "Lago Komany alrededores de Shkodër",
+        "Lago Koman y río Shala",
+        "Puente de Mes y Drisht",
+        "Kole Idromeno, de día y de noche",
+        "Artesanía de los Alpes"
+      ]
+    },
+    "berat-gjirokaster": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima mediterráneo con influencia continental en el interior: veranos calurosos, especialmente en Berat, e inviernos más fríos que en la costa, sobre todo en Gjirokastër por su altitud. Mayo-junio y septiembre-octubre son los meses más agradables para callejear por ambos cascos antiguos sin el calor extremo del verano.",
+      "festividades": [],
+      "lugares_clave": [
+        "Berat",
+        "Castillo de Berat (Kalaja)",
+        "Mangalem",
+        "Gorica y el puente de siete arcos",
+        "Gjirokastër",
+        "Castillo de Gjirokastër",
+        "Casas Zekate y Skenduli",
+        "Túnel antinuclear de la Guerra Fría",
+        "Casa de Ismail Kadare",
+        "Bazar de Gjirokastër",
+        "Barrio de Kala y calles de Mangalem (Berat)"
+      ]
+    }
+  },
+  "georgia": {
+    "kajetia": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Mayo y junio ofrecen viñedos verdes y el Gran Cáucaso todavía nevado. Julio y agosto son calurosos en el valle, con hasta 35°C, y Sighnaghi se llena de turistas. La rtveli o vendimia, de finales de septiembre a mediados de octubre, es la temporada más viva y recomendable para vivir la región en su esencia. El invierno es frío pero tranquilo, con precios notablemente más bajos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sighnaghiy el valle de Alazani",
+        "La ciudad amurallada",
+        "Monasterio de Bodbe",
+        "Bodegas del natural wine georgiano",
+        "Telaviy sus alrededores",
+        "Monasterio de Nekresi",
+        "Gurjaani",
+        "Fortaleza de Gremi",
+        "Monasterio de David Gareja"
+      ]
+    },
+    "tiflis": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Primavera (abril-junio) y otoño (septiembre-octubre) son las mejores épocas, con un clima templado ideal para recorrer el casco antiguo y los miradores sin calor extremo. Julio y agosto pueden superar los 35°C. El invierno es frío pero rara vez nieva en la ciudad, y los baños de azufre son una experiencia todavía más agradable con frío fuera.",
+      "festividades": [],
+      "lugares_clave": [
+        "Tifliscorazón del Cáucaso",
+        "Kala, la vieja Tiflis",
+        "Avlabari, el barrio armenio",
+        "Sololaki y el barrio alemán",
+        "Fortaleza de Narikala",
+        "Puente de la Paz y Parque Rike",
+        "Crónicas de Georgia"
+      ]
+    },
+    "kazbegi": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Junio a septiembre es la mejor ventana para el trekking serio, con julio y agosto como temporada alta —más estable y seca, aunque con precios más altos. Mayo y junio son los meses más lluviosos. Principios de octubre puede ofrecer días despejados, pero depende de la primera nevada. Diciembre a marzo es la temporada de esquí en Gudauri; el resto del invierno la carretera puede cerrarse temporalmente por nieve.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kazbegiy la Carretera Militar",
+        "Fortaleza de Ananuri",
+        "Gudauri",
+        "Paso de Jvari y monumento de la Amistad",
+        "Cascadas de Gveleti y Monasterio de Dariali",
+        "Glaciar Gergeti",
+        "Valle de Juta"
+      ]
+    },
+    "kutaisi": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Primavera y otoño son las mejores estaciones, con temperaturas suaves y menos turistas en los cañones y cuevas. El Cañón de Okatse cierra sus pasarelas en invierno si hay lluvia o nieve, y la Cueva de Prometeo puede cerrar puntualmente en caso de lluvias muy intensas por riesgo de inundación. El verano puede resultar húmedo y caluroso, especialmente en las caminatas al aire libre de Okatse.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kutaisie Imereti",
+        "Plaza Central y Fuente Colchis",
+        "Catedral de Bagrati",
+        "Mercado Verde y calles del casco histórico",
+        "Cueva de Prometeo",
+        "Cañón de Okatse",
+        "Cañón de Martvili"
+      ]
+    },
+    "mtsjeta-gori": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Al tratarse de una excursión de un día desde Tiflis, la zona se puede visitar todo el año. Primavera y otoño ofrecen el clima más agradable para las caminatas al aire libre de Uplistsikhe y Jvari. El verano puede superar los 35°C con poca sombra en Uplistsikhe.",
+      "festividades": [],
+      "lugares_clave": [
+        "Mtsjetay Gori",
+        "Catedral de Svetitskhoveli",
+        "Monasterio de Jvari",
+        "El casco histórico",
+        "Uplistsikhela ciudad de roca",
+        "Embalse de Jinvali",
+        "Combinar con Kajetia o Kazbegi"
+      ]
+    },
+    "batumi": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Mayo y junio son los mejores meses: el agua del Mar Negro ya está templada, las terrazas funcionan a pleno rendimiento y no hay la aglomeración de julio y agosto, cuando los precios suben y el paseo marítimo se llena hasta los bordes. Septiembre sigue siendo agradable, con 22-26°C. El invierno es húmedo y lluvioso —Batumi es una de las ciudades más lluviosas del Cáucaso, con más de 2.000 mm anuales— pero los precios caen notablemente.",
+      "festividades": [],
+      "lugares_clave": [
+        "Batumila perla del Mar Negro",
+        "El Bulvar y Ali y Nino",
+        "Plaza de Europa y Barrio Histórico",
+        "Jardín Botánico de Batumi",
+        "Parque Nacional Mtirala",
+        "Torre del Alfabeto",
+        "Sarpi"
+      ]
+    },
+    "svaneti": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Junio a octubre es la temporada principal, con julio y agosto ofreciendo el clima más estable y todos los caminos abiertos. En invierno la nieve es profunda y algunas aldeas quedan incomunicadas, aunque el esquí en Hatsvali funciona de enero a marzo. Mayo y octubre son opciones intermedias con menos turistas y paisajes espectaculares, aunque con más riesgo de nieve residual en los pasos altos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Svanetitorres contra el cielo",
+        "El pueblo y sus torres",
+        "Museo de Historia y Etnografía",
+        "Glaciar Chalaadi",
+        "Mirador de Hatsvali",
+        "UshguliPatrimonio de la Humanidad",
+        "Lakhushdi",
+        "Baja Svaneti (Kvemo Svaneti)",
+        "Cascada Shdugra"
+      ]
+    }
+  },
+  "rumania": {
+    "transilvania": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Mayo-junio y septiembre-octubre son los meses más recomendables: temperaturas suaves, paisajes verdes o con los colores del otoño, y el Transfăgărășan ya abierto o todavía sin cerrar. Julio es también una buena opción, con el puerto de montaña garantizado y las iglesias fortificadas en su mejor momento, aunque agosto trae algo más de calor y de aglomeración en Bran y Sighișoara por las vacaciones europeas. En invierno (diciembre-febrero) el frío es intenso, la nieve puede complicar los traslados entre pueblos y el Transfăgărășan permanece cerrado por completo. Marzo y noviembre son meses de transición, con clima variable.",
+      "festividades": [],
+      "lugares_clave": [
+        "TransilvaniaCentral",
+        "Piața Sfatului y el casco histórico",
+        "Iglesia Negra",
+        "Monte Tâmpa",
+        "Santuario de Osos Libearty (Zărnești)",
+        "Base para explorar la región",
+        "Castillo de Bran",
+        "Sighișoara",
+        "La Ciudadela",
+        "Torre del Reloj",
+        "Torre de los Zapateros",
+        "Sibiu",
+        "Piața Mare y Piața Mică",
+        "Puente de las Mentiras",
+        "Murallas y torres defensivas",
+        "Transfăgărășany los Cárpatos",
+        "Carretera Transfăgărășan",
+        "Lago Bâlea",
+        "Parque Nacional Piatra Craiului",
+        "Aldea de Măgura"
+      ]
+    },
+    "maramures": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Mayo-junio y septiembre-octubre son los meses más recomendables, con el campo verde o con los colores del otoño y carreteras rurales en buen estado. Julio también funciona bien, aunque agosto trae algo más de calor. En invierno (diciembre-febrero) el paisaje nevado es precioso en fotos, pero las carreteras rurales entre pueblos pueden complicarse seriamente con nieve o hielo, y varias iglesias reducen su horario de apertura. Marzo y noviembre son meses de transición, con barro frecuente en los caminos rurales tras las lluvias.",
+      "festividades": [],
+      "lugares_clave": [
+        "Maramureș",
+        "Bârsana",
+        "Ieud",
+        "Șurdești",
+        "Desești",
+        "Săpânțay la memoria de Maramureș",
+        "Cementerio Alegre de Săpânța",
+        "Memorial de las Víctimas del Comunismo (Sighetu Marmației)",
+        "Tren Mocănița (Vișeu de Sus)",
+        "Portones de madera tallados",
+        "Talleres textiles y de cerámica",
+        "Breb"
+      ]
+    },
+    "bucarest": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Bucarest tiene un clima continental con contrastes marcados. Abril-mayo y septiembre-octubre son las épocas más recomendables, con temperaturas suaves (15-25°C) ideales para caminar por el Casco Antiguo. En enero y febrero el frío puede ser intenso, con temperaturas bajo cero y alguna nevada. Julio y agosto son los meses más calurosos, con picos que superan con frecuencia los 33-35°C y poca brisa en el centro urbano. Marzo, junio y noviembre son meses de transición, con clima variable pero sin extremos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Bucarest, la capitalque sorprende",
+        "Lipscani",
+        "Cărturești Carusel",
+        "Pasaje Macca-Villacrosse y Pasaje Inglés",
+        "Lo que sorprende de Bucarest",
+        "Palacio del Parlamento",
+        "Ateneo Rumano y Palacio CEC"
+      ]
+    },
+    "delta-danubio": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Abril-mayo y septiembre-octubre son los meses más recomendables: la observación de aves migratorias es especialmente espectacular y las temperaturas resultan agradables para pasar horas en barco. Junio-agosto también funciona bien y es la temporada de más calor, aunque conviene protegerse de los mosquitos, muy presentes en los canales durante el verano. Diciembre-febrero son los meses menos recomendables: hace frío, algunos canales pueden helarse y buena parte de las excursiones organizadas reducen su oferta.",
+      "festividades": [],
+      "lugares_clave": [
+        "Tulceay las excursiones en barco",
+        "Excursión corta (2-3 horas)",
+        "Excursión de día completo a Letea y Sulina",
+        "Excursión por el brazo de Sfântu Gheorghe",
+        "Bosque de Letea",
+        "Sfântu Gheorghe",
+        "Mila 23"
+      ]
+    },
+    "cluj": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "De abril a octubre es la mejor ventana para visitar tanto Cluj como los Montes Apuseni, con junio a septiembre como la época más recomendable para explorar cuevas y rutas de senderismo sin nieve en las carreteras de acceso. Agosto trae el Untold Festival y una notable subida de precios y ocupación en Cluj, además de más calor. En invierno (diciembre-febrero) las carreteras de montaña hacia los Apuseni pueden volverse peligrosas o intransitables por nieve y hielo, y varias cuevas cierran temporalmente por mantenimiento o por seguridad.",
+      "festividades": [],
+      "lugares_clave": [
+        "Cluj-Napoca",
+        "Piața Unirii y el centro histórico",
+        "Vida universitaria y bares",
+        "Cetățuia (el mirador de la ciudad)",
+        "Jardín Botánico Alexandru Borza",
+        "Museo Etnográfico de Transilvania",
+        "Untold Festival",
+        "Salinas de Turday Alba Iulia",
+        "Salina Turda",
+        "Ciudadela de Alba Carolina",
+        "Rimetea",
+        "Cheile Turzii (Cañón de Turda)",
+        "MontesApuseni",
+        "Cueva glaciar de Scărișoara",
+        "Groapa Ruginoasă",
+        "Cueva del Oso (Peștera Urșilor)",
+        "Cascada Pisoaia (Vidra)",
+        "Fortaleza de Coltești"
+      ]
+    },
+    "bucovina": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "De abril a octubre es la mejor ventana, con junio a septiembre como temporada alta (20-28°C, ideal para monasterios y senderismo) y septiembre-octubre con los colores del otoño en los bosques de hayas, muy fotogénicos. Diciembre-enero es mágico por las tradiciones de fin de año, aunque con temperaturas de hasta -10°C y carreteras que pueden complicarse con nieve. Enero y febrero son los meses más fríos y menos recomendables salvo para quien busque específicamente el ambiente navideño. Marzo y noviembre son meses de transición.",
+      "festividades": [],
+      "lugares_clave": [
+        "Bucovina",
+        "Voronet",
+        "Sucevița",
+        "Moldovița",
+        "Humor",
+        "Arbore",
+        "Suceavay sus alrededores",
+        "Fortaleza de Suceava (Cetatea de Scaun)",
+        "Monasterio de Putna",
+        "Marginea, la cerámica negra",
+        "Vama y el Museo del Huevo",
+        "Ciocănești",
+        "Fiestas de fin de año (El Oso y la Cabra)"
+      ]
+    },
+    "costa-mar-negro": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Junio, julio y agosto son los únicos meses con la costa realmente activa: temperaturas cálidas (25-30°C), agua de mar agradable y toda la infraestructura de playa abierta. Septiembre y octubre siguen teniendo días soleados y agradables para pasear, aunque buena parte de los chiringuitos ya han cerrado. Mayo y abril son meses de transición, con el mar todavía frío para el baño. De noviembre a marzo la costa entra en un letargo casi total, con temperaturas bajas y la mayoría de la oferta turística cerrada.",
+      "festividades": [],
+      "lugares_clave": [
+        "Constanța",
+        "Casino de Constanța",
+        "Gran Mezquita Mahmudiye",
+        "Catedral Ortodoxa de San Pedro y San Pablo",
+        "Museo Nacional de Historia y Arqueología",
+        "Histriay las ruinas griegas",
+        "Fortaleza de Histria",
+        "Lago Sinoe y observación de aves",
+        "Ruinas de Callatis (Mangalia)",
+        "Pueblo de Ghindărești",
+        "Mezquita Esmahan Sultan (Mangalia)",
+        "Cueva de San Andrés"
+      ]
+    }
+  },
+  "china": {
+    "tibet": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Abril-junio y septiembre-octubre son las mejores épocas, con cielos despejados y temperaturas más llevaderas. Julio-agosto trae el monzón, con más nubes aunque menos frío. Noviembre-marzo es invierno seco y muy frío, viable para Lhasa pero no para zonas de mayor altitud como Namtso o el Everest, con carreteras que pueden quedar cortadas por nieve.",
+      "festividades": [],
+      "lugares_clave": [
+        "Tíbetel techo del mundo",
+        "Qué documentos necesitas",
+        "Cierre anual",
+        "Cómo llegar",
+        "El mal de altura no es una posibilidad remota",
+        "Lhasa",
+        "Palacio de Potala",
+        "Templo de Jokhang y Barkhor",
+        "Monasterios de Sera y Drepung",
+        "Lagossagrados",
+        "Lago Yamdrok",
+        "Lago Namtso",
+        "Campo Basedel Everest",
+        "Barkhor",
+        "Mercado de Tromsikhang",
+        "Monasterio de Ganden",
+        "Gyantse y el Monasterio de Palkhor",
+        "Monasterio de Tashilhunpo, Shigatse",
+        "Valle de Drak Yerpa"
+      ]
+    },
+    "rutaseda": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima desértico extremo, con enorme diferencia térmica entre el día y la noche. Abril-junio y septiembre-octubre son las mejores épocas, con cielos despejados y temperaturas más llevaderas — abril trae posibilidad de alguna tormenta de arena puntual. Julio-agosto son muy calurosos, con Turpan entre los puntos más calientes de China. Diciembre-febrero es duro y frío, especialmente en Xinjiang, con nieve en zonas de montaña.",
+      "festividades": [],
+      "lugares_clave": [
+        "Ruta dela Seda",
+        "2-3 días",
+        "4-5 días",
+        "6-8 días",
+        "Dunhuang",
+        "Cuevas de Mogao",
+        "Dunas de Mingsha y Crescent Lake",
+        "Jiayuguan",
+        "Jiayuguan",
+        "Xinjiangy Kashgar",
+        "Ciudad Antigua de Kashgar",
+        "Turpan",
+        "Gran Bazar Dominical de Kashgar",
+        "Mercado de ganado de Kashgar",
+        "Mercado nocturno de Dunhuang",
+        "Cuevas de las Mil Budas Occidentales"
+      ]
+    },
+    "xian": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima continental similar al de Pekín aunque algo más suave: veranos calurosos y húmedos, inviernos fríos y secos. Abril-junio y septiembre-octubre son las mejores épocas, con temperaturas agradables para recorrer la muralla en bicicleta. Julio y agosto son calurosos; el invierno puede acompañarse de niebla o smog.",
+      "festividades": [],
+      "lugares_clave": [
+        "Xi'any el origen de la Ruta de la Seda",
+        "1 día",
+        "2 días",
+        "3 días",
+        "Foso 1 — la formación de combate",
+        "Fosos 2 y 3",
+        "Mausoleo de Qin Shi Huang"
+      ]
+    },
+    "hongkong": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Subtropical húmedo con temporada de tifones de junio a septiembre. Octubre-diciembre y enero-marzo son las mejores épocas, con temperaturas más suaves y menos humedad. Verano es muy caluroso y bochornoso, con posibilidad real de que un tifón afecte a vuelos y ferries. La humedad del verano es extremadamente elevada — caminar durante varias horas puede resultar bastante más agotador de lo que indican las temperaturas.",
+      "festividades": [],
+      "lugares_clave": [
+        "Hong Kongy Macao",
+        "2 días",
+        "3 días",
+        "4+ días",
+        "Isla deHong Kong",
+        "Victoria Peak",
+        "Central y SoHo",
+        "Kowloon yel Big Buddha",
+        "Star Ferry",
+        "Big Buddha (Tian Tan), Lantau",
+        "Macao",
+        "Ruinas de San Pablo",
+        "Templo de A-Ma",
+        "Cotai Strip",
+        "Temple Street Night Market",
+        "Ladies' Market, Mong Kok",
+        "Stanley Market"
+      ]
+    },
+    "guizhou": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Marzo-mayo y septiembre-noviembre son las mejores épocas, con clima agradable y arrozales en su mejor momento (verdes en primavera, dorados en otoño). Verano es cálido y húmedo, con festivales interesantes pero más lluvia. Invierno trae menos turistas y la oportunidad de vivir el Año Nuevo Miao, aunque con clima frío y gris.",
+      "festividades": [],
+      "lugares_clave": [
+        "Guizhou yGuangxi rural",
+        "2 días",
+        "3-4 días",
+        "5+ días",
+        "XijiangQianhu Miao",
+        "Qué ver en el pueblo",
+        "Datos prácticos",
+        "Zhaoxing",
+        "Torres del tambor",
+        "Alrededores: Tang'an",
+        "Terrazas dearroz de Guizhou",
+        "Terrazas de Gaoyao",
+        "Terrazas de Jiabang",
+        "Mercado dominical de Kaili",
+        "Mercado dominical de Rongjiang",
+        "Mercados rotativos de aldea",
+        "Basha"
+      ]
+    },
+    "sichuan": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Chengdu tiene un clima húmedo y con cielos frecuentemente nublados o brumosos todo el año — no esperes demasiados días de sol despejado. Marzo-mayo y septiembre-noviembre son las mejores épocas, con temperaturas suaves. Jiuzhaigou, a mucha más altitud, tiene su propia lógica: septiembre-octubre para el follaje otoñal (la época más fotogénica) y diciembre-febrero para el hielo azul con menos turistas, pero mucho frío.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sichuany Chengdu",
+        "1-2 días",
+        "3 días",
+        "4-5 días",
+        "Chengduciudad",
+        "Kuanzhai Xiangzi",
+        "Casas de té tradicionales",
+        "Calle Jinli",
+        "Gran Budade Leshan",
+        "Cómo verlo",
+        "Monte Emei",
+        "Jiuzhaigou",
+        "Cómo llegar",
+        "Entradas y billete real-name",
+        "Mercado de antigüedades del Templo Qingyang",
+        "Songxianqiao",
+        "Base de Pandas de Dujiangyan",
+        "Sistema de riego de Dujiangyan"
+      ]
+    },
+    "yunnan": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Yunnan significa literalmente \"al sur de las nubes\" y tiene fama de clima primaveral casi todo el año en Kunming y Dali, gracias a la altitud media. Lijiang y Shangri-La, a más altura, son notablemente más frescas, con inviernos fríos. Junio-septiembre es temporada de lluvias, con riesgo de desprendimientos en zonas de montaña como la Garganta del Salto del Tigre. Marzo-mayo y septiembre-octubre son las mejores épocas en general.",
+      "festividades": [],
+      "lugares_clave": [
+        "YunnanDali, Lijiang y Shangri-La",
+        "2-3 días",
+        "4-5 días",
+        "6-7 días",
+        "Dali",
+        "Ciudad Antigua de Dali",
+        "Lago Erhai y montañas Cangshan",
+        "Xizhou",
+        "Lijiang",
+        "Ciudad Antigua",
+        "Shuhe",
+        "Montaña Nevada del Dragón de Jade",
+        "Garganta del Salto del Tigre",
+        "Garganta del Salto del Tigre",
+        "Shangri-La",
+        "Monasterio de Songzanlin",
+        "Ciudad Vieja de Shangri-La",
+        "Feria del Tercer Mes de Dali (Sanyuejie)",
+        "Plaza del mercado de Shaxi",
+        "Shuhe"
+      ]
+    },
+    "zhangjiajie": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Marzo-mayo y septiembre-noviembre son las mejores épocas, con temperaturas agradables. Verano es caluroso y muy concurrido, especialmente en las vacaciones nacionales chinas. La niebla es habitual todo el año y forma parte del paisaje, aunque puede tapar completamente las vistas algunos días — reserva más de una jornada en el parque si puedes, para tener margen.",
+      "festividades": [],
+      "lugares_clave": [
+        "Zhangjiajiey Hunan",
+        "2 días",
+        "3 días",
+        "4-5 días",
+        "Parque Nacionalde Zhangjiajie",
+        "Montaña Aleluya (Yuanjiajie)",
+        "Ascensor Bailong",
+        "Gran Cañón yPuente de Cristal",
+        "Montaña Tianmen",
+        "Fenghuang,la ciudad antigua",
+        "Mercado nocturno de Fenghuang",
+        "Calle de artesanía tujia, Zhangjiajie",
+        "Zona baja del Parque Nacional",
+        "Lago Baofeng",
+        "Museo de Artesanía de Zhangjiajie",
+        "Cueva del Dragón Amarillo (Huanglong Cave)"
+      ]
+    },
+    "harbin": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "ideal"
+      },
+      "descripcion": "A diferencia del resto de China, aquí \"mejor época\" significa exactamente lo contrario que en las demás zonas: diciembre-febrero, en pleno invierno siberiano, con temperaturas medias de -16,8°C que pueden bajar hasta -38°C en picos extremos. El resto del año Harbin funciona como una ciudad china más, sin el gran atractivo que la distingue.",
+      "festividades": [],
+      "lugares_clave": [
+        "Harbiny el noreste",
+        "2 días",
+        "3 días",
+        "Calle Zhongyang",
+        "Parque Zhaolin",
+        "Parque del Tigre Siberiano",
+        "Calle Guogeli"
+      ]
+    },
+    "shanghai": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima subtropical húmedo, muy distinto al de Pekín: veranos muy calurosos y bochornosos (julio-agosto pueden superar los 35°C con altísima humedad, además de ser temporada de tifones), inviernos suaves pero húmedos y grises. Marzo-mayo y septiembre-noviembre son las mejores épocas, con temperaturas agradables para pasear. La humedad en verano puede hacer que 32°C se sientan bastante más calurosos de lo habitual, especialmente durante largas caminatas por la ciudad.",
+      "festividades": [],
+      "lugares_clave": [
+        "Shangháiy el delta del Yangtsé",
+        "1-2 días",
+        "3 días",
+        "4-5 días",
+        "6+ días",
+        "Paseo del Bund",
+        "Torre de Shanghái",
+        "Excursióna Suzhou",
+        "Jardín del Administrador Humilde",
+        "Calle Pingjiang",
+        "Excursióna Hangzhou",
+        "Pagoda Leifeng",
+        "Templo Lingyin",
+        "Pueblosde agua",
+        "Zhujiajiao",
+        "Zhouzhuang",
+        "Tongli",
+        "Wuzhen",
+        "Mercado de telas del Sur del Bund",
+        "M50 (Moganshan Road)"
+      ]
+    },
+    "pekin": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Pekín tiene un clima continental extremo: veranos calurosos y húmedos, inviernos secos y muy fríos. Las mejores épocas son abril-junio y septiembre-octubre, con cielos más despejados y temperaturas suaves. Julio y agosto son calurosos y con más lluvia; diciembre-febrero pueden bajar de los -10°C.",
+      "festividades": [],
+      "lugares_clave": [
+        "Pekíny el Norte Imperial",
+        "1 día",
+        "2 días",
+        "3 días",
+        "4-5 días",
+        "Ciudad Prohibida",
+        "Plaza de Tiananmen",
+        "La GranMuralla",
+        "Mutianyu — la opción equilibrada",
+        "Badaling — la más accesible",
+        "Jinshanling — la más salvaje",
+        "Nanluoguxiang y Wudaoying Hutong",
+        "Torres del Tambor y de la Campana",
+        "Shichahai y el lago Houhai"
+      ]
+    },
+    "guilin": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima subtropical húmedo. Abril-junio trae arrozales muy verdes y niebla baja sobre el río, aunque con probabilidad de lluvia. Julio-agosto son calurosos, húmedos y con más turismo doméstico. Septiembre-octubre ofrece cielos más despejados y temperaturas agradables — probablemente la mejor época para fotografía. El invierno (diciembre-febrero) es más fresco y con niebla mística, con muchos menos turistas.",
+      "festividades": [],
+      "lugares_clave": [
+        "Guiliny Yangshuo",
+        "1 día",
+        "2 días",
+        "3-4 días",
+        "Yangshuo",
+        "Moon Hill",
+        "Río Yulong y bambú rafting",
+        "West Street",
+        "Amanecer en Xianggong Hill",
+        "Terrazas de arrozde Longji",
+        "Calle peatonal Zhengyang, Guilin",
+        "Mercado nocturno de Xingping",
+        "Cueva de la Flauta de Caña",
+        "Old Street de Xingping",
+        "Colina Wuzhi (Cuiping Hill)",
+        "Fubo Hill"
+      ]
+    }
+  },
+  "elsalvador": {
+    "san-salvador": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "San Salvador tiene clima tropical de altitud, templado todo el año gracias a sus 650 metros sobre el nivel del mar. La estación seca (noviembre-abril) es la mejor época para visitar, con cielos despejados y temperaturas agradables; abril es el mes más caluroso antes de que lleguen las lluvias. La estación lluviosa (mayo-octubre) trae aguaceros fuertes pero breves, casi siempre por la tarde, con mañanas soleadas — no impide viajar, solo conviene planear actividades al aire libre para la mañana.",
+      "festividades": [],
+      "lugares_clave": [
+        "San Salvador —catedral, volcán y noche",
+        "Plaza Barrios y Palacio Nacional",
+        "Plaza Libertad e Iglesia El Rosario",
+        "Plaza Morazán y Teatro Nacional",
+        "BINAES — Biblioteca Nacional",
+        "Estadio Mágico González",
+        "Catedral Metropolitana"
+      ]
+    },
+    "ruta-de-las-flores": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Gracias a la altitud, la Ruta es notablemente más fresca que el resto de El Salvador durante todo el año — conviene llevar ropa de abrigo ligera, sobre todo por las noches en Apaneca y Ataco. Las flores silvestres que dan nombre a la Ruta cubren las laderas entre noviembre y febrero, coincidiendo con la mejor época climática: cielos despejados y temperaturas agradables. La temporada lluviosa (mayo-octubre) trae aguaceros de tarde que no impiden viajar, pero sí reducen la visibilidad en los miradores.",
+      "festividades": [],
+      "lugares_clave": [
+        "Nahuizalcoy Salcoatitán",
+        "Nahuizalco, el pueblo pipil",
+        "Salcoatitán",
+        "Juayúa —feria y cascadas",
+        "Feria Gastronómica",
+        "Iglesia del Cristo Negro",
+        "Ruta de las Siete Cascadas",
+        "Apaneca —café y altura",
+        "Laguna Verde",
+        "Tours de café",
+        "Aventura: canopy y laberinto",
+        "Concepción de Ataco —el pueblo de los murales",
+        "Murales y arte callejero",
+        "Mirador de la Cruz",
+        "Talleres artesanales y compras",
+        "Miradores en la carretera",
+        "Café de especialidad",
+        "Pupusas y platos de montaña"
+      ]
+    },
+    "oriente-costa-del-sol": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "El oriente es la región más calurosa del país en la costa, con temperaturas notablemente más altas que en la capital durante todo el año. Perquín, por su altitud, mantiene un clima fresco y agradable incluso en época seca, con noches frías propias de montaña. La estación seca (noviembre-abril) es la más cómoda para la costa; la lluviosa (mayo-octubre) refresca algo el ambiente pero trae aguaceros de tarde, especialmente intensos en las montañas de Morazán.",
+      "festividades": [],
+      "lugares_clave": [
+        "Perquín y laRuta de la Paz",
+        "Museo de la Revolución Salvadoreña",
+        "Cerro de Perquín",
+        "El Mozote",
+        "Naturaleza en la Ruta de la Paz",
+        "Costa del Sol,la playa más larga",
+        "La franja principal",
+        "Isla Tasajera y San Marcelino",
+        "El Cuco yLas Flores",
+        "El Cuco",
+        "Las Flores",
+        "Punta Mango",
+        "La Ventana",
+        "Golfo de Fonsecay sus islas",
+        "Volcán y pueblo de Conchagua",
+        "Playas de La Unión",
+        "La Cueva de la Barranca",
+        "Marisco de la costa",
+        "Quesadilla salvadoreña y semita",
+        "Comida de Perquín"
+      ]
+    },
+    "costa-del-balsamo": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "La costa es calurosa todo el año, con temperaturas del mar en torno a los 28°C. La temporada seca (noviembre-abril) trae cielos despejados y es la mejor época para nadar y aprender a surfear; la temporada verde (mayo-octubre) trae aguaceros de tarde y oleaje más grande, preferido por surfistas con experiencia. Diciembre-enero y Semana Santa son temporada alta, con playas y hoteles mucho más llenos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Costa del Bálsamo —arena negra y olas",
+        "El Tunco",
+        "El Zonte",
+        "El Sunzal",
+        "Punta Roca",
+        "El Palmarcito",
+        "El Pimental",
+        "Bitcoin Beach,donde empezó todo",
+        "Bitcoin Beach,donde empezó todo",
+        "Puerto deLa Libertad",
+        "Dónde comer",
+        "Vida nocturna en El Tunco",
+        "Noches en El Zonte",
+        "Cuevas marinas de El Tunco",
+        "El Pimental",
+        "Cervecería Cadejo Playa"
+      ]
+    },
+    "santa-ana-volcanes": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Santa Ana tiene clima cálido durante todo el año con dos estaciones marcadas: una húmeda de mayo a octubre y otra más fresca y seca de noviembre a abril, la mejor para subir a los volcanes y visitar los sitios arqueológicos sin barro en los senderos. Contra lo que pudiera parecer, el verano (época seca) es la temporada más concurrida de visitantes, así que quien busque tranquilidad en el volcán puede preferir entre semana.",
+      "festividades": [],
+      "lugares_clave": [
+        "Santa Ana y Volcanes —el techo del país",
+        "Catedral de Santa Ana",
+        "Teatro de Santa Ana",
+        "Palacio Municipal y Parque Libertad",
+        "Ilamatepec,el volcán más alto",
+        "Volcán de Santa Ana (Ilamatepec)",
+        "Volcán de Izalco",
+        "Sendero Las Flores",
+        "Lago deCoatepeque",
+        "Lago deCoatepeque",
+        "La ruta mayade occidente",
+        "Panes chucos",
+        "Comedores del centro",
+        "Restaurantes junto al Lago de Coatepeque",
+        "Orilla sur del Lago de Coatepeque",
+        "Taller de añil de Casa Blanca",
+        "Museo Regional de Occidente"
+      ]
+    }
+  },
+  "guineaecuatorial": {
+    "malabo": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Malabo tiene clima tropical monzónico, con una estación relativamente seca y algo más soleada de diciembre a febrero — la mejor época para visitar, aunque el cielo suele estar nublado incluso entonces. El resto del año es lluvioso, con un pico muy marcado entre mayo y octubre; septiembre y octubre son estadísticamente los meses de más lluvia. Con apenas 1.020 horas de sol al año, Malabo es una de las capitales menos soleadas del mundo, y las tormentas eléctricas son frecuentes durante todo el año por la cercanía del Pico Basilé. Las temperaturas apenas varían: entre 23°C y 31°C durante todo el año, con humedad alta constante.",
+      "festividades": [],
+      "lugares_clave": [
+        "Malabo —la isla que mira al continente",
+        "Plaza de la Independencia y la Catedral de Santa Isabel",
+        "Lugares religiosos",
+        "Parque Nacional de Malabo",
+        "Casa Verde y Finca Sampaka",
+        "Centros culturales",
+        "Estadio Internacional de Malabo"
+      ]
+    },
+    "rio-muni-interior": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "ideal"
+      },
+      "descripcion": "El clima del interior, suavizado por la altitud respecto a la costa, distingue cuatro estaciones: dos húmedas y dos secas. La temporada húmeda principal, con las lluvias más intensas, va de septiembre a noviembre; la segunda, más suave, de marzo a mayo. Diciembre-febrero y junio-agosto son las ventanas secas, mejores para el trekking por senderos que tras la lluvia se vuelven de laterita resbaladiza. Las temperaturas rondan los 25°C en las zonas bajas y bajan a 20-23°C en las cotas más altas del parque.",
+      "festividades": [],
+      "lugares_clave": [
+        "Parque Nacionalde Monte Alén",
+        "Senderismo y avistamiento de fauna",
+        "El mirador de Monte Alén",
+        "Los grandes mamíferos",
+        "La rana Goliat",
+        "Cascadas de los ríos Uoro y Laña",
+        "Lago Atoc",
+        "Niefangy Evinayong",
+        "Niefang",
+        "Evinayong",
+        "Lago Atoc",
+        "Mirador de Monte Alén a 1.100m",
+        "Pueblos fang de la carretera Niefang-Evinayong",
+        "Rastreo de gorilas con guías locales"
+      ]
+    },
+    "bata": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "El patrón climático de la región continental es muy similar al de Bioko: temporada seca de diciembre a febrero, la más recomendable para viajar, con carreteras en mejor estado y menos mosquitos — un factor nada menor teniendo en cuenta que la fiebre amarilla es vacuna obligatoria de entrada al país. El resto del año es lluvioso, con temperaturas altas y humedad constante durante todo el año.",
+      "festividades": [],
+      "lugares_clave": [
+        "Bata —la puerta al continente salvaje",
+        "Paseo Marítimo y Torre Libertad",
+        "Plaza de la Independencia y Catedral",
+        "Mercados de Iyubu y Central",
+        "Museo Etnográfico Bubi y Barrio Paraíso",
+        "Reserva Natural del Estuario del Muni",
+        "Reserva Natural de Río Campo",
+        "Isla de Coriscoy sus lagunas",
+        "Navegación por los manglares del estuario del Muni",
+        "Reserva de Punta Ilende",
+        "Atardecer desde la Torre Libertad",
+        "Islotes de Elobey Grande y Elobey Chico",
+        "Museo Etnográfico Bubi"
+      ]
+    },
+    "bioko-sur": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "El patrón climático es el mismo que en el resto de la isla —seco de diciembre a febrero, lluvioso el resto del año—, pero Ureka en particular está considerado uno de los lugares más húmedos de toda África, con lluvia casi garantizada incluso en temporada seca. La temporada de anidación de tortugas marinas (noviembre a febrero) coincide, no por casualidad, con los meses más secos y accesibles para el trekking. Moka, a 1.200 metros, tiene temperaturas notablemente más frescas que la costa durante todo el año.",
+      "festividades": [],
+      "lugares_clave": [
+        "Bioko Sur —selva, volcanes y tortugas marinas",
+        "Luba",
+        "Batete",
+        "Moka",
+        "Reserva Científica de la Caldera de Luba",
+        "Ureka y las playas de anidación",
+        "Trekking a Ureka"
+      ]
+    }
+  },
+  "japon": {
+    "oeste": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Marzo-mayo y octubre-noviembre son las temporadas más agradables, con buen clima y menos humedad. Junio es temporada de lluvias. Julio-agosto trae calor húmedo intenso, aunque sigue siendo buena época para Miyajima si se combina con tiempo en el agua.",
+      "festividades": [],
+      "lugares_clave": [
+        "Hiroshima —memoria, arte y mar interior",
+        "Hiroshima",
+        "Miyajima",
+        "Naoshima, Okayamay Onomichi",
+        "Naoshima",
+        "Okayama",
+        "Onomichi",
+        "Tomonoura",
+        "Innoshima",
+        "Sandankyo Gorge"
+      ]
+    },
+    "kansai": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Finales de marzo-principios de abril (sakura) y noviembre (momiji) son las temporadas más espectaculares y también las más concurridas y caras. Junio es temporada de lluvias. Julio-agosto es calor húmedo intenso, especialmente duro para recorrer templos a pie todo el día. Invierno es frío pero seco, con los templos prácticamente vacíos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kioto —mil templos y ningún apuro",
+        "Higashiyama",
+        "Arashiyama",
+        "Gion",
+        "Centro (Shijo-Kawaramachi)",
+        "Fushimi Inari",
+        "Norte — Kinkaku-ji y alrededores",
+        "Osaka, Nara, Himejiy Kobe",
+        "Osaka",
+        "Nara",
+        "Himeji",
+        "Kobe",
+        "Philosopher's Path",
+        "Ohara"
+      ]
+    },
+    "hokkaido": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "evitar",
+        "mayo": "evitar",
+        "junio": "aceptable",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Julio-agosto y diciembre-febrero son los dos picos ideales — verano para el clima más agradable de Japón (sin la humedad del resto del país) y el Festival de la Nieve en febrero. Abril-mayo es el deshielo, el peor momento para visitar.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sapporo y Hakodate",
+        "Sapporo",
+        "Hakodate",
+        "Furano, Nisekoy Shiretoko",
+        "Furano",
+        "Niseko — esquí",
+        "Shiretoko",
+        "Sounkyo Gorge",
+        "Otaru",
+        "Cape Kamui (Shakotan)"
+      ]
+    },
+    "alpes": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Abril-noviembre es la temporada cómoda para recorrer los pueblos. Diciembre-marzo trae nieve abundante — Shirakawa-go con tejados nevados es una de las imágenes más bonitas de Japón, pero las carreteras de acceso pueden complicarse y conviene reservar transporte con antelación.",
+      "festividades": [],
+      "lugares_clave": [
+        "Takayama, Shirakawa-go y Kanazawa",
+        "Takayama",
+        "Shirakawa-go",
+        "Kanazawa",
+        "Matsumoto, Kamikochiy Nagano",
+        "Matsumoto",
+        "Nagano",
+        "Gokayama",
+        "Magome y Tsumago",
+        "Hida Furukawa",
+        "Norikura Kogen"
+      ]
+    },
+    "tokio": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Marzo-mayo (sakura) y octubre-noviembre (momiji, hojas de otoño) son las temporadas más bonitas y también las más concurridas. Junio-julio es temporada de lluvias (tsuyu), agosto es calor y humedad altos. Invierno es seco, frío pero soleado — buena época para evitar aglomeraciones.",
+      "festividades": [],
+      "lugares_clave": [
+        "Tokio —la ciudad que nunca se repite",
+        "Shibuya",
+        "Shinjuku",
+        "Asakusa",
+        "Akihabara",
+        "Harajuku / Omotesando",
+        "Ginza",
+        "Yokohama, Kamakura, Nikkoy Hakone",
+        "Yokohama",
+        "Kamakura",
+        "Nikko",
+        "Hakone",
+        "Yanaka",
+        "Shimokitazawa"
+      ]
+    }
+  },
+  "srilanka": {
+    "kandy": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Enero-marzo son los meses más secos y recomendables. Kandy, en el centro de la isla y a mayor altitud que la costa, tiene un clima algo más suave, entre 20-28°C durante todo el año, con lluvias más intensas en mayo-junio y en noviembre por la influencia de ambos monzones.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kandy —el corazón espiritual de Ceilán",
+        "Templo del Diente de Buda (Sri Dalada Maligawa)",
+        "Lago de Kandy",
+        "Buda Gigante de Bahiravokanda",
+        "Espectáculo de danzas kandianas",
+        "Queen's Hotel y el Museo Nacional de Kandy",
+        "Real Jardín Botánico de Peradeniya"
+      ]
+    },
+    "trincomalee": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "La costa este funciona al revés que el resto del país: mayo a septiembre es la temporada seca y la mejor época tanto para playa como para surf en Arugam Bay, mientras que el monzón del noreste trae lluvias fuertes entre noviembre y febrero.",
+      "festividades": [],
+      "lugares_clave": [
+        "Trincomalee y Arugam Bay —la costa este menos masificada",
+        "Templo de Koneswaram",
+        "Puerto natural de Trincomalee",
+        "Fuerte Frederick",
+        "Main Point y Whiskey Point",
+        "Escuelas de surf",
+        "Safari en Kumana desde Arugam Bay"
+      ]
+    },
+    "ella-nuwaraeliya": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Enero a marzo ofrecen el clima más estable en las Tierras Altas. Nuwara Eliya, a casi 1.900 metros, tiene un clima subtropical fresco todo el año (3-20°C), con las lluvias más intensas de mayo a agosto por el monzón del sudoeste y de nuevo en noviembre.",
+      "festividades": [],
+      "lugares_clave": [
+        "Ella y Nuwara Eliya —el país del té y el tren más bonito de Asia",
+        "Little Adam's Peak",
+        "Puente de los Nueve Arcos",
+        "Ella Rock",
+        "Parque Nacional Horton Plains y World's End",
+        "Lago Gregory y el centro colonial de Nuwara Eliya",
+        "Cómo reservar"
+      ]
+    },
+    "colombo": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Diciembre a marzo son los meses más secos y recomendables en la costa oeste, coincidiendo con el monzón del sudoeste que afecta a esta parte de la isla entre mayo y septiembre, con las lluvias más intensas en junio-agosto y de nuevo en noviembre. Colombo es húmeda y calurosa todo el año, con temperaturas entre 26-32°C prácticamente constantes.",
+      "festividades": [],
+      "lugares_clave": [
+        "Colombo y la Costa Oeste —la puerta cosmopolita a Ceilán",
+        "Distrito Fort",
+        "Mercado de Pettah",
+        "Mezquita Jami Ul-Alfar (Mezquita Roja)",
+        "Templo Gangaramaya",
+        "Galle Face Green",
+        "Parque Viharamahadevi"
+      ]
+    },
+    "yala": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Yala es el parque más seco del país, con hasta 7 meses sin apenas lluvia. El Bloque I suele cerrar entre mediados de agosto y principios de octubre por descanso ecológico —en ese periodo, Kumana o el Bloque V son la alternativa. Durante la estación seca (febrero-julio) los animales se concentran más en torno a las charcas, facilitando el avistamiento.",
+      "festividades": [],
+      "lugares_clave": [
+        "Yala y los Parquesde Vida Salvaje",
+        "Parque Nacional de Yala",
+        "Parque Nacional de Udawalawe",
+        "Parque Nacional de Kumana",
+        "Parque Nacional de Wilpattu",
+        "Medio día o día completo",
+        "Reservar con antelación"
+      ]
+    },
+    "sigiriya": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Esta es la zona seca del país: enero-marzo y agosto-septiembre son los meses más recomendables, este último coincidiendo con \"the Gathering\" de elefantes en Minneriya. Las temperaturas son altas todo el año (28-34°C) y la sombra es escasa en los yacimientos, por lo que conviene madrugar.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sigiriya y elTriángulo Cultural",
+        "Roca de Sigiriya (Lion's Rock)",
+        "Roca de Pidurangala",
+        "Cuevas de Dambulla",
+        "Polonnaruwa",
+        "Anuradhapura",
+        "Parque Nacional Minneriya"
+      ]
+    },
+    "galle": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "evitar",
+        "junio": "evitar",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Noviembre a abril es la temporada seca y la mejor época para la costa suroeste, coincidiendo también con la ventana de avistamiento de ballenas en Mirissa (diciembre-abril). El monzón del sudoeste trae más lluvia entre mayo y septiembre, con oleaje más fuerte y peor visibilidad para el buceo.",
+      "festividades": [],
+      "lugares_clave": [
+        "Galle y la Costa Sur —fuertes coloniales y playas de postal",
+        "Fuerte de Galle",
+        "Muralla y faro de Galle",
+        "Iglesia holandesa y Museo Marítimo",
+        "Pescadores zancudos",
+        "Avistamiento de ballenas en Mirissa",
+        "Buceo en Galle y Weligama"
+      ]
+    }
+  },
+  "vietnam": {
+    "hue-centro-imperial": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Febrero a abril es la ventana ideal, con temperaturas de 20-25°C y lluvias escasas, perfecta para recorrer la Ciudadela y las tumbas al aire libre sin agobio de calor. Mayo marca el inicio del calor fuerte. Octubre y noviembre son los meses más lluviosos de toda la región central de Vietnam, con riesgo ocasional de inundaciones en la ciudad.",
+      "festividades": [],
+      "lugares_clave": [
+        "Huéy el Centro Imperial",
+        "Palacio de la Armonía Suprema (Thai Hoa)",
+        "Ciudad Púrpura Prohibida",
+        "Pagoda Thien Mu",
+        "Mercado de Dong Ba",
+        "Tumba de Khai Dinh",
+        "Tumba de Minh Mang"
+      ]
+    },
+    "hanoi-norte": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Octubre a diciembre y marzo son los meses más agradables, con temperaturas suaves y cielos despejados. Enero y febrero traen un frío húmedo y gris poco habitual en el imaginario tropical de Vietnam. De junio a agosto el calor y la humedad son intensos, con lluvias monzónicas frecuentes que también afectan a abril, mayo y septiembre en menor medida.",
+      "festividades": [],
+      "lugares_clave": [
+        "Hanóiy el Norte",
+        "Lago Hoan Kiem y Templo Ngoc Son",
+        "Templo de la Literatura",
+        "Mausoleo y Casa sobre Pilotes de Ho Chi Minh",
+        "Teatro de Marionetas de Agua Thang Long",
+        "Ninh Binhy Tam Coc",
+        "Tam Coc en barca de remo con los pies",
+        "Cuevas de Trang An",
+        "Mirador de Hang Mua",
+        "Pagoda Bai Dinh",
+        "Ta Hien (Beer Corner)",
+        "Rooftop bars con vistas al lago"
+      ]
+    },
+    "hochiminh-saigon": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Diciembre a abril es la estación seca, con temperaturas cálidas pero manejables — la mejor ventana para explorar la ciudad a pie. Mayo a noviembre trae la temporada de lluvias monzónicas, con aguaceros intensos pero cortos casi cada tarde, que rara vez impiden seguir con el plan del día.",
+      "festividades": [],
+      "lugares_clave": [
+        "Ciudad Ho Chi Minh(Saigón)",
+        "Catedral de Notre Dame y Correos Central",
+        "Palacio de la Reunificación",
+        "Museo de los Vestigios de Guerra",
+        "Mercado Ben Thanh",
+        "Recorrido por los túneles",
+        "Campo de tiro"
+      ]
+    },
+    "halong-archipielago": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Octubre y noviembre ofrecen cielos despejados y temperaturas suaves, ideales para fotografía. Mayo y junio son cálidos pero todavía sin las lluvias más intensas. Julio y agosto traen la temporada de tifones, con mayor riesgo de cancelación de cruceros por mal tiempo. Diciembre a febrero puede ser fresco y con niebla persistente que reduce la visibilidad, aunque también aporta una atmósfera mística particular.",
+      "festividades": [],
+      "lugares_clave": [
+        "Bahía de Ha Longy el Archipiélago",
+        "Cruceros de 2 días / 1 noche",
+        "Cruceros de 3 días / 2 noches",
+        "Cueva de Sung Sot (\"la Sorpresa\")",
+        "Isla Ti Top y su mirador",
+        "Cat Bay su Parque Nacional",
+        "Parque Nacional de Cat Ba",
+        "Fortaleza del Cañón (Cannon Fort)",
+        "Pueblo flotante de Viet Hai",
+        "Pueblo flotante de Vung Vieng",
+        "Kayak nocturno con plancton bioluminiscente",
+        "Cueva de Thien Canh Son"
+      ]
+    },
+    "nhatrang-costa-central": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Enero a agosto forma la estación seca, con abril a agosto como la ventana óptima para buceo y snorkel gracias a la mejor visibilidad del año. Septiembre trae lluvias ligeras que no suelen afectar demasiado a las actividades. Octubre a diciembre concentra la temporada de tifones y mayor riesgo de oleaje fuerte, con excursiones en barco frecuentemente canceladas por seguridad.",
+      "festividades": [],
+      "lugares_clave": [
+        "Nha Trangy la Costa Central",
+        "Isla de Hon Mun",
+        "Isla de Hon Mieu y el acuario Tri Nguyen",
+        "Vinpearl (Hon Tre)",
+        "Excursión en barco por la bahía",
+        "Cascadas de Ba Ho",
+        "Baños de barro termal"
+      ]
+    },
+    "delta-mekong": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "evitar",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Diciembre a abril es la estación seca, con las mejores condiciones para recorrer canales y mercados flotantes sin lluvias que compliquen el transporte en barca. Mayo a noviembre concentra las lluvias monzónicas, con crecidas del río que pueden inundar algunas zonas bajas del delta, aunque también aportan el verdor característico de la región.",
+      "festividades": [],
+      "lugares_clave": [
+        "Deltadel Mekong",
+        "Cai Rang (Can Tho)",
+        "Cai Be",
+        "Mercado flotante de Nga Nam",
+        "My Thoy Ben Tre",
+        "Islas Tortuga, Dragón, Fénix y Unicornio",
+        "Pagoda Vinh Trang",
+        "Ben Tre, \"el reino del coco\"",
+        "Can Thoy alrededores",
+        "Muelle de Ninh Kieu",
+        "Huertos de fruta tropical",
+        "Chau Doc",
+        "Ruby Guava Farm (Ben Tre)",
+        "Canales estrechos en sampán fuera de Cai Rang",
+        "Ruta en bicicleta por Ben Tre"
+      ]
+    },
+    "hoian-danang": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "evitar",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Febrero a abril ofrece el mejor equilibrio entre clima seco y temperaturas agradables, ideal para playa y casco antiguo. Mayo a agosto es cálido y húmedo pero mayormente seco. Octubre y noviembre son los meses más lluviosos, con riesgo puntual de inundaciones en el casco antiguo debido a la crecida del río Thu Bon — un fenómeno recurrente que forma parte del paisaje urbano.",
+      "festividades": [],
+      "lugares_clave": [
+        "Hoi Any Da Nang",
+        "Puente Japonés Cubierto",
+        "Casa Tan Ky y el Salón de la Asamblea de Fujian",
+        "Talleres de sastrería a medida",
+        "Mercado nocturno y paseo en barca por el río Thu Bon",
+        "Da Nangy Ba Na Hills",
+        "Puente del Dragón",
+        "My Khe Beach",
+        "Ba Na Hills y el Puente Dorado",
+        "Montañas de Mármol (Ngu Hanh Son)",
+        "Ruta en bici por los arrozales de Tra Que",
+        "Cam Thanh y el bosque de cocoteros"
+      ]
+    },
+    "sapa-montanas-norte": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Marzo a mayo y septiembre a noviembre son los mejores meses para trekking, con temperaturas suaves y buena visibilidad — septiembre y octubre además ofrecen las terrazas de arroz doradas justo antes de la cosecha. Junio a agosto trae lluvias monzónicas que pueden embarrar los senderos. Diciembre a febrero es la temporada más fría, con niebla persistente y ocasionales heladas o incluso nieve en las cotas más altas.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sapay las Montañas del Norte",
+        "Ruta Lao Chai - Ta Van",
+        "Aldea de Cat Cat",
+        "Baño de hierbas Dao Rojo en Ta Phin",
+        "Homestay en Ta Van o Lao Chai",
+        "Fansipany O Quy Ho",
+        "Teleférico de Fansipan",
+        "Trekking de 2-3 días a la cumbre",
+        "Puente de Cristal de O Quy Ho",
+        "Ha Giang Loop",
+        "Aldea de Y Ty",
+        "Cascada de Plata (Thac Bac)"
+      ]
+    }
+  },
+  "malasia": {
+    "sabah": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima tropical húmedo todo el año, con lluvias posibles en cualquier mes. Febrero a abril son los meses más secos y recomendables tanto para el ascenso al monte Kinabalu como para las islas; de septiembre a enero aumenta la probabilidad de lluvias fuertes. El buceo en Sipadan, Mabul y Kapalai es bueno todo el año, aunque de abril a octubre el agua está más tranquila y con mejor visibilidad; de noviembre a marzo las corrientes pueden ser más fuertes, con posibilidad de encuentros con especies pelágicas de paso. En el propio monte Kinabalu la temperatura baja considerablemente por la altitud, con niebla frecuente incluso en temporada seca.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sabah —Borneo, la isla más salvaje",
+        "Mezquita Estatal de Sabah (State Mosque)",
+        "Masjid Bandaraya (mezquita flotante de la ciudad)",
+        "Puh Toh Si",
+        "Monte Kinabaluy su parque nacional",
+        "Ascenso a la cima",
+        "Sin subir a la cima",
+        "Poring Hot Springs",
+        "Sipadan, Mabuly Kapalai",
+        "Sipadan",
+        "Mabul",
+        "Kapalai",
+        "Biodiversidad marina verificada",
+        "Islas y playasdel Parque Tunku Abdul Rahman",
+        "Islas y playasdel Parque Tunku Abdul Rahman",
+        "Orangutanesy el río Kinabatangan",
+        "Centro de Rehabilitación de Orangutanes de Sepilok",
+        "Centro de Conservación del Oso Solar de Borneo",
+        "Río Kinabatangan",
+        "Mari Mari Cultural Village"
+      ]
+    },
+    "sarawak": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima ecuatorial húmedo todo el año, con Sarawak recibiendo en general algo más de lluvia que la costa oeste peninsular. Marzo a octubre es la temporada seca, la más recomendable tanto para el trekking de los Pinnacles en Mulu como para maximizar las opciones de avistamiento de fauna en Bako. Diciembre y enero son los meses más lluviosos del año, con el monzón del noreste en pleno apogeo — no imposibilita la visita, pero sí complica los traslados en barco y algunos senderos.",
+      "festividades": [],
+      "lugares_clave": [
+        "Sarawak —la tierra del rajá blanco",
+        "Mezquita de Kuching (Masjid Bandaraya)",
+        "Tua Pek Kong Temple",
+        "Hiang Thian Siang Ti Temple y Hin Ho Bio",
+        "Templo sij Gurdwara Sahib y Little India",
+        "Sarawak Cultural Village",
+        "Annah Rais Longhouse",
+        "Gunung Mulu —las cuevas más grandes del planeta",
+        "Deer Cave y Clearwater Cave",
+        "Sarawak Chamber",
+        "The Pinnacles",
+        "Canopy Walkway",
+        "Bako National Parky los orangutanes de Semenggoh",
+        "Bako National Park",
+        "Reserva Natural de Semenggoh",
+        "Kubah National Park y humedales de Kuching",
+        "Hin Ho Bio Temple",
+        "Feeding de la mañana en Semenggoh",
+        "Longhouses del río Lemanak"
+      ]
+    },
+    "penang": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "En la costa (George Town, Batu Ferringhi), diciembre a marzo es la época más seca y la mejor para playa y para caminar el casco histórico. Octubre y noviembre traen el grueso del monzón del noreste, con lluvias más intensas y frecuentes. En Cameron Highlands, en cambio, el clima fresco y húmedo se mantiene todo el año casi sin variación estacional real —llueve con cierta regularidad en cualquier mes—, así que la elección de fechas ahí depende más de la suerte con el cielo que del calendario.",
+      "festividades": [],
+      "lugares_clave": [
+        "Penang —la perla de Oriente y las tierras altas",
+        "St. George's Anglican Church",
+        "Kuan Yin Temple (Kuan Im Teng)",
+        "Sri Mahamariamman Temple",
+        "Kapitan Keling Mosque",
+        "Acheen Street Mosque",
+        "Kek Lok Si Temple",
+        "Cameron Highlands —té, niebla y 20 grados",
+        "Plantaciones de té",
+        "Mossy Forest",
+        "Granjas de fresas y Cactus Valley",
+        "Sam Poh Temple y Sri Thendayuthapani Swami",
+        "Ipoh —templos cueva y café blanco",
+        "Old Town y street art",
+        "Concubine Lane",
+        "Lago Cermin (Mirror Lake)",
+        "Macallum Street Night Market",
+        "Tokyo Town, Cameron Highlands",
+        "Lago Cermin, Ipoh"
+      ]
+    },
+    "kuala-lumpur": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "aceptable",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Clima ecuatorial: calor y humedad constantes todo el año, con temperaturas entre 24°C y 33°C prácticamente sin variación estacional. No existe una \"temporada seca\" real, pero junio, julio y agosto suelen traer algo menos de lluvia y tormentas más cortas y previsibles (normalmente por la tarde), lo que los convierte en los meses más cómodos para caminar por la ciudad. Noviembre y diciembre son los más lluviosos, con el monsoon del noreste trayendo aguaceros más largos y frecuentes. En cualquier época del año conviene llevar paraguas plegable y aceptar que un chaparrón de una hora es parte normal del día.",
+      "festividades": [],
+      "lugares_clave": [
+        "Kuala Lumpur —selva, rascacielos y tres culturas",
+        "Torres Petronas (Petronas Twin Towers)",
+        "Merdeka 118",
+        "Torre KL (Menara KL)",
+        "Batu Caves",
+        "Sri Mahamariamman Temple",
+        "Thean Hou Temple",
+        "Putrajayay Genting Highlands",
+        "Putrajaya",
+        "Genting Highlands",
+        "Kampung Baru",
+        "Thean Hou al atardecer entre semana",
+        "Chow Kit real",
+        "Royal Selangor Visitor Centre"
+      ]
+    },
+    "costa-este": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "evitar",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Esta es la zona de Malasia donde el calendario manda por encima de cualquier otra consideración: el monzón del noreste azota la costa este entre noviembre y febrero con lluvias y oleaje fuerte, y la inmensa mayoría de resorts, chalets y escuelas de buceo de Perhentian, Redang, Tioman, Lang Tengah y Kapas cierran por completo durante esos meses — algunas islas quedan prácticamente inaccesibles. La temporada alta va de marzo a octubre, con julio y agosto como los meses de mejor visibilidad bajo el agua. Conviene verificar con antelación que el alojamiento y los centros de buceo elegidos estén operativos si se viaja en los márgenes de la temporada (marzo o octubre).",
+      "festividades": [],
+      "lugares_clave": [
+        "Islas Perhentian —Kecil o Besar",
+        "Puntos de buceo en Perhentian",
+        "Biodiversidad marina verificada",
+        "Precios y certificaciones",
+        "Redang, Lang Tengahy el lujo tranquilo",
+        "Redang",
+        "Lang Tengah",
+        "Pulau Kapas",
+        "Tioman —selva, aldeas y buceo de aventura",
+        "Tekek, Air Batang (ABC), Salang y Genting",
+        "Snorkel y excursiones cercanas",
+        "Jungle Trail Tekek-Juara",
+        "Adam & Eve Beach, Perhentian Besar",
+        "Excursión a Rawa, Susu Dara y Serengeh",
+        "Lang Tengah entre semana"
+      ]
+    },
+    "malaca": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "aceptable",
+        "mayo": "aceptable",
+        "junio": "aceptable",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "aceptable",
+        "octubre": "evitar",
+        "noviembre": "evitar",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Clima ecuatorial cálido y húmedo todo el año, sin apenas variación de temperatura entre meses. Diciembre a marzo es la franja más seca y recomendable tanto para Malaca como para las playas de Desaru. Octubre y noviembre traen el monzón del noreste con lluvias más intensas, especialmente en la costa este de Johor, donde el oleaje también puede complicar los deportes acuáticos en esos meses.",
+      "festividades": [],
+      "lugares_clave": [
+        "Malaca y Johor —600 años de comercio y conquista",
+        "Cheng Hoon Teng Temple",
+        "Masjid Kampung Kling",
+        "Sri Poyyatha Vinayagar Moorthi Temple",
+        "Masjid Selat Melaka (mezquita del Estrecho)",
+        "Iglesia de St. Francis Xavier",
+        "Masjid Kampung Hulu y Masjid Tengkera",
+        "Johor Bahru —mezquita real y selva primaria",
+        "Sultan Abu Bakar State Mosque",
+        "Arulmigu Sri Rajakaliamman Glass Temple",
+        "Johor Bahru Old Chinese Temple",
+        "Istana Besar (Grand Palace) y Royal Abu Bakar Museum",
+        "Endau-Rompin National Park",
+        "Desaru —17 km de playa entre casuarinas",
+        "Templo Xiang Lin Si",
+        "Mercadillo de Jalan Hang Lekir",
+        "Bukit China",
+        "Tour de luciérnagas de Belungkor",
+        "Endau-Rompin fuera de temporada alta"
+      ]
+    }
+  },
+  "espana": {
+    "madrid": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Madrid tiene clima continental extremo: inviernos fríos y secos, veranos muy calurosos con máximas que superan con frecuencia los 35-38°C en julio y agosto. Marzo-mayo y septiembre-noviembre son los meses más agradables para caminar por la ciudad. Agosto es, además, el mes en que muchos madrileños se van de vacaciones y algunos negocios de barrio cierran.",
+      "festividades": [
+        "San Isidro (mayo) — Las fiestas patronales de Madrid, en torno al 15 de mayo (día grande), con epicentro en la Pradera de San Isidro: romerías, chotis, limonada y rosquillas \"listas y tontas\", y programación repartida entre Plaza Mayor, Las Vistillas y Matadero. Es la mejor ventana para ver a los madrileños vestidos de chulapos y chulapas.",
+        "Verbena de la Paloma (agosto) — Fiesta popular del barrio de La Latina en torno al 15 de agosto, con orígenes en el siglo XIX — una de las verbenas más castizas que sobreviven en el calendario madrileño.",
+        "Navidad y Cabalgata de Reyes — El mercadillo navideño de la Plaza Mayor, la iluminación de Gran Vía y la Cabalgata de Reyes la noche del 5 de enero son citas ineludibles si el viaje coincide con estas fechas."
+      ],
+      "lugares_clave": [
+        "Palacio Real",
+        "Plaza Mayor",
+        "Puerta del Sol y el Kilómetro Cero",
+        "Puerta de Alcalá y Gran Vía",
+        "Plaza de Oriente",
+        "Museo del Prado",
+        "Museo Reina Sofía",
+        "Museo Thyssen-Bornemisza",
+        "Catedral de la Almudena",
+        "Ermita de San Antonio de la Florida"
+      ]
+    },
+    "barcelona": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Barcelona tiene clima mediterráneo, mucho más suave que Madrid en invierno. Abril-junio y septiembre-octubre son los meses más agradables, con buen tiempo y menos aglomeración que en pleno verano. Julio y agosto son calurosos y húmedos, con la ciudad y las playas a máxima capacidad turística.",
+      "festividades": [
+        "Sant Jordi (23 de abril) — El día del libro y la rosa: los hombres regalan una rosa y las mujeres un libro (hoy la tradición es bidireccional), y Las Ramblas y Passeig de Gràcia se llenan de puestos de flores y librerías improvisadas. Coincide con el Día Internacional del Libro precisamente por esta tradición catalana.",
+        "La Mercè (finales de septiembre) — La fiesta mayor de Barcelona, con castellers (torres humanas, Patrimonio Inmaterial de la UNESCO), correfocs (pasacalles con fuego) y conciertos gratuitos por toda la ciudad.",
+        "Festes de Gràcia (agosto) — Las calles del barrio de Gràcia compiten por la decoración más elaborada, con materiales reciclados creando escenografías completas — una tradición vecinal única en la ciudad."
+      ],
+      "lugares_clave": [
+        "Barri Gòtic",
+        "Las Ramblas y Plaça Catalunya",
+        "Passeig de Gràcia",
+        "Sagrada Familia UNESCO",
+        "Park Güell UNESCO",
+        "Casa Batlló y La Pedrera (Casa Milà) UNESCO",
+        "Palau Güell UNESCO",
+        "Museu Picasso",
+        "MNAC y Fundació Miró",
+        "Catedral de Barcelona"
+      ]
+    },
+    "andalucia-occidental": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Marzo-junio y octubre-diciembre son los meses más agradables. Julio y agosto son extremos en Sevilla, con máximas que superan con frecuencia los 40°C — de las capitales de provincia más calurosas de Europa. La costa de Cádiz y Huelva es algo más suave gracias a la brisa atlántica, aunque igualmente calurosa en pleno verano.",
+      "festividades": [
+        "Semana Santa de Sevilla — Del 29 de marzo al 5 de abril de 2026. Las procesiones de las hermandades, con pasos de gran valor artístico llevados a hombros por los costaleros, recorren la ciudad día y noche — la \"Madrugá\" del Viernes Santo, con la Macarena y el Gran Poder, es la noche más intensa de todas.",
+        "Feria de Abril — Del 21 al 26 de abril de 2026 (alumbrado la noche del 20). Más de mil casetas en el recinto de Los Remedios, trajes de flamenca, caballos y sevillanas — dos semanas después de Semana Santa, marca el otro gran hito del calendario sevillano.",
+        "Carnaval de Cádiz — Del 12 al 22 de febrero de 2026, declarado de Interés Turístico Internacional. Las chirigotas y comparsas cantan coplas satíricas por las calles durante días — el Concurso Oficial de Agrupaciones Carnavalescas (COAC) en el Gran Teatro Falla es el corazón del evento.",
+        "Romería del Rocío — A finales de mayo o principios de junio, cientos de miles de peregrinos (\"rocieros\") de toda España convergen a pie, a caballo o en carreta hacia la aldea de El Rocío (Huelva) — una de las mayores concentraciones religiosas populares de Europa."
+      ],
+      "lugares_clave": [
+        "Real Alcázar UNESCO",
+        "Catedral y Giralda UNESCO",
+        "Plaza de España",
+        "Metropol Parasol (Las Setas)",
+        "Archivo General de Indias UNESCO",
+        "Museo de Bellas Artes de Sevilla",
+        "Museo del Carnaval de Cádiz",
+        "Basílica de la Macarena",
+        "Iglesia del Salvador",
+        "Catedral de Cádiz"
+      ]
+    },
+    "andalucia-oriental": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "aceptable",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Marzo-junio y octubre-diciembre son los meses más agradables. Córdoba es de las capitales más calurosas de Europa en julio-agosto, con máximas que superan con frecuencia los 40°C. Granada, por su altitud, es algo más suave en verano pero fría en invierno, con la Sierra Nevada nevada de diciembre a abril. La Costa del Sol mantiene un clima suave casi todo el año.",
+      "festividades": [
+        "Festival de los Patios de Córdoba — En mayo, decenas de patios privados del casco histórico abren sus puertas al público, decorados con macetas de geranios y flores — declarado Patrimonio Inmaterial de la UNESCO, y de las tradiciones más fotogénicas de toda España.",
+        "Día de la Cruz (Granada y Córdoba) — El 3 de mayo, plazas y patios se decoran con cruces cubiertas de flores, seguido de música y baile — celebrado con especial intensidad en ambas ciudades, a menudo coincidiendo con el propio Festival de los Patios en Córdoba.",
+        "Feria de Málaga — A mediados de agosto, con dos ambientes bien diferenciados: el Centro Histórico de día (más familiar) y el Real de la Feria de noche (con casetas, música y baile hasta la madrugada)."
+      ],
+      "lugares_clave": [
+        "La Alhambra UNESCO",
+        "Mezquita-Catedral de Córdoba UNESCO",
+        "Alcazaba y Castillo de Gibralfaro (Málaga)",
+        "Museo Picasso Málaga",
+        "Centre Pompidou Málaga",
+        "Museo de la Alhambra y Museo de Bellas Artes (Palacio de Carlos V)",
+        "Capilla Real de Granada",
+        "Catedral de Granada",
+        "Catedral de Málaga (\"La Manquita\")",
+        "Palacio de Carlos V"
+      ]
+    },
+    "pais-vasco": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Mayo-octubre ofrece las mejores condiciones, aunque el clima atlántico es impredecible en cualquier época — lluvia posible incluso en pleno agosto. Julio y agosto son los meses más concurridos y caros, especialmente si coinciden con las Semanas Grandes de Bilbao y Donostia. El invierno es húmedo y gris, pero con mucha menos afluencia turística y precios más bajos.",
+      "festividades": [
+        "Aste Nagusia de Bilbao (Semana Grande) — Del 22 al 30 de agosto de 2026, nueve días de fiestas con Marijaia como símbolo (se quema el último día), más de cien conciertos gratuitos y uno de los mayores concursos de fuegos artificiales de Europa.",
+        "Aste Nagusia de Donostia (Semana Grande de San Sebastián) — Del 8 al 15 de agosto de 2026, con el tradicional cañonazo de apertura, gigantes y cabezudos, y fuegos artificiales sobre la bahía de la Concha cada noche.",
+        "Festival de Cine de San Sebastián — A mediados de septiembre, uno de los festivales de cine más prestigiosos del mundo — reserva alojamiento con mucha antelación si el viaje coincide."
+      ],
+      "lugares_clave": [
+        "Museo Guggenheim Bilbao",
+        "Casco Viejo de Bilbao (Siete Calles)",
+        "Playa de la Concha (San Sebastián)",
+        "Parte Vieja de San Sebastián",
+        "Peine del Viento",
+        "Isla de Santa Clara",
+        "Museo de Bellas Artes de Bilbao",
+        "San Telmo Museoa (San Sebastián)",
+        "Itsasmuseum Bilbao",
+        "Catedral de Santiago (Bilbao)"
+      ]
+    },
+    "galicia": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Junio-septiembre ofrece las mejores condiciones, aunque la lluvia es posible en cualquier época del año en Galicia — el clima atlántico es notablemente más húmedo que el resto de España. Mayo y octubre pueden ser buenas opciones de temporada media, con menos aglomeración. El invierno es lluvioso y gris, pero con mucho menos turismo y precios más bajos.",
+      "festividades": [
+        "Día de Santiago Apóstol (25 de julio) — Fiesta nacional de Galicia, con fuegos artificiales sobre la fachada de la Catedral la noche anterior (la \"Noite de Santiago\") — uno de los espectáculos pirotécnicos más elaborados de España, proyectado directamente sobre la piedra del edificio.",
+        "Año Santo Compostelano (Xacobeo) — Cuando el 25 de julio cae en domingo, se abre la Puerta Santa de la Catedral durante todo el año, concediendo indulgencia plenaria a los peregrinos — un fenómeno que multiplica notablemente la afluencia de visitantes ese año concreto.",
+        "Rapa das Bestas — Tradición ganadera de varios siglos de antigüedad en la que se reúne y esquila a caballos salvajes gallegos a mano, sin herramientas — la de Sabucedo (Pontevedra) en julio es la más conocida y visitada."
+      ],
+      "lugares_clave": [
+        "Catedral de Santiago de Compostela UNESCO",
+        "Praza do Obradoiro",
+        "Islas Cíes",
+        "Centro Galego de Arte Contemporánea (Santiago)",
+        "Museo del Pueblo Gallego",
+        "Domus - Casa del Hombre (A Coruña)",
+        "Monasterios de la Ribeira Sacra",
+        "Ermita de la Virxe da Barca (Muxía)",
+        "Colegiata de Santa María del Campo (A Coruña)",
+        "Catedral de Lugo"
+      ]
+    },
+    "asturias": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Junio-septiembre ofrece las mejores condiciones, aunque la lluvia es posible en cualquier época — el clima atlántico es notablemente más húmedo que el resto de España, de ahí el verde constante del paisaje. El invierno trae nieve a los Picos de Europa y a Somiedo.",
+      "festividades": [
+        "Descenso Internacional del Sella — A principios de agosto, miles de piraguas descienden el río Sella entre Arriondas y Ribadesella en una de las fiestas fluviales más multitudinarias de España.",
+        "Día de América en Asturias (Colombres) — Celebración que recuerda el vínculo histórico entre Asturias y la emigración a América, con los palacetes de indianos como telón de fondo."
+      ],
+      "lugares_clave": [
+        "Prerrománico asturiano de Oviedo UNESCO",
+        "Lagos de Covadonga",
+        "Naranjo de Bulnes (Picu Urriellu)",
+        "Museo del Jurásico de Asturias (MUJA)",
+        "Museo de la Minería y de la Industria (El Entrego)",
+        "Catedral de Oviedo (Cámara Santa)",
+        "Santuario de Covadonga",
+        "Ermita de la Regalina",
+        "Palacio de Revillagigedo (Gijón)",
+        "Palacetes de indianos"
+      ]
+    },
+    "cantabria": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "aceptable",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Junio-septiembre ofrece las mejores condiciones, aunque la lluvia es posible en cualquier época — el clima atlántico es notablemente más húmedo que el resto de España. Mayo y octubre pueden ser buenas opciones de temporada media. El invierno trae nieve a Liébana y a Fuente Dé.",
+      "festividades": [
+        "Año Jubilar Lebaniego — Cuando el 16 de abril (festividad de Santo Toribio) cae en domingo, se abre la Puerta del Perdón del Monasterio durante todo el año, concediendo indulgencia plenaria — un fenómeno que multiplica notablemente la afluencia de peregrinos ese año concreto.",
+        "La leyenda del Hombre Pez (Liérganes) — Aunque no es una fiesta oficial, la leyenda del siglo XVII se ha convertido en seña de identidad del pueblo, con estatuas y referencias culturales por todo el casco histórico."
+      ],
+      "lugares_clave": [
+        "Cuevas de Altamira UNESCO",
+        "Santillana del Mar",
+        "El Capricho de Gaudí (Comillas)",
+        "Museo Nacional y Centro de Investigación de Altamira",
+        "Centro Botín (Santander)",
+        "Monasterio de Santo Toribio de Liébana",
+        "Colegiata de Santa Juliana (Santillana del Mar)",
+        "Capilla-Panteón de Sobrellano (Comillas)",
+        "Palacio de la Magdalena (Santander)",
+        "Palacio de Sobrellano (Comillas)"
+      ]
+    },
+    "islas-canarias": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "ideal",
+        "agosto": "ideal",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Las Canarias tienen un clima privilegiado durante todo el año, con temperaturas suaves incluso en invierno — es de los pocos destinos de España sin temporada realmente mala. El único factor a vigilar es la calima (polvo del Sahara), que puede afectar la calidad del aire y la visibilidad en determinados días, sobre todo en las islas orientales (Lanzarote y Fuerteventura).",
+      "festividades": [
+        "Carnaval de Santa Cruz de Tenerife — Considerado uno de los carnavales más importantes del mundo junto al de Río de Janeiro, con la Gala de Elección de la Reina como su evento más mediático y el Coso multitudinario como cierre — declarado Fiesta de Interés Turístico Internacional.",
+        "Bajada de la Virgen de las Nieves (La Palma) — Celebrada cada cinco años (Lustro), con la Danza de los Enanos como su tradición más singular y multitudinaria.",
+        "Salto del Pastor — Técnica tradicional guanche de desplazamiento por barrancos y laderas con ayuda de una larga vara (astia), todavía practicada como deporte y exhibición cultural en fiestas de varias islas — un salto de altura reduce distancias que a pie llevarían mucho más tiempo en el terreno volcánico."
+      ],
+      "lugares_clave": [
+        "El Teide (Tenerife) UNESCO",
+        "Parque Nacional de Timanfaya (Lanzarote)",
+        "Dunas de Maspalomas (Gran Canaria)",
+        "Fundación César Manrique (Lanzarote)",
+        "Museo de la Naturaleza y el Hombre (Tenerife)",
+        "Casa de Colón (Gran Canaria)",
+        "Observatorio del Teide (Tenerife)",
+        "Basílica de Nuestra Señora de Candelaria (Tenerife)",
+        "Catedral de Santa Ana (Gran Canaria)",
+        "Jameos del Agua (Lanzarote)"
+      ]
+    },
+    "islas-baleares": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "evitar",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Mayo-junio y septiembre-octubre ofrecen el mejor equilibrio entre buen tiempo y precios razonables. Julio y agosto son los meses más calurosos y con diferencia los más caros y masificados de todo el archipiélago — reserva con meses de antelación si tu viaje coincide con estas fechas. El invierno es tranquilo pero muchos negocios turísticos cierran fuera de temporada, especialmente en Ibiza y Formentera.",
+      "festividades": [
+        "Fiestas de Sant Joan (Ciutadella, Menorca) — A finales de junio, caballos entrenados se alzan sobre sus patas traseras (el \"bot\") entre la multitud en las calles del casco histórico — una tradición centenaria que exige gran destreza tanto de jinetes como de caballos.",
+        "Sant Joan de Ibiza (Sa Revetlla) — Noche de hogueras y baños de medianoche en la playa para celebrar el solsticio de verano, con tradición pagana anterior al propio santoral cristiano."
+      ],
+      "lugares_clave": [
+        "Catedral de Palma (La Seu)",
+        "Serra de Tramuntana (Mallorca) UNESCO",
+        "Dalt Vila (Ibiza) UNESCO",
+        "Fundació Pilar i Joan Miró (Mallorca)",
+        "Museu de Menorca",
+        "Museo de Arte Contemporáneo de Ibiza (MACE)",
+        "Catedral de Santa María (Ibiza)",
+        "Cartuja de Valldemossa (Mallorca)",
+        "Catedral de Santa María (Menorca)",
+        "Palacio de la Almudaina (Mallorca)"
+      ]
+    },
+    "valencia-costa-blanca": {
+      "meses": {
+        "enero": "ideal",
+        "febrero": "ideal",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "aceptable",
+        "octubre": "ideal",
+        "noviembre": "ideal",
+        "diciembre": "ideal"
+      },
+      "descripcion": "Marzo-junio y septiembre-octubre ofrecen el mejor clima, con temperaturas agradables sin el calor extremo del verano. Julio y agosto son los meses más calurosos y concurridos en toda la costa. Marzo tiene el atractivo añadido de Las Fallas, aunque conviene reservar con mucha antelación si el viaje coincide con esas fechas.",
+      "festividades": [
+        "Las Fallas de Valencia — Del 15 al 19 de marzo de 2026, con la Cremà (quema simultánea de más de 750 monumentos falleros) como cierre el último día — declaradas Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Las mascletàs diarias en la Plaza del Ayuntamiento y los castillos de fuegos artificiales nocturnos desde la Ciudad de las Artes son parte central del programa.",
+        "Misteri d'Elx UNESCO — Drama litúrgico medieval cantado íntegramente en valenciano antiguo, representado cada agosto en la Basílica de Santa María de Elche — de las tradiciones teatrales religiosas más antiguas de Europa todavía en activo."
+      ],
+      "lugares_clave": [
+        "Ciudad de las Artes y las Ciencias",
+        "Lonja de la Seda UNESCO",
+        "Peñón de Ifach (Calpe)",
+        "Museu de les Ciències Príncipe Felipe",
+        "Museo Nacional de Cerámica González Martí",
+        "MARQ (Museo Arqueológico de Alicante)",
+        "Catedral de Valencia",
+        "Basílica de la Virgen de los Desamparados",
+        "Torres de Serranos",
+        "Castillo de Santa Bárbara (Alicante)"
+      ]
+    },
+    "castilla-y-leon": {
+      "meses": {
+        "enero": "evitar",
+        "febrero": "evitar",
+        "marzo": "aceptable",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "aceptable",
+        "agosto": "aceptable",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "evitar"
+      },
+      "descripcion": "Abril-junio y septiembre-octubre ofrecen el mejor equilibrio de temperatura. El verano puede tener calor seco intenso durante el día pero noches frescas, típico del clima continental de la meseta. El invierno es duro, con heladas frecuentes y algo de nieve en las sierras — buena época para quien busque menos turismo y no le importe el frío.",
+      "festividades": [
+        "Semana Santa de Zamora y Valladolid — Ambas declaradas de Interés Turístico Internacional, con procesiones de gran solemnidad y cofradías centenarias — Zamora en particular es célebre por la austeridad y el silencio de sus desfiles procesionales.",
+        "Feria de San Mateo (Ávila) — A finales de septiembre, con encierros y actividades taurinas tradicionales que atraen visitantes de toda la comarca."
+      ],
+      "lugares_clave": [
+        "Acueducto de Segovia UNESCO",
+        "Murallas de Ávila UNESCO",
+        "Universidad de Salamanca UNESCO",
+        "Museo de la Evolución Humana (Burgos)",
+        "Museo DA2 (Salamanca)",
+        "Museo Art Nouveau y Art Déco Casa Lis (Salamanca)",
+        "Catedral de Burgos UNESCO",
+        "Catedral de León",
+        "Convento de Santa Teresa (Ávila)",
+        "Catedral Vieja y Catedral Nueva (Salamanca)"
+      ]
+    },
+    "castilla-la-mancha-extremadura": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "aceptable",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Abril-junio y septiembre-octubre ofrecen el mejor equilibrio de temperatura. El verano en el interior peninsular puede superar los 40°C con facilidad, especialmente en Extremadura y La Mancha. El invierno es frío pero seco, con menos turismo y precios más bajos en toda la región.",
+      "festividades": [
+        "Fiesta de la Rosa del Azafrán (Consuegra) — Último fin de semana de octubre, con la \"Molienda de la Paz\" en el molino Sancho como acto simbólico central — celebra la recolección del azafrán, especia de gran valor cultivada tradicionalmente en la comarca.",
+        "Festival de Teatro Clásico de Mérida — Cada verano, el Teatro Romano recupera su función original con representaciones de tragedias y comedias grecolatinas — de los festivales de teatro clásico más prestigiosos de Europa.",
+        "Semana Santa de Cáceres — Declarada de Interés Turístico Internacional, con procesiones nocturnas que recorren el casco histórico medieval iluminado únicamente con antorchas y velas."
+      ],
+      "lugares_clave": [
+        "Toledo UNESCO",
+        "Casas Colgadas de Cuenca UNESCO",
+        "Cáceres UNESCO",
+        "Museo del Greco (Toledo)",
+        "Museo Nacional de Arte Romano (Mérida)",
+        "Museo de Santa Cruz (Toledo)",
+        "Catedral de Toledo",
+        "Real Monasterio de Guadalupe UNESCO",
+        "Monasterio de Yuste (Cáceres)",
+        "Concatedral de Santa María (Cáceres)"
+      ]
+    },
+    "aragon-navarra": {
+      "meses": {
+        "enero": "aceptable",
+        "febrero": "aceptable",
+        "marzo": "ideal",
+        "abril": "ideal",
+        "mayo": "ideal",
+        "junio": "ideal",
+        "julio": "evitar",
+        "agosto": "evitar",
+        "septiembre": "ideal",
+        "octubre": "ideal",
+        "noviembre": "aceptable",
+        "diciembre": "aceptable"
+      },
+      "descripcion": "Abril-junio y septiembre-octubre ofrecen el mejor clima para las ciudades. Julio y agosto son ideales para el Pirineo pero también los meses de mayor calor en Zaragoza (que puede superar los 38-40°C). Julio tiene el atractivo añadido de San Fermín, aunque conviene reservar con meses de antelación si el viaje coincide con esas fechas. El invierno trae nieve al Pirineo, con estaciones de esquí propias en el lado aragonés.",
+      "festividades": [
+        "San Fermín (Pamplona) — Del 6 al 14 de julio de 2026, con el Chupinazo el día 6 a las 12:00 desde el balcón del Ayuntamiento marcando el inicio, y ocho encierros diarios a las 8:00 (del 7 al 14) recorriendo 848,6 metros hasta la plaza de toros — de las fiestas más internacionales de España, con unos tres millones de visitantes cada edición.",
+        "Fiestas del Pilar (Zaragoza) — A mediados de octubre, con la Ofrenda de Flores a la Virgen como acto central —miles de personas depositando ramos ante la Basílica— y una programación de conciertos y actividades que se extiende por toda la ciudad durante más de una semana."
+      ],
+      "lugares_clave": [
+        "Basílica del Pilar (Zaragoza)",
+        "Arquitectura Mudéjar de Aragón UNESCO",
+        "Parque Nacional de Ordesa y Monte Perdido UNESCO",
+        "Museo Goya (Zaragoza)",
+        "Museo de Navarra (Pamplona)",
+        "La Seo del Salvador (Zaragoza)",
+        "Catedral de Pamplona",
+        "Monasterio de San Juan de la Peña (Huesca)",
+        "Colegiata de Santa María la Real de Roncesvalles",
+        "Monasterio de Leyre (Navarra)"
+      ]
+    }
+  }
+}
