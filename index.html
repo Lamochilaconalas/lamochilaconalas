@@ -387,7 +387,9 @@
       border: 1px solid rgba(247,201,72,0.2);
       color: var(--gold); padding: 5px 12px;
       border-radius: 20px;
+      display: inline-flex; align-items: center; gap: 6px;
     }
+    .planner-tag svg { flex-shrink: 0; }
 
     /* FOOTER */
     footer {
@@ -465,7 +467,7 @@
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <span class="stat-num">25+</span>
+        <span class="stat-num">30+</span>
         <span class="stat-label">Países</span>
       </div>
       <div class="stat">
@@ -931,6 +933,15 @@
           <span class="country-badge badge-live">Disponible</span>
         </div>
       </a>
+      <a href="/filipinas/" class="country-card-v2 available popular" data-name="filipinas philippines">
+        <svg class="card-flag-bg" viewBox="0 0 200 140" preserveAspectRatio="xMidYMid slice">
+          <rect width="200" height="70" fill="#0038A8"/><rect y="70" width="200" height="70" fill="#CE1126"/><polygon points="0,0 95,70 0,140" fill="#fff"/><circle cx="38" cy="70" r="14" fill="#FCD116" opacity="0.85"/><circle cx="12" cy="14" r="4" fill="#FCD116" opacity="0.7"/><circle cx="12" cy="126" r="4" fill="#FCD116" opacity="0.7"/><circle cx="70" cy="70" r="4" fill="#FCD116" opacity="0.7"/>
+        </svg>
+        <div class="card-content">
+          <p class="country-name-v2">Filipinas</p>
+          <span class="country-badge badge-live">Disponible</span>
+        </div>
+      </a>
     </div>
     <p class="country-empty" id="countryEmpty">No hay ningún país que coincida con tu búsqueda.</p>
   </section>
@@ -940,16 +951,18 @@
   <!-- PLANNER PROMO -->
   <section class="planner-promo">
     <div class="planner-box">
-      <p style="font-size:48px;margin-bottom:20px;">🧭</p>
+      <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#F7C948" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:20px">
+        <circle cx="12" cy="12" r="9.5"/><polygon points="15.3 8.7 13.1 13.1 8.7 15.3 10.9 10.9 15.3 8.7"/><circle cx="12" cy="12" r="1"/>
+      </svg>
       <h2>Planifica tu viaje<br /><em>en segundos</em></h2>
       <p>Introduce tu destino, cuántos días tienes y tu presupuesto. Nuestra IA diseña una ruta optimizada adaptada a ti, con información de visado y clima incluida.</p>
       <div class="planner-features">
-        <span class="planner-tag">🎒 Mochilero</span>
-        <span class="planner-tag">🌿 Viajero Medio</span>
-        <span class="planner-tag">💎 Lujo</span>
-        <span class="planner-tag">📍 Radio de exploración</span>
-        <span class="planner-tag">✅ Info de visado</span>
-        <span class="planner-tag">🌦️ Clima por mes</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 8V6a3 3 0 0 1 6 0v2"/><rect x="6" y="8" width="12" height="12" rx="2.5"/><path d="M9 12h6M9 15h4"/></svg>Mochilero</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="9" width="10" height="9" rx="1.5"/><path d="M10 9V7a2 2 0 0 1 4 0v2"/><path d="M4 12h3M17 12h3"/></svg>Viajero Medio</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l3 3 4-6 4 6 3-3-1.5 9h-11L5 9z"/><circle cx="12" cy="18.5" r=".6" fill="currentColor" stroke="none"/></svg>Lujo</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 4v2M12 18v2M4 12h2M18 12h2"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></svg>Radio de exploración</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="1.5"/><circle cx="12" cy="9" r="2"/><path d="M9 16.5l2 2 3.5-3.5"/></svg>Info de visado</span>
+        <span class="planner-tag"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="7.5" r="2.3"/><path d="M7.5 3.3v1M4 6l.8.8M11 6l-.8.8"/><path d="M7 15a4 4 0 0 1 7.7-1.5A3.5 3.5 0 0 1 17.5 20h-9A3 3 0 0 1 7 15z"/></svg>Clima por mes</span>
       </div>
       <a href="/planificador/" class="btn-primary"><svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polygon points="15.5 8.5 13.2 13.2 8.5 15.5 10.8 10.8 15.5 8.5"/></svg>Probar gratis</a>
     </div>
